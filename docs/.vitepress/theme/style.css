@@ -1,0 +1,196 @@
+:root {
+  /* Surfaces */
+  --vp-c-bg: #0a0a0a;
+  --vp-c-bg-alt: #161617;
+  --vp-c-bg-elv: #1c1c1d;
+  --vp-c-bg-soft: #161617;
+
+  --vp-c-border: rgba(255, 255, 255, 0.1);
+  --vp-c-divider: rgba(255, 255, 255, 0.08);
+  --vp-c-gutter: #0a0a0a;
+
+  --vp-c-text-1: #fbfbfb;
+  --vp-c-text-2: #b5b5b5;
+  --vp-c-text-3: #8e8e8e;
+
+  /* Brand — greens (official triad primary) */
+  --vp-c-brand-1: #7eb6ad;
+  --vp-c-brand-2: #52968b;
+  --vp-c-brand-3: #2f7a6e;
+  --vp-c-brand-soft: rgba(126, 182, 173, 0.14);
+
+  /* Tip / warn / danger remapped to triad */
+  --vp-c-tip-1: #7eb6ad;
+  --vp-c-tip-2: #52968b;
+  --vp-c-tip-3: #2f7a6e;
+  --vp-c-tip-soft: rgba(126, 182, 173, 0.14);
+
+  --vp-c-warning-1: #edc681;
+  --vp-c-warning-2: #c1964a;
+  --vp-c-warning-3: #c1964a;
+  --vp-c-warning-soft: rgba(237, 198, 129, 0.12);
+
+  --vp-c-danger-1: #e37c88;
+  --vp-c-danger-2: #b94754;
+  --vp-c-danger-3: #b94754;
+  --vp-c-danger-soft: rgba(227, 124, 136, 0.12);
+
+  --rf-safety-4: #e37c88;
+  --rf-safety-5: #b94754;
+
+  --rf-font-display: 'Syne', sans-serif;
+  --rf-font-body: 'Literata', serif;
+  --rf-font-ui: 'DM Sans', sans-serif;
+
+  --vp-font-family-base: var(--rf-font-body);
+  --vp-font-family-mono: ui-monospace, 'Cascadia Code', 'Segoe UI Mono', monospace;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+/* Kill any leftover indigo defaults explicitly */
+:root {
+  --vp-c-indigo-1: var(--vp-c-brand-1);
+  --vp-c-indigo-2: var(--vp-c-brand-2);
+  --vp-c-indigo-3: var(--vp-c-brand-3);
+  --vp-c-indigo-soft: var(--vp-c-brand-soft);
+}
+
+.VPNavBarTitle .title {
+  font-family: var(--rf-font-display);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.VPNavBarMenuLink,
+.VPNavBarMenuGroup,
+.VPSidebarItem .text,
+.VPLocalSearchBox,
+.VPButton,
+.VPDocFooter {
+  font-family: var(--rf-font-ui);
+}
+
+.VPDoc h1,
+.VPDoc h2,
+.VPHero .name,
+.VPHero .text {
+  font-family: var(--rf-font-display);
+  font-weight: 700;
+}
+
+.VPDoc p,
+.VPDoc li {
+  font-family: var(--rf-font-body);
+}
+
+/* Flat section accent on Safety pages */
+.VPDoc:has(.rf-safety-accent),
+.rf-safety-page .VPDoc {
+  border-top: none;
+}
+
+.rf-safety-callout {
+  margin: 1rem 0 1.5rem;
+  padding: 0.9rem 1rem;
+  background: rgba(227, 124, 136, 0.1);
+  border: 1px solid rgba(185, 71, 84, 0.45);
+  border-top: 3px solid var(--rf-safety-5);
+  font-family: var(--rf-font-ui);
+  color: var(--vp-c-text-1);
+}
+
+.rf-safety-callout strong {
+  color: var(--rf-safety-4);
+}
+
+/* Home hero — brand-first, solid surfaces, no gradients */
+.VPHome {
+  margin-bottom: 2rem;
+}
+
+.VPHero .name {
+  color: var(--vp-c-brand-1);
+}
+
+.VPHero .text {
+  color: var(--vp-c-text-1);
+}
+
+.VPHero .tagline {
+  color: var(--vp-c-text-2);
+  font-family: var(--rf-font-body);
+}
+
+.VPButton.brand {
+  background-color: var(--vp-c-brand-3);
+  border-color: var(--vp-c-brand-3);
+  color: #fbfbfb;
+}
+
+.VPButton.brand:hover {
+  background-color: var(--vp-c-brand-2);
+  border-color: var(--vp-c-brand-2);
+}
+
+.VPButton.alt {
+  background-color: var(--vp-c-bg-soft);
+  border-color: var(--vp-c-divider);
+  color: var(--vp-c-text-1);
+}
+
+/* Safety CTA — stronger visual weight among hero actions (no extra homepage prose) */
+.VPHero .actions a[href*='safety'].VPButton,
+.VPHero .actions a[href*='safety'] {
+  background-color: var(--rf-safety-5) !important;
+  border: 2px solid var(--rf-safety-4) !important;
+  color: #fbfbfb !important;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  box-shadow: none;
+  transform: none;
+  padding-inline: 1.35rem;
+}
+
+.VPHero .actions a[href*='safety'].VPButton:hover,
+.VPHero .actions a[href*='safety']:hover {
+  background-color: var(--rf-safety-4) !important;
+  border-color: var(--rf-safety-4) !important;
+  color: #0a0a0a !important;
+}
+
+/* Logo mark is square; keep it compact in the nav */
+.VPNavBarTitle .logo {
+  height: 28px;
+  width: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Links page — clear NSFW outbound section */
+.rf-nsfw-section {
+  margin: 1.25rem 0 1.75rem;
+  padding: 1rem 1.1rem 1.15rem;
+  background: rgba(227, 124, 136, 0.08);
+  border: 1px solid rgba(185, 71, 84, 0.4);
+  border-top: 3px solid var(--rf-safety-5);
+  font-family: var(--rf-font-ui);
+}
+
+.rf-nsfw-section__badge {
+  display: inline-block;
+  margin: 0 0 0.55rem;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  background: var(--rf-safety-5);
+}
+
+.rf-nsfw-link {
+  font-weight: 600;
+  color: var(--rf-safety-4);
+}
