@@ -40,7 +40,7 @@ export default defineConfig({
         href: 'https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;0,7..72,700;1,7..72,400&family=Syne:wght@600;700;800&display=swap',
       },
     ],
-    ['link', { rel: 'icon', href: '/brand/logo-good-4.svg', type: 'image/svg+xml' }],
+    ['link', { rel: 'icon', href: '/brand/logo-good-5.svg', type: 'image/svg+xml' }],
   ],
   themeConfig: {
     logo: { src: '/brand/logo-good-4.svg', alt: 'Retifist' },

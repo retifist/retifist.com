@@ -3,8 +3,11 @@ layout: home
 title: Retifist
 hero:
   name: Retifist
-  text: Latex craft tutorials
+  text: "Latex crafting\ntutorials"
   tagline: Desk-scale lessons, downloadable patterns, and technique notes — SFW education for makers who want to try the craft before they invest in a full workshop.
+  image:
+    src: /brand/hero-placeholder.jpg
+    alt: ''
   actions:
     - theme: brand
       text: Start Small lessons

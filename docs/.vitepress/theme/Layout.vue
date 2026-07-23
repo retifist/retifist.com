@@ -16,6 +16,16 @@ const isHome = computed(
     (frontmatter.value?.layout === 'home' || page.value?.relativePath === 'index.md'),
 )
 
+const homeHero = computed(() => {
+  const hero = (frontmatter.value as { hero?: Record<string, string> })?.hero
+  if (!hero) return null
+  return {
+    name: hero.name || '',
+    text: hero.text || '',
+    tagline: hero.tagline || '',
+  }
+})
+
 const isLessonDoc = computed(() => page.value?.relativePath?.startsWith('lessons/') === true)
 
 const lessonEstimate = computed(() => {
@@ -40,6 +50,29 @@ watchEffect(() => {
   <DefaultTheme.Layout>
     <template #layout-top>
       <UnderConstructionBanner />
+    </template>
+    <template v-if="isHome && homeHero" #home-hero-info>
+      <h1 class="heading rf-hero-brand">
+        <img
+          class="rf-hero-logo"
+          src="/brand/logo-good-4.svg"
+          width="192"
+          height="192"
+          alt=""
+        />
+        <span v-if="homeHero.name" class="name clip">{{ homeHero.name }}</span>
+        <span v-if="homeHero.text" class="text">{{ homeHero.text }}</span>
+      </h1>
+      <p v-if="homeHero.tagline" class="tagline">{{ homeHero.tagline }}</p>
+    </template>
+    <template v-if="isHome" #home-hero-image>
+      <img
+        class="image-src rf-hero-photo"
+        src="/brand/hero-placeholder.jpg"
+        width="1280"
+        height="1280"
+        alt=""
+      />
     </template>
     <template #doc-before>
       <Breadcrumbs v-if="!isHome" />

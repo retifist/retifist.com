@@ -44,9 +44,18 @@
 
   /* Space for the fixed under-construction banner above the nav */
   --rf-under-construction-height: 2.5rem;
+  /* So VPHero padding/offset accounts for the banner */
+  --vp-layout-top-height: var(--rf-under-construction-height);
 
   --vp-font-family-base: var(--rf-font-body);
   --vp-font-family-mono: ui-monospace, 'Cascadia Code', 'Segoe UI Mono', monospace;
+}
+
+@media (max-width: 639px) {
+  :root {
+    /* Banner copy wraps on narrow screens */
+    --rf-under-construction-height: 3.5rem;
+  }
 }
 
 html.dark {
@@ -58,7 +67,9 @@ html.dark {
   padding-top: var(--rf-under-construction-height);
 }
 
+/* Sticky (not relative): `top` must be a viewport inset or it doubles with Layout padding */
 .VPNav {
+  position: sticky !important;
   top: var(--rf-under-construction-height) !important;
 }
 
@@ -128,6 +139,85 @@ html.dark {
   margin-bottom: 2rem;
 }
 
+/* Logo locked beside name + 2-line text (3 lines total) */
+.rf-hero-brand.heading {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  column-gap: 0.85rem;
+  align-items: center;
+  max-width: 100%;
+}
+
+.rf-hero-logo {
+  grid-column: 1;
+  grid-row: 1 / -1;
+  width: 3.75rem; /* mobile: 50% of former 7.5rem */
+  height: 3.75rem;
+  object-fit: contain;
+}
+
+.rf-hero-brand .name,
+.rf-hero-brand .text {
+  grid-column: 2;
+  width: fit-content;
+  max-width: 100%;
+  letter-spacing: -0.4px;
+  line-height: 40px;
+  font-size: 32px;
+  font-weight: 700;
+  white-space: pre-wrap;
+}
+
+.VPHero .rf-hero-brand + .tagline,
+.VPHero .tagline {
+  padding-top: 8px;
+  max-width: 392px;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (min-width: 640px) {
+  .rf-hero-logo {
+    width: 10.5rem; /* 3 × 56px */
+    height: 10.5rem;
+  }
+
+  .rf-hero-brand .name,
+  .rf-hero-brand .text {
+    line-height: 56px;
+    font-size: 48px;
+  }
+
+  .VPHero .rf-hero-brand + .tagline,
+  .VPHero .tagline {
+    padding-top: 12px;
+    max-width: 576px;
+    line-height: 32px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 960px) {
+  .rf-hero-logo {
+    width: 12rem; /* 3 × 64px */
+    height: 12rem;
+  }
+
+  .rf-hero-brand .name,
+  .rf-hero-brand .text {
+    line-height: 64px;
+    font-size: 56px;
+  }
+
+  .VPHero .rf-hero-brand + .tagline,
+  .VPHero .tagline {
+    line-height: 36px;
+    font-size: 24px;
+  }
+}
+
 .VPHero .name {
   color: var(--vp-c-brand-1);
 }
@@ -139,6 +229,111 @@ html.dark {
 .VPHero .tagline {
   color: var(--vp-c-text-2);
   font-family: var(--rf-font-body);
+}
+
+/* Hero side image — fill column: bottom = CTAs, right = Technique card edge */
+:root {
+  --vp-home-hero-image-background-image: none;
+  --vp-home-hero-image-filter: none;
+}
+
+.VPHero .image-bg {
+  display: none;
+}
+
+/* Mobile / tablet (stacked): short strip — 20% of former square height */
+.VPHero .image-container {
+  position: relative;
+  width: min(100%, 320px);
+  height: auto;
+  aspect-ratio: 5 / 1; /* was 1:1; height is now 20% of that */
+  margin-inline: auto;
+  transform: none;
+}
+
+.VPHero .image-src,
+.VPHero .rf-hero-photo {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: cover;
+  object-position: center;
+  transform: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-sizing: border-box;
+}
+
+/* Kill VitePress negative image margins that pull the photo under the nav */
+@media (max-width: 959px) {
+  .VPHero .image {
+    order: 1;
+    margin: 0 auto 1.25rem !important;
+    width: 100%;
+  }
+
+  .VPHero .main {
+    order: 2;
+  }
+}
+
+/* Mobile home only: chrome gaps match CTA button gap (12px) */
+@media (max-width: 639px) {
+  .Layout:has(.VPHome) {
+    padding-top: calc(var(--rf-under-construction-height) + 12px);
+  }
+
+  /* VitePress adds layout-top margin on home; banner is fixed so this doubles the gap */
+  .Layout:has(.VPHome) .VPContent.is-home {
+    margin-top: 0 !important;
+  }
+
+  .Layout:has(.VPHome) .VPHero {
+    margin-top: 0 !important;
+    padding: 12px 24px 48px !important;
+  }
+
+  .Layout:has(.VPHome) .VPHero .image {
+    margin: 0 auto 12px !important;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .VPHero .image-container {
+    width: min(100%, 392px);
+  }
+}
+
+@media (min-width: 960px) {
+  .VPHero.has-image .container {
+    align-items: stretch;
+  }
+
+  .VPHero .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .VPHero .image {
+    display: flex;
+    align-self: stretch;
+    margin: 0;
+    min-height: 100%;
+  }
+
+  .VPHero .image-container {
+    flex: 1 1 auto;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    aspect-ratio: auto;
+    margin: 0;
+    transform: none;
+  }
 }
 
 .VPButton.brand {
