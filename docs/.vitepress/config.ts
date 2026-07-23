@@ -30,7 +30,7 @@ export default defineConfig({
   title: 'Retifist',
   description: 'Latex garment-making tutorials, patterns, and technique — SFW educational hub.',
   base: '/',
-  appearance: 'dark',
+  appearance: 'force-dark',
   cleanUrls: true,
   head: [
     [

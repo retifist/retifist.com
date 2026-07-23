@@ -42,12 +42,29 @@
   --rf-font-body: 'Literata', serif;
   --rf-font-ui: 'DM Sans', sans-serif;
 
+  /* Space for the fixed under-construction banner above the nav */
+  --rf-under-construction-height: 2.5rem;
+
   --vp-font-family-base: var(--rf-font-body);
   --vp-font-family-mono: ui-monospace, 'Cascadia Code', 'Segoe UI Mono', monospace;
 }
 
 html.dark {
   color-scheme: dark;
+}
+
+/* Keep fixed nav below the under-construction banner */
+.Layout {
+  padding-top: var(--rf-under-construction-height);
+}
+
+.VPNav {
+  top: var(--rf-under-construction-height) !important;
+}
+
+.VPLocalNav,
+.VPSidebar {
+  top: calc(var(--vp-nav-height) + var(--rf-under-construction-height)) !important;
 }
 
 /* Kill any leftover indigo defaults explicitly */

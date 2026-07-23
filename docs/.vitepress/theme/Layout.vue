@@ -5,6 +5,7 @@ import { computed, watchEffect } from 'vue'
 import Breadcrumbs from './components/Breadcrumbs.vue'
 import LessonEstimate from './components/LessonEstimate.vue'
 import NsfwOutboundModal from './components/NsfwOutboundModal.vue'
+import UnderConstructionBanner from './components/UnderConstructionBanner.vue'
 
 const { frontmatter, page, theme } = useData()
 const route = useRoute()
@@ -37,6 +38,9 @@ watchEffect(() => {
 
 <template>
   <DefaultTheme.Layout>
+    <template #layout-top>
+      <UnderConstructionBanner />
+    </template>
     <template #doc-before>
       <Breadcrumbs v-if="!isHome" />
     </template>
