@@ -1,4 +1,7 @@
 import { defineConfig } from 'vitepress'
+import { relativePathToLlmsPath } from './theme/utils/llmsPaths'
+import { vitepressMathConfig } from './markdown/math'
+import { isMermaidFence } from './theme/utils/mermaid'
 
 const lessonsStartSmall = [
   { text: '00 — Prep, materials, and safety', link: '/lessons/start-small/00-prep-materials-safety' },
@@ -26,12 +29,18 @@ const techniqueItems = [
   { text: '7 — Seam-width lab', link: '/technique/7-seam-width-lab' },
 ]
 
+const literatureReviewItems = [
+  { text: 'Adhesives and Seam Integrity', link: '/literature-reviews/adhesives-and-seam-integrity' },
+]
+
 export default defineConfig({
   title: 'Retifist',
   description: 'Latex garment-making tutorials, patterns, and technique — SFW educational hub.',
   base: '/',
   appearance: 'force-dark',
   cleanUrls: true,
+  // Static agent stubs / transcripts live under public/ — do not treat as VitePress pages
+  srcExclude: ['**/public/**'],
   head: [
     [
       'link',
@@ -42,6 +51,23 @@ export default defineConfig({
     ],
     ['link', { rel: 'icon', href: '/brand/logo-good-5.svg', type: 'image/svg+xml' }],
   ],
+  transformHead({ pageData }) {
+    const href = relativePathToLlmsPath(pageData.relativePath || 'index.md')
+    return [['link', { rel: 'alternate', type: 'text/markdown', href }]]
+  },
+  markdown: {
+    math: vitepressMathConfig(),
+    config(md) {
+      const defaultFence = md.renderer.rules.fence!
+      md.renderer.rules.fence = (tokens, idx, options, env, self) => {
+        const token = tokens[idx]
+        if (isMermaidFence(token.info)) {
+          return `<MermaidDiagram code="${encodeURIComponent(token.content)}" />\n`
+        }
+        return defaultFence(tokens, idx, options, env, self)
+      }
+    },
+  },
   themeConfig: {
     logo: { src: '/brand/logo-good-4.svg', alt: 'Retifist' },
     siteTitle: 'Retifist',
@@ -50,6 +76,7 @@ export default defineConfig({
       { text: 'Lessons', link: '/lessons/' },
       { text: 'Patterns', link: '/patterns/' },
       { text: 'Technique', link: '/technique/' },
+      { text: 'Literature reviews', link: '/literature-reviews/' },
       { text: 'Projects', link: '/projects/' },
       { text: 'Downloads', link: '/downloads/' },
       { text: 'Safety', link: '/safety/' },
@@ -98,10 +125,22 @@ export default defineConfig({
           ],
         },
       ],
+      '/literature-reviews/': [
+        {
+          text: 'Literature reviews',
+          items: [
+            { text: 'Overview', link: '/literature-reviews/' },
+            ...literatureReviewItems,
+          ],
+        },
+      ],
       '/projects/': [
         {
           text: 'Projects',
-          items: [{ text: 'Examples and tags', link: '/projects/' }],
+          items: [
+            { text: 'Examples and tags', link: '/projects/' },
+            { text: 'Agent surface demo', link: '/projects/agent-surface-demo' },
+          ],
         },
       ],
       '/downloads/': [

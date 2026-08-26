@@ -21,7 +21,8 @@ import { UNDER_CONSTRUCTION_MESSAGE } from '../utils/underConstruction'
   align-items: center;
   justify-content: center;
   padding: 0.45rem 1rem;
-  background: var(--vp-c-warning-soft);
+  /* Opaque solid (not warning-soft rgba) so content never shows through */
+  background: #1a1610;
   border-bottom: 1px solid var(--vp-c-warning-2);
   color: var(--vp-c-warning-1);
   font-family: var(--rf-font-ui);

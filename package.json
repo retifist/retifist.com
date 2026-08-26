@@ -3,14 +3,18 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
+    "llms:generate": "node scripts/generate-llms.mjs",
+    "docs:dev": "node scripts/generate-llms.mjs && vitepress dev docs",
+    "docs:build": "node scripts/generate-llms.mjs && vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "test": "vitest run",
     "test:watch": "vitest",
+    "transcript:check": "node scripts/check-transcripts.mjs",
     "smoke": "node scripts/smoke.mjs"
   },
   "devDependencies": {
+    "markdown-it-mathjax3": "^4.3.2",
+    "mermaid": "^11.16.1",
     "vitepress": "^1.6.3",
     "vitest": "^3.2.4",
     "vue": "^3.5.17"

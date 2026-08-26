@@ -4,6 +4,7 @@ import { useData, useRoute } from 'vitepress'
 import { computed, watchEffect } from 'vue'
 import Breadcrumbs from './components/Breadcrumbs.vue'
 import LessonEstimate from './components/LessonEstimate.vue'
+import LlmsAlternateFooter from './components/LlmsAlternateFooter.vue'
 import NsfwOutboundModal from './components/NsfwOutboundModal.vue'
 import UnderConstructionBanner from './components/UnderConstructionBanner.vue'
 
@@ -40,6 +41,8 @@ watchEffect(() => {
     theme.value.docFooter = { prev: 'Previous technique', next: 'Next technique' }
   } else if (path.includes('/lessons/')) {
     theme.value.docFooter = { prev: 'Previous lesson', next: 'Next lesson' }
+  } else if (path.includes('/literature-reviews/')) {
+    theme.value.docFooter = { prev: 'Previous review', next: 'Next review' }
   } else {
     theme.value.docFooter = { prev: 'Previous page', next: 'Next page' }
   }
@@ -79,6 +82,12 @@ watchEffect(() => {
     </template>
     <template #doc-top>
       <LessonEstimate v-if="lessonEstimate" :estimate="lessonEstimate" />
+    </template>
+    <template #doc-after>
+      <LlmsAlternateFooter v-if="!isHome" />
+    </template>
+    <template #home-features-after>
+      <LlmsAlternateFooter />
     </template>
     <template #layout-bottom>
       <NsfwOutboundModal />

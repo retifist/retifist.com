@@ -38,6 +38,14 @@
   --rf-safety-4: #e37c88;
   --rf-safety-5: #b94754;
 
+  /* Literature reviews — muted grey accent (less exciting than lessons) */
+  --rf-lit-1: #a8a8a8;
+  --rf-lit-2: #8e8e8e;
+  --rf-lit-3: #757575;
+  --rf-lit-muted: #9a9a9a;
+  --rf-lit-soft: rgba(168, 168, 168, 0.1);
+  --rf-lit-border: rgba(168, 168, 168, 0.22);
+
   --rf-font-display: 'Syne', sans-serif;
   --rf-font-body: 'Literata', serif;
   --rf-font-ui: 'DM Sans', sans-serif;
@@ -76,6 +84,23 @@ html.dark {
 .VPLocalNav,
 .VPSidebar {
   top: calc(var(--vp-nav-height) + var(--rf-under-construction-height)) !important;
+}
+
+/*
+ * Opaque chrome on every page (VitePress leaves home / sidebar-title transparent
+ * on desktop). Same solid fill + height so home and docs match.
+ */
+.VPNavBar {
+  background-color: var(--vp-nav-bg-color, var(--vp-c-bg)) !important;
+}
+
+.VPNavBar .title,
+.VPNavBar .content-body {
+  background-color: var(--vp-nav-bg-color, var(--vp-c-bg)) !important;
+}
+
+.VPNavBar .divider-line {
+  background-color: var(--vp-c-gutter) !important;
 }
 
 /* Kill any leftover indigo defaults explicitly */
@@ -281,12 +306,8 @@ html.dark {
   }
 }
 
-/* Mobile home only: chrome gaps match CTA button gap (12px) */
+/* Mobile home: content gaps only — do not change banner/nav chrome height vs other pages */
 @media (max-width: 639px) {
-  .Layout:has(.VPHome) {
-    padding-top: calc(var(--rf-under-construction-height) + 12px);
-  }
-
   /* VitePress adds layout-top margin on home; banner is fixed so this doubles the gap */
   .Layout:has(.VPHome) .VPContent.is-home {
     margin-top: 0 !important;
@@ -404,4 +425,30 @@ html.dark {
 .rf-nsfw-link {
   font-weight: 600;
   color: var(--rf-safety-4);
+}
+
+/* Literature reviews — muted hub and section chrome */
+.rf-lit-accent {
+  border-top: 3px solid var(--rf-lit-border);
+  padding-top: 0.25rem;
+}
+
+.rf-lit-blurb {
+  margin: 0.75rem 0 1.25rem;
+  padding: 0.85rem 1rem;
+  background: var(--rf-lit-soft);
+  border: 1px solid var(--rf-lit-border);
+  border-left: 3px solid var(--rf-lit-2);
+  color: var(--rf-lit-muted);
+  font-family: var(--rf-font-ui);
+  font-size: 0.95rem;
+}
+
+.VPDoc:has(.rf-lit-accent) h1 {
+  color: var(--rf-lit-1);
+}
+
+.VPDoc:has([data-rf-series='literature-reviews']) h1,
+.VPDoc:has(.rf-lit-article) h1 {
+  color: var(--rf-lit-1);
 }

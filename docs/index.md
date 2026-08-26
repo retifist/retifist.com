@@ -25,4 +25,6 @@ features:
     details: Download the bow packet first; draft the basic shoe sock once you have a real-time glue session behind you.
   - title: Technique
     details: Flat list of deep-dives on glue, cure timing, shaping seams, and solvent safety when you need more than the series basics.
+  - title: Literature reviews
+    details: Muted reference articles on industrial evidence — glue families, sheet vs liquid-latex science, and failure reading when lessons are not enough.
 ---

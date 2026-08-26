@@ -4,9 +4,13 @@ import { withBase } from 'vitepress'
 import type { CatalogItem } from '../utils/catalog'
 import { formatDuration } from '../utils/catalog'
 
-const props = defineProps<{
-  items: CatalogItem[]
-}>()
+const props = withDefaults(
+  defineProps<{
+    items: CatalogItem[]
+    variant?: 'default' | 'lit'
+  }>(),
+  { variant: 'default' },
+)
 
 const rows = computed(() =>
   props.items.map((item) => ({
@@ -17,7 +21,7 @@ const rows = computed(() =>
 </script>
 
 <template>
-  <ul class="rf-catalog" role="list">
+  <ul class="rf-catalog" :class="{ 'rf-catalog--lit': variant === 'lit' }" role="list">
     <li v-for="item in rows" :key="item.link" class="rf-catalog__item">
       <a class="rf-catalog__link" :href="withBase(item.link)">
         <span class="rf-catalog__title">{{ item.title }}</span>
@@ -103,5 +107,21 @@ const rows = computed(() =>
   color: var(--vp-c-brand-1);
   background: rgba(126, 182, 173, 0.12);
   padding: 0.15rem 0.45rem;
+}
+
+.rf-catalog--lit .rf-catalog__title {
+  color: var(--rf-lit-1);
+}
+
+.rf-catalog--lit .rf-catalog__link:hover .rf-catalog__title {
+  color: var(--rf-lit-2);
+}
+
+.rf-catalog--lit .rf-catalog__duration {
+  color: var(--rf-lit-3);
+}
+
+.rf-catalog--lit .rf-catalog__desc {
+  color: var(--rf-lit-muted);
 }
 </style>

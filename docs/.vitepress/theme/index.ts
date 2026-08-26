@@ -6,6 +6,7 @@ import DownloadLink from './components/DownloadLink.vue'
 import CatalogCardList from './components/CatalogCardList.vue'
 import TechniqueTagFilter from './components/TechniqueTagFilter.vue'
 import ProjectCatalog from './components/ProjectCatalog.vue'
+import MermaidDiagram from './components/MermaidDiagram.vue'
 import './style.css'
 
 const theme: Theme = {
@@ -17,6 +18,7 @@ const theme: Theme = {
     app.component('CatalogCardList', CatalogCardList)
     app.component('TechniqueTagFilter', TechniqueTagFilter)
     app.component('ProjectCatalog', ProjectCatalog)
+    app.component('MermaidDiagram', MermaidDiagram)
   },
 }
 
