@@ -35,6 +35,20 @@ const literatureReviewItems = [
   { text: 'Allergy and Skin Contact', link: '/literature-reviews/allergy-and-skin-contact' },
   { text: 'Sheet vs Liquid Film Pathways', link: '/literature-reviews/sheet-vs-liquid-film-pathways' },
   { text: 'Latex Textile Bonding', link: '/literature-reviews/latex-textile-bonding' },
+  { text: 'Former Dip vs Mould Cast vs Flat Spread', link: '/literature-reviews/former-dip-vs-mould-cast-vs-flat-spread' },
+  { text: 'Pigment & Filler Decks', link: '/literature-reviews/pigment-filler-decks-wearable-nr-film' },
+  { text: 'Printing & Surface Decoration', link: '/literature-reviews/printing-surface-decoration-sheet' },
+  { text: 'Surface Finish Literacy', link: '/literature-reviews/surface-finish-literacy-gloss-matte-bloom' },
+  { text: 'Liquid Latex Painting vs Compounding', link: '/literature-reviews/liquid-latex-painting-vs-compounding-pigment' },
+  { text: 'Gauge, Modulus & Reduction', link: '/literature-reviews/gauge-modulus-reduction-fit-science' },
+  { text: 'Calendered Sheet vs Home-Cast Film', link: '/literature-reviews/calendered-sheet-vs-home-cast-film' },
+  { text: 'Reinforcement & Laminate Zones', link: '/literature-reviews/reinforcement-laminate-zones' },
+  { text: 'Home Shop Ventilation', link: '/literature-reviews/home-shop-ventilation-solvent-exposure' },
+  { text: 'Decoding Latex Bottle Labels', link: '/literature-reviews/decoding-consumer-latex-bottle-labels' },
+  { text: 'Garment Selection QA', link: '/literature-reviews/garment-selection-qa-buyers-wearers' },
+  { text: 'Synthetic Lattices for Costume Film', link: '/literature-reviews/synthetic-lattices-nbr-cr-sbr-costume' },
+  { text: 'Latex Foam Padding', link: '/literature-reviews/latex-foam-padding-costume-volume' },
+  { text: 'Antidegradants in DIY Compounds', link: '/literature-reviews/antidegradants-diy-compounds' },
 ]
 
 export default defineConfig({
