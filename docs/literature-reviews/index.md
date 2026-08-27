@@ -20,6 +20,30 @@ Reference articles distilled from industrial handbooks and primary sources. They
     link: '/literature-reviews/adhesives-and-seam-integrity',
     description: 'Glue families, a five-question decision tree, and how to read a failed seam — plain language for the bench.',
     duration: 'Reference'
+  },
+  {
+    title: 'Aging, Storage and Care',
+    link: '/literature-reviews/aging-storage-and-care',
+    description: 'Why latex ages, how to store sheet and liquid separately, and four symptom classes before you retire a piece.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Allergy and Skin Contact',
+    link: '/literature-reviews/allergy-and-skin-contact',
+    description: 'Type I protein vs Type IV chemical reactions, what labels do and do not mean — literacy, not medical advice.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Sheet vs Liquid Film Pathways',
+    link: '/literature-reviews/sheet-vs-liquid-film-pathways',
+    description: 'Two pathways that must not be mixed — calendered sheet vs liquid-to-film, with do-not-mix examples.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Latex Textile Bonding',
+    link: '/literature-reviews/latex-textile-bonding',
+    description: 'Cotton vs nylon bond cues, wet/dry combining, peel literacy, and stretch mismatch at the bond edge.',
+    duration: 'Reference'
   }
 ]" />
 

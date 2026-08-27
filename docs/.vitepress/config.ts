@@ -31,6 +31,10 @@ const techniqueItems = [
 
 const literatureReviewItems = [
   { text: 'Adhesives and Seam Integrity', link: '/literature-reviews/adhesives-and-seam-integrity' },
+  { text: 'Aging, Storage and Care', link: '/literature-reviews/aging-storage-and-care' },
+  { text: 'Allergy and Skin Contact', link: '/literature-reviews/allergy-and-skin-contact' },
+  { text: 'Sheet vs Liquid Film Pathways', link: '/literature-reviews/sheet-vs-liquid-film-pathways' },
+  { text: 'Latex Textile Bonding', link: '/literature-reviews/latex-textile-bonding' },
 ]
 
 export default defineConfig({
