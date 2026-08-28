@@ -21,9 +21,9 @@ Industrial fabric-lined gloves stretch less than unsupported gloves but stop tea
 
 **Sheet-based work** adds material after you have commercial sheet: discs at seam intersections, strips along strap roots, or doubled gauge at an opening. Supported fabric liners reduce stretch and improve tear-stop compared with unsupported film.[^1]
 
-**Liquid latex work** builds strength into the film stack: multiple dips, NR inner with CR or XNBR outer, or textile combining before cut.[^3][^4] Bond strength between dips drops if the first layer is dried and leached; fatty soaps hurt inter-ply adhesion.[^2] Low relative humidity can impair second-dip lamination.[^5]
+**Liquid latex work** builds strength into the film stack: multiple dips, NR inner with CR or XNBR outer, or textile combining before cut.[^3][^4] Fatty soaps hurt inter-ply adhesion.[^2] Low relative humidity can impair second-dip lamination.[^5]
 
-Do not treat Fig 19.2 calender layouts or Table 19.2 as hobby mix cards — plant-scale lineage.[^4]
+Do not treat handbook calender layouts or combining recipes as hobby mix cards — plant-scale lineage.[^4]
 
 ---
 
@@ -41,7 +41,7 @@ Do not treat Fig 19.2 calender layouts or Table 19.2 as hobby mix cards — plan
 ## Decision cues
 
 ```text
-1. Path? Sheet-based → strip/disc/double gauge | Liquid latex → ply timing + combine lineage
+1. Pathway? Sheet-based → strip/disc/double gauge | Liquid latex → ply timing + combine lineage
 2. Stretch or tear-stop? Tear-stop → supported analog
 3. Multi-layer bond? Wet gel → second dip soon | Dried/leached → weak ply
 4. Textile in stack? Porous mechanical key[^7] | Aqueous shrink risk[^8]
@@ -75,9 +75,9 @@ NR inner + synthetic outer laminates for ozone/oil outer face with NR strength i
 </details>
 
 <details>
-<summary>Deep dive: Textile combining layouts (Fig 19.2)</summary>
+<summary>Deep dive: Textile combining layouts</summary>
 
-Wet combine, spray nip, heat-sensitive face pattern, doubling of pre-coated fabrics.[^4] Table 19.2 — handbook examples only.
+Wet combine, spray nip, heat-sensitive face pattern, doubling of pre-coated fabrics.[^4] Handbook combining examples only.
 
 </details>
 

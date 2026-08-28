@@ -19,9 +19,9 @@ Costume **volume padding** from latex is **foam rubber**, not thicker flat sheet
 
 ## Foam is not thick flat sheet
 
-Latex foam rubber: (1) compound and expand with air; (2) constrain shape; (3) **solidify**; (4) vulcanize [^4]. **Gel processes** destabilize colloid; **no-gel** relies on evaporation — **limited to thin section** [^5].
+Latex foam rubber: (1) compound and expand with air; (2) constrain shape; (3) **solidify**; (4) vulcanize [^4].
 
-Dunlop NR foam: typically **1.5 pphr sodium silicofluoride + 3–5 pphr ZnO**; gel pH ~8.6 [^3]. Mineral oil ≤5 phr aids gel coalescence [^6].
+Dunlop NR foam: typically **1.5 pphr sodium silicofluoride + 3–5 pphr ZnO**; gel pH ~8.6 [^3]. Mineral oil ≤5 phr aids gel coalescence [^6]. No-gel routes rely on evaporation and are **limited to thin section** [^5].
 
 ---
 
@@ -29,14 +29,14 @@ Dunlop NR foam: typically **1.5 pphr sodium silicofluoride + 3–5 pphr ZnO**; g
 
 Padded shoulders or bodysuit volume use **foam rubber**, mattress underlay, or separate padding—not multi-mm flat spread sheet. Home “whip the bottle” foam without gel timing control inherits **collapse** and **shrinkage** risks.
 
-Path A makers may **buy** foam underlay rather than cast foam.
+Sheet-based makers may **buy** foam underlay rather than cast foam.
 
 ---
 
 <details>
-<summary>Deep dive: Dunlop NR formulation table (18.4)</summary>
+<summary>Deep dive: Dunlop NR foam formulation example</summary>
 
-HPL Dunlop-process NR foam Table 18.4; **30 min at 100 °C** for thin foams [^9]. Gelling: **1.5 pphr silicofluoride + 3–5 pphr ZnO** [^3].
+HPL Dunlop-process NR foam (handbook example); **30 min at 100 °C** for thin foams [^9].
 
 </details>
 

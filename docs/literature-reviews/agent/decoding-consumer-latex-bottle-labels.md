@@ -13,7 +13,7 @@ Human page: https://retifist.com/literature-reviews/decoding-consumer-latex-bott
 
 ## Executive summary
 
-Consumer “liquid latex” bottles rarely print the same fields industrial buyers expect on **concentrate** specs. **Liquid latex work** shoppers need to decode ammonia band, total solids, prevulcanized vs raw, and polymer family—not marketing words like “body safe” or “FDA.” Industrial standards **ASTM D1076** and **ISO 2004** define ammonia-preserved NR **concentrate** categories; they **do not apply to compounded** hobby bottles [^2]. Use this when choosing a Path B bottle, comparing two brands, or when a seller cites food-contact or medical glove language out of scope.
+Consumer “liquid latex” bottles rarely print the same fields industrial buyers expect on **concentrate** specs. **Liquid latex work** shoppers need to decode ammonia band, total solids, prevulcanized vs raw, and polymer family—not marketing words like “body safe” or “FDA.” Industrial standards **ASTM D1076** and **ISO 2004** define ammonia-preserved NR **concentrate** categories; they **do not apply to compounded** hobby bottles [^2]. Use this when choosing a liquid latex bottle, comparing two brands, or when a seller cites food-contact or medical glove language out of scope.
 
 ---
 
@@ -21,7 +21,7 @@ Consumer “liquid latex” bottles rarely print the same fields industrial buye
 
 ASTM **D1076** covers concentrated, ammonia-stabilized NR latex categories and **does not apply to compounded** concentrates [^2]. ISO **2004** specifies ammonia-preserved centrifuged/creamed concentrate types including HA, LA, and MA bands with Cu/Mn limits on total solids [^3].
 
-**Prevulcanized latex** is vulcanized in the **liquid** state; a proper prevulc deposit can approach conventional post-dried properties; overcure yields short, weak rubber [^4]. Gloves from prevulcanized latex **need only warm-air drying** in the dipped-goods branch [^5].
+**Prevulcanized latex** is vulcanized in the **liquid** state; a proper prevulc deposit can approach conventional post-dried properties; overcure yields short, weak rubber [^4]. Read the bottle/TDS before assuming dry-only finishes your garment film.
 
 Fresh latex coagulates within hours without preservation; ammonia is the primary preservative [^6].
 

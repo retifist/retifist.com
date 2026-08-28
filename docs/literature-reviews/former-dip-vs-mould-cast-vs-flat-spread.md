@@ -33,7 +33,7 @@ Spreading, dipping, and fabric impregnation were distinct industrial routes hist
 
 ## Former dipping branch {#former-dipping}
 
-**Straight dip:** roughly 0.01–0.05 mm dry rubber per pass — multi-dip for gauge. **Coagulant dip:** coagulant bath + dwell time gels a shell on contact; above ~8 mil dry thickness, coagulant is usually the economical branch. Warm leach and staged cure follow. Rotate formers between dips; exclude copper and brass from dip and leach contact.
+**Straight dip:** roughly 0.01–0.05 mm dry rubber per pass — multi-dip for gauge. **Coagulant dip:** coagulant bath + dwell time gels a shell on contact; above ~8 mil dry thickness, coagulant is usually the economical branch. Warm leach and staged cure follow. Rotate formers between dips.
 
 <details>
 <summary>What does coagulant mean in dipping?</summary>
@@ -59,7 +59,7 @@ In **dipping**, a **coagulant** is a chemical bath (often a salt solution) appli
 
 ## Flat spread branch {#flat-spread}
 
-Industrial blade angles control strike-through on fabric. Aqueous latex dries slower than solvent doughs — run the fabric line slower. This is textile proofing equipment, not a documented hobby flat-bed pour without plant controls.
+Industrial blade angles control strike-through on fabric. This is textile proofing equipment, not a documented hobby flat-bed pour without plant controls.
 
 <details>
 <summary>What does calendered mean here?</summary>
@@ -138,6 +138,6 @@ Slush pour-out gives hollow parts with operator-controlled dwell; rotational met
 <details>
 <summary>Deep dive: Spreading blade geometry</summary>
 
-Knife-over-roll and diaphragm blade arrangements control strike-through on fabric. Aqueous latex dry rate sets line speed — slower than solvent dough spreading.
+Knife-over-roll and diaphragm blade arrangements control strike-through on fabric. Aqueous latex dry rate sets line speed.
 
 </details>

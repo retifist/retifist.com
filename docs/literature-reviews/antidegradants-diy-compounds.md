@@ -18,7 +18,7 @@ Use this when compounding liquid latex film intended to last beyond a single eve
 
 ## The retardation law {#retardation-law}
 
-Degradation **cannot be prevented — only retarded**; drivers include heat, humidity, UV, ozone, oxygen, chemicals (acids/bases, **oils**, solvents, oxidizers, heavy metals), and stress. Three oxidative modes run together: chain scission (soft/tack), crosslinking (harden), chemical alteration.
+Drivers include heat, humidity, UV, ozone, oxygen, chemicals (acids/bases, **oils**, solvents, oxidizers, heavy metals), and stress. Three oxidative modes run together: chain scission (soft/tack), crosslinking (harden), chemical alteration.
 
 <details>
 <summary>How do crack patterns differ by cause?</summary>
@@ -31,11 +31,9 @@ Degradation **cannot be prevented — only retarded**; drivers include heat, hum
 
 ## DIY compounding budget (liquid latex work) {#diy-budget}
 
-Add efficient antioxidant to most latex compounds, typically **0.5–2 phr**, especially thin-walled products. Most latex products use **1–2.0 phr total antioxidant** in handbook antidegradant chapters. Amine antioxidants are more effective but **discolor**; phenolics are less effective but lower stain.
+Add efficient antioxidant to most latex compounds, typically **0.5–2 phr**, especially thin-walled products. Amine antioxidants are more effective but **discolor**; phenolics are less effective but lower stain.
 
 Match antidegradant package to **storage + wear** environment (ozone motors, UV, metal hardware) per [Aging, Storage and Care](/literature-reviews/aging-storage-and-care) — do not copy glove-factory phr blindly.
-
-More antioxidant is not always longer life — stain, bloom, and dynamic ozone needs contradict one-size-fits-all.
 
 See [Pigment & Filler Decks](/literature-reviews/pigment-filler-decks-wearable-nr-film#metal-impurities) for metal-catalysis interaction with pigments.
 

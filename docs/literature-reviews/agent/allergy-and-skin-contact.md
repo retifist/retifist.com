@@ -17,13 +17,13 @@ Human page: https://retifist.com/literature-reviews/allergy-and-skin-contact
 
 Medical **devices** that contain natural rubber latex must carry a specific caution and must not say “hypoallergenic” on that NRL device.[^1] Fashion sheet, craft liquid, and catsuits typically sit **outside** that rule. Food-contact rubber tables list accelerators for **food**; they are not dermal wear clearance.[^2]
 
-Use this before first skin-contact wear, when choosing a **liquid latex work** bottle, when a seller says “hypoallergenic” or “FDA,” or when a rash appears after wearing. **This article is literacy, not medical advice.**
+Use this before first skin-contact wear, when choosing a **liquid latex work** bottle, when a seller says “hypoallergenic” or “FDA,” or when a rash appears after wearing.
 
 ---
 
 ## Three reaction classes (literacy only)
 
-> **Not medical advice.** Timing and class names below are **literacy**, not a self-test. Overlapping rashes happen. Do not diagnose from a clock.
+Timing and class names below are **literacy**, not a self-test. Overlapping rashes happen. Do not diagnose from a clock.
 
 NIOSH’s 1997 Alert on NRL gloves and other NRL products separates three patterns:[^3]
 
@@ -37,7 +37,7 @@ NIOSH: NRL **proteins** can cause allergic reactions; **processing chemicals** a
 
 Clinical reviews use the same split: Hevea proteins → Type I; processing chemicals / antioxidants → Type IV.[^6][^7][^8] Public literacy from AAAAI: delayed-type contact dermatitis often **12–36 h**, usually from **added chemicals**; immediate reactions in previously sensitized people; anaphylaxis named as a *severe immediate* pattern.[^9] AAAAI’s glossary: immune overreaction to **proteins** in NRL; synthetic “latex” paints not shown to pose that protein hazard to latex-sensitive individuals.[^10]
 
-**Do not** copy treatment or epinephrine instructions from those pages into this article. **Not medical advice.**
+**Do not** copy treatment or epinephrine instructions from those pages into this article.
 
 Storage/oils pointer only (not diagnosis): [Aging, Storage and Care](/literature-reviews/aging-storage-and-care).
 
@@ -45,9 +45,7 @@ Storage/oils pointer only (not diagnosis): [Aging, Storage and Care](/literature
 
 ## Timing literacy (not diagnosis)
 
-- **Immediate / protein (Type I literacy):** minutes to hours after contact in NIOSH’s triad;[^3] AAAAI: immediate reactions in previously sensitized people.[^9]
-- **Delayed / chemical (Type IV literacy):** NIOSH: allergic contact dermatitis from chemicals, usually **24–48 h**.[^3] AAAAI public page: delayed-type contact dermatitis **12–36 h**, usually added chemicals.[^9] Those windows **overlap in the real world**. A clock is not a lab test.
-- **Irritant:** NIOSH lists irritant contact dermatitis as **not** true allergy.[^3] Ammonia odor on **liquid latex work** concentrate can cause **human discomfort** (especially above 0.3% ammonia in the Practical Guide’s wording) and is **not** Type I or Type IV in that composition discussion.[^11]
+NIOSH and AAAAI timing windows **overlap in the real world** (delayed often cited as **12–48 h**; immediate as minutes to hours in previously sensitized people).[^3][^9] A clock is not a lab test. Ammonia odor on **liquid latex work** concentrate can cause **human discomfort** (especially above 0.3% ammonia in the Practical Guide’s wording) and is **not** Type I or Type IV in that composition discussion.[^11]
 
 If a wearer or maker notices a new rash, hives, breathing trouble, or swelling after latex contact, **stop wearing / stop compounding that article and seek clinical care**. That sentence is a literacy stop-rule, **not** a treatment protocol and **not** a handbook SOP.
 
@@ -57,7 +55,7 @@ If a wearer or maker notices a new rash, hives, breathing trouble, or swelling a
 
 ### Proteins (NRL feedstock)
 
-Fresh NRL is not “just rubber.” Table 2.1: rubber 30–35%; **proteins 1–1.5%**, plus resins, carbohydrates, minerals, water.[^11] The rubber particle surface is covered by a **protein-lipid envelope**; lutoid membranes are protein.[^11] Historical 1932 picture: adsorbed **protein** layer / exterior protein shell, important in **acid coagulation**. That is composition and coagulation, **not** allergy medicine.[^12]
+Fresh NRL is not “just rubber.” Handbook composition: rubber 30–35%; **proteins 1–1.5%**, plus resins, carbohydrates, minerals, water.[^11] The rubber particle surface is covered by a **protein-lipid envelope**; lutoid membranes are protein.[^11] Historical 1932 picture: adsorbed **protein** layer / exterior protein shell, important in **acid coagulation**. That is composition and coagulation, **not** allergy medicine.[^12]
 
 **Sheet-based work and liquid latex work both** start from Hevea NRL if the product is natural rubber. How much **extractable** protein remains in a **fashion sheet** or a home-cast film is not established in this pack. Glove protein QC is a different lineage.
 
@@ -65,7 +63,7 @@ AAAAI: “latex allergy” in the protein sense is an immune overreaction to **p
 
 ### Accelerator families (compounding)
 
-Organic accelerators plus zinc oxide enable fast latex-film cure; many are active below 100 °C.[^14] Handbook Table 1 types include thiuram, dithiocarbamate, xanthate, thiazole (including sulfenamide), thiourea, guanidine. Dithiocarbamates are the fastest and most used for latex; thiazoles and thiurams are too slow alone and are used as secondaries.[^14] Practical Guide: metallic/amine dialkyl dithiocarbamates, thiazoles, and thiurams as secondary; named examples include ZDEC (ZEDC), ZMBT, TMTM, tetraethylthiuram disulfide, and DPTD.[^11]
+Organic accelerators plus zinc oxide enable fast latex-film cure; many are active below 100 °C.[^14] Handbook accelerator families include thiuram, dithiocarbamate, xanthate, thiazole (including sulfenamide), thiourea, guanidine. Dithiocarbamates are the fastest and most used for latex; thiazoles and thiurams are too slow alone and are used as secondaries.[^14] Practical Guide: metallic/amine dialkyl dithiocarbamates, thiazoles, and thiurams as secondary; named examples include ZDEC (ZEDC), ZMBT, TMTM, tetraethylthiuram disulfide, and DPTD.[^11]
 
 Clinical Type IV lists match those **families**, not a fashion SKU: carbamates, thiuram mix, 2-mercaptobenzothiazole (2-MBT), 1,3-diphenylguanidine among common patch positives;[^7] Type IV ACD from thiurams, carbamates, mercaptobenzothiazoles.[^8] Thiurams were historically frequent in glove ACD; industry shifted toward dithiocarbamates; thiuram↔dithiocarbamate redox / cross-reactivity keeps “thiuram allergy” relevant.[^15]
 
@@ -117,9 +115,9 @@ A maker who **dips** (liquid latex work) inherits the *idea* that leach extracts
 
 ### Sheet-based work — commercial sheet / finished fashion garments
 
-Extractable protein, antigenic protein, and residual accelerators in **commercial fashion sheet** vs medical gloves: no primary dataset in this pack. Path A calendered-sheet **leach history** vs Path B dipped post-leach: industrial leach texts are glove/dipped.
+Extractable protein, antigenic protein, and residual accelerators in **commercial fashion sheet** vs medical gloves: no primary dataset in this pack. Sheet-based calendered-sheet **leach history** vs liquid latex dipped post-leach: industrial leach texts are glove/dipped.
 
-**Both paths (same advice):** Type I vs Type IV literacy, no DIY patch test, food-contact ≠ wear cert, 801.437 is a **device** rule, stop-and-seek-care if symptoms.
+**Both pathways (same advice):** Type I vs Type IV literacy, no DIY patch test, 801.437 is a **device** rule, stop-and-seek-care if symptoms.
 
 ISO 12243 assays water-extractable protein in NR **medical gloves**; the standard does **not** address safety or labelling; extraction for **non-glove** NR articles is **not validated**.[^20] You cannot convert a glove protein number into garment safe/unsafe.
 
@@ -129,7 +127,7 @@ Glue-family pointer: [Adhesives and Seam Integrity](/literature-reviews/adhesive
 
 ## Buyer / maker checklist (questions, not self-tests)
 
-**Not medical advice.** Do **not** DIY patch-test a garment or bottle on skin to “see if you’re allergic.”
+Do **not** DIY patch-test a garment or bottle on skin to “see if you’re allergic.”
 
 | Ask | Why it matters | What silence means |
 | --- | --- | --- |
@@ -156,14 +154,12 @@ Stop wearing or handling the article and seek a **qualified clinician** if you n
 
 ## Deep dives (Advanced practitioner, optional)
 
-**Still not medical advice.**
-
 <details>
 <summary>Deep dive: Accelerator chemical families (handbook map)</summary>
 
 **phr** = parts per hundred rubber. Tables are **handbook examples, not craft recipes.**
 
-Vanderbilt Table 1 types:[^14] thiuram, dithiocarbamate, xanthate, thiazole including sulfenamide, thiourea, guanidine. HPL Table 16.6 names zinc/sodium **xanthates** among the fastest latex sulfur-vulcanization accelerators.[^23]
+Vanderbilt accelerator families:[^14] thiuram, dithiocarbamate, xanthate, thiazole including sulfenamide, thiourea, guanidine. HPL Table 16.6 names zinc/sodium **xanthates** among the fastest latex sulfur-vulcanization accelerators.[^23]
 
 Wilson patch series (clinic accelerators, not garment assay):[^23]
 

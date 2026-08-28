@@ -13,13 +13,13 @@ Human page: https://retifist.com/literature-reviews/antidegradants-diy-compounds
 
 ## Executive summary
 
-Handbook law: latex article **degradation cannot be prevented—only retarded**; heat, humidity, UV, ozone, oxygen, oils, metals, and stress co-drive failure [^2]. **Liquid latex work** DIY compounds for wearable film should plan **0.5–2 phr antioxidant** for thin goods, with amine vs phenolic stain trade-offs [^3]. Use this when compounding Path B sheet intended to last beyond a single event—after reading [Aging, Storage and Care](/literature-reviews/aging-storage-and-care).
+Handbook law: latex article **degradation cannot be prevented—only retarded**; heat, humidity, UV, ozone, oxygen, oils, metals, and stress co-drive failure [^2]. **Liquid latex work** DIY compounds for wearable film should plan **0.5–2 phr antioxidant** for thin goods, with amine vs phenolic stain trade-offs [^3]. Use this when compounding liquid latex film intended to last beyond a single event—after reading [Aging, Storage and Care](/literature-reviews/aging-storage-and-care).
 
 ---
 
 ## The retardation law
 
-Degradation **cannot be prevented—only retarded**; drivers include heat, humidity, UV, ozone, oxygen, chemicals, and stress [^2]. Three oxidative modes: chain scission (soft/tack), crosslinking (harden), chemical alteration [^4].
+Drivers include heat, humidity, UV, ozone, oxygen, chemicals, and stress [^2]. Three oxidative modes: chain scission (soft/tack), crosslinking (harden), chemical alteration [^4].
 
 Ozone cracks **oriented** and **widespread**; flex cracks oriented but **local**; UV cracks **non-oriented** over exposed area [^5].
 
@@ -27,7 +27,7 @@ Ozone cracks **oriented** and **widespread**; flex cracks oriented but **local**
 
 ## DIY compounding budget (liquid latex work)
 
-Add efficient antioxidant to most latex compounds, typically **0.5–2 phr**, especially thin-walled products [^3]. Most latex products use **1–2.0 phr total antioxidant** [^6]. Amine antioxidants more effective but **discolor**; phenolics less effective but lower stain [^7].
+Add efficient antioxidant to most latex compounds, typically **0.5–2 phr**, especially thin-walled products [^3]. Amine antioxidants more effective but **discolor**; phenolics less effective but lower stain [^7].
 
 Match antidegradant package to storage + wear environment per [Aging, Storage and Care](/literature-reviews/aging-storage-and-care) [^8].
 

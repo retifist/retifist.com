@@ -15,13 +15,13 @@ Human page: https://retifist.com/literature-reviews/home-shop-ventilation-solven
 
 A home latex-garment shop runs **two different vapor stories**. **Sheet-based work** sheet work usually means **solvent contact cements and thinners**—heptane-class liquids that are **highly flammable** and need ventilation, sealed cans, and ignition control [^2]; [^3]. **Liquid latex work** bottle work means **ammonia-preserved latex and dry compounding powders**—not the same fire profile, but prolonged **ammonia fumes** are a documented hazard; the handbook prefers low-ammonia latex plus ventilation when ammonia is the issue [^4].
 
-Use this before your first cement session, before opening Path B latex to compound indoors, and when planning where cans and bottles live relative to heaters, motors, and sleeping spaces.
+Use this before your first cement session, before opening liquid latex to compound indoors, and when planning where cans and bottles live relative to heaters, motors, and sleeping spaces.
 
 ---
 
 ## Two vapor classes (do not mix the checklist)
 
-| Path | Typical products | Primary documented hazard class | Wrong folklore |
+| Path | Typical products | Primary documented hazard class | Wrong assumption |
 | --- | --- | --- | --- |
 | **Sheet-based work** | Rubber cement, thinner, some primers | **Flammable vapor** + solvent health exposure | “Water-based glue is the same” |
 | **Liquid latex work** | NR concentrate, prevulc latex, ZnO/accelerator powders | **Ammonia fume** + **powder sensitization** + acid/alkali splash discipline | “It’s just water latex, no ventilation needed” |

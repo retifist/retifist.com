@@ -10,7 +10,7 @@ series: literature-reviews
 
 Heat, light, ozone, oils, metals, and sharp folds destroy natural-rubber latex film faster than calendar age alone. This review explains [why latex ages](#why-latex-ages), how to [store sheet and liquid separately](#two-pathways-two-storage-conversations), and what a [care-level cleaning fence](#care-level-cleaning-and-repair-fence) can do before you retire a piece.
 
-Reach for it when you own unused [sheet-based work](#path-a-unused-sheet-and-garments) stock, a [liquid latex work](#path-b-liquid-in-bottles) bottle, or a finished garment you plan to wear again. You get a [storage checklist](#storage-checklist), four [symptom classes](#aging-field-guide) (bloom, sticky tack, ozone crack, UV dull), and safety basics in one place. Storage retards aging; it does not pause it.
+Reach for it when you own unused [sheet-based work](#sheet-based-unused-sheet-and-garments) stock, a [liquid latex work](#liquid-latex-in-bottles) bottle, or a finished garment you plan to wear again. You get a [storage checklist](#storage-checklist), four [symptom classes](#aging-field-guide) (bloom, sticky tack, ozone crack, UV dull), and safety basics in one place. Storage retards aging; it does not pause it.
 
 ---
 
@@ -36,7 +36,7 @@ The documented industrial conversation for sheet-based work is *already-formed f
 
 </details>
 
-Do **not** apply tank-farm agitation schedules to sheet rolls. Do **not** “fridge the sheet” or “fridge the bottle” as closing advice: frost-sensitive TDS and freeze–thaw papers contradict fridge folklore unless a specific product is validated. Mixing sheet-based storage language with liquid-latex bottle lore is the usual failure mode.
+Do **not** apply tank-farm agitation schedules to sheet rolls. Do **not** “fridge the sheet” or “fridge the bottle” as closing advice: frost-sensitive TDS and freeze–thaw papers contradict fridge storage unless a specific product is validated. Mixing sheet-based storage language with liquid-latex bottle lore is the usual failure mode.
 
 A maker-scale liquid-latex bottle inherits *metal hygiene*, *gentle remix of cream*, and *no freeze* from plant and TDS sources. A maker-scale closet for sheet-based work inherits *cool, dark, ozone-aware, no sharp folds* from handbook packaging guidance.
 
@@ -73,7 +73,7 @@ Fatty-acid salts of copper, cobalt, manganese, and iron catalyze oxidative degra
 | Ozone | Fine cracks across a stressed area, often perpendicular to stretch | Keep fluorescent/mercury lamps, high-voltage gear, motors, and sparking equipment out of the storage room |
 | Oxygen | Slow, ongoing aging even in the dark | Retard, do not expect to stop |
 | Oils / solvents | Swell, softness, loss of strength | Keep petroleum, mineral oil, and oil lotions off the film (see [Care-level](#care-level-cleaning-and-repair-fence)) |
-| Copper / brass / related metals | Catalyzed aging; liquid latex: deterioration or coagulum | Film: fatty-acid salts of Cu/Co/Mn/Fe catalyze oxidation. Liquid: no Cu/brass/galvanized *fittings* |
+| Copper / brass / related metals | Catalyzed aging; liquid latex: deterioration or coagulum | Film: no Cu/Co/Mn/Fe soap catalysis. Liquid: no Cu/brass/galvanized *fittings* |
 | Continuous fold / stress | Crease that becomes a crack line | Avoid sharp film edges sitting for months |
 
 Latex-dipped NR films have superior ageing resistance relative to films from rubber solutions. Historical solvent-dipped masticated rubber in naphtha “do not age well” by comparison.
@@ -97,15 +97,15 @@ Sample ISO-aligned guidance: protect from circulating air when possible; storage
 
 Non-air-conditioned warehouses can run much hotter near the ceiling than the floor; goods stored against the ceiling age faster. On the default path: **do not store latex against ceiling heat**.
 
-### Path A — unused sheet and finished garments {#path-a-unused-sheet-and-garments}
+### Sheet-based work — unused sheet and finished garments {#sheet-based-unused-sheet-and-garments}
 
 Surfaces of latex goods packaged in plastic or cellophane that see ultraviolet light will discolor. Clay-board boxes are not airtight. Goods should not be folded so they produce **sharp film edges**. The handbook’s *example* is latex girdles rolled (no sharp edges) into cardboard tubes — industrial packaging, not a catsuit ritual.
 
-Keep sheet-based stock and garments out of sun, away from motors and fluorescent/mercury lamps, and without a knife-edge crease sitting for months. Fatty-acid salts of copper (and related metals) catalyze oxidative aging of film.
+Keep sheet-based stock and garments out of sun, away from motors and fluorescent/mercury lamps, and without a knife-edge crease sitting for months.
 
-### Path B — liquid in bottles (and then film) {#path-b-liquid-in-bottles}
+### Liquid latex work — liquid in bottles (and then film) {#liquid-latex-in-bottles}
 
-No brass/copper (rubber deterioration) and no galvanized fittings (coagulum); black iron / stainless are acceptable metals at plant scale. Protect bulk latex against hot and cold extremes. Copper in latex catalyzes oxidative degradation; container copper can show as dark spots on dipped goods.
+No brass/copper (rubber deterioration) and no galvanized fittings (coagulum); black iron / stainless are acceptable metals at plant scale. Protect bulk latex against hot and cold extremes.
 
 <details>
 <summary>What is ammonia doing in liquid latex?</summary>
@@ -141,7 +141,7 @@ Oven heat-aging is a *method class* for sticky vs brittle triage experiments in 
 
 Do not use oil-based hand creams or lotions with latex gloves unless shown to maintain barrier protection. Significant deterioration of latex gloves was noted with petroleum-based lubricants. Oils/greases/fuels deteriorate vulcanized rubber as a measurable method class.
 
-Keep petroleum, mineral oil, and oil lotions off sheet-based and liquid-latex film. That is a maker-scale reading of glove and immersion science.
+Keep petroleum, mineral oil, and oil lotions off sheet-based and liquid-latex film.
 
 Small patch vs retire is a **glue-family** question, not a storage rewrite. See [Adhesives and Seam Integrity](/literature-reviews/adhesives-and-seam-integrity) for families. Solvent-cement patches inherit flammable-liquid storage: closed containers, away from heat and sparks. Always read the **product** SDS.
 
@@ -159,9 +159,9 @@ Industrial mildewcides protect NR films against mildew in plant settings. That i
 ## Safety {#safety}
 
 - **Oils and petroleum** attack natural-rubber film. Do not “feed” sheet or garments with oil, mineral oil, petrolatum, or oil lotions.
-- **Metals:** fatty-acid salts of copper, cobalt, manganese, and iron catalyze film oxidation. Liquid latex must not sit on copper, brass, or galvanized fittings.
-- **Ozone:** keep fluorescent/mercury lamps, high-voltage gear, motors, and sparking equipment away from storage. ISO sample storage rooms must not contain ozone-generating equipment.
-- **Freeze:** liquid latex is frost-sensitive in TDS examples; freeze–thaw destabilizes NR latex without a special stabilizer. Do not freeze bottles as folklore storage.
+- **Metals:** liquid latex must not sit on copper, brass, or galvanized fittings; fatty-acid metal soaps catalyze film oxidation (see [Why latex ages](#why-latex-ages)).
+- **Ozone:** keep fluorescent/mercury lamps, high-voltage gear, motors, and sparking equipment away from storage.
+- **Freeze:** liquid latex is frost-sensitive in TDS examples; freeze–thaw destabilizes NR latex without a special stabilizer. Do not freeze bottles as default storage.
 - **Ammonia odor on liquid-latex bottles:** open bottles in ventilated space. This is not a recipe to “air out” concentrate until it spoils.
 - **Solvent patches:** flammable; ventilate; no sparks; product SDS rules.
 - **Allergy / skin:** this article does not diagnose reactions. See [Allergy and Skin Contact](/literature-reviews/allergy-and-skin-contact). Industrial mildewcide efficacy ≠ wearable clearance.
@@ -188,8 +188,6 @@ Natural rubber is cis-1,4-polyisoprene. Ozone (O₃) attacks the double bond.
 | Flex | Confined to the film area receiving greatest strain |
 | UV | Non-orientated; surface crazing |
 
-Fatty-acid salts of copper, cobalt, manganese, and iron catalyze the oxidative reaction.
-
 ASTM D1149 estimates ozone cracking of vulcanized rubber under static or dynamic surface tensile strain in a chamber — accelerated results may not correlate with outdoor service.
 
 </details>
@@ -201,7 +199,7 @@ Ambient temperature of non-air-conditioned warehouses can vary from floor to cei
 
 Those surfaces of latex goods, packaged in either plastic or cellophane, exposed to ultraviolet light will discolor. UV-absorber packaging film may be less costly than loading absorbers into the bulk compound.
 
-Clay-board boxes are not airtight. Goods packaged in them should not be folded in a manner that produces sharp film edges. Handbook *example:* latex girdles were rolled (no sharp edges) and placed inside cardboard tubes.
+Handbook *example:* latex girdles were rolled (no sharp edges) and placed inside cardboard tubes.
 
 </details>
 
@@ -219,7 +217,7 @@ Most latex products require 1–2.0 phr total antioxidant. To prevent copper (or
 
 **Wax as static ozone barrier.** Wax emulsion is added at 0.5–1.0 phr, used primarily for protection of latex films stored under **static** conditions, after a continuous bloom forms. Flex or stretch cracks that bloom; protection then fails on a short clock. Handbook example hours-to-fail:
 
-| Condition | Hours (handbook Fig. 3) |
+| Condition | Hours (handbook example) |
 | --- | ---: |
 | No wax | 16 |
 | VANWAX H | 76 |

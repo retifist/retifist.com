@@ -13,7 +13,7 @@ Human page: https://retifist.com/literature-reviews/synthetic-lattices-nbr-cr-sb
 
 ## Executive summary
 
-Natural rubber latex dominates hobby discourse, but **industrial costume-relevant films** also use **polychloroprene (CR)**, **nitrile (NBR)**, and **SBR** latices for oil, ozone, solvent, or modulus targets NR does not meet [^2]. **Liquid latex work** compounders choose polymer before accelerators: CR needs **≥5 phr ZnO and 2 phr antioxidant**; NBR carboxylated grades target wet-gel strength for dipped goods [^3]. Use this when a project needs oil resistance, outdoor ozone, or when NR allergy literacy pushes you toward synthetics.
+Natural rubber latex dominates hobby discourse, but **industrial costume-relevant films** also use **polychloroprene (CR)**, **nitrile (NBR)**, and **SBR** latices for oil, ozone, solvent, or modulus targets NR does not meet [^2]. **Liquid latex work** compounders choose polymer before accelerators. Use this when a project needs oil resistance, outdoor ozone, or when NR allergy literacy pushes you toward synthetics.
 
 ---
 
@@ -33,21 +33,19 @@ Natural rubber latex dominates hobby discourse, but **industrial costume-relevan
 
 Buying **CR/NBR sheet** (sheet-based work) requires vendor polymer disclosure. **Liquid latex work** casting from CR/NBR latices is industrial territory with factory-grade TDS.
 
-**Allergy literacy:** synthetics lack NRL **proteins** in the Type I sense [^9]; Type IV accelerator chemistry may still apply — [Allergy and Skin Contact](/literature-reviews/allergy-and-skin-contact).
-
 ---
 
 <details>
-<summary>Deep dive: CR dipped compound example (Table 2)</summary>
+<summary>Deep dive: CR dipped compound example</summary>
 
-Vanderbilt Table 2 (Neoprene 571 dipped film): ZnO 5, antioxidant 2; coagulant-dipped, leached, dried, cured [^13]. CR is **photosensitive**; dark pigments age best outdoors [^14].
+Vanderbilt Neoprene 571 dipped-film example (handbook): ZnO 5, antioxidant 2; coagulant-dipped, leached, dried, cured [^13]. CR is **photosensitive**; dark pigments age best outdoors [^14].
 
 </details>
 
 <details>
 <summary>Deep dive: NBR wet-gel aging / mud-cracking</summary>
 
-Wet-gel strength declines with compound age; mud-cracking on dry if aged [^7].
+Wet-gel strength declines with compound age; do not store mixed NBR like stable NR concentrate [^7].
 
 </details>
 

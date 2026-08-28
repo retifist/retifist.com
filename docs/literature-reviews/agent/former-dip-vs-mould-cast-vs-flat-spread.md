@@ -25,7 +25,7 @@ Dipping deposits on a **former**; moulding replicates a **cavity interior**; spr
 
 ## Former dipping branch
 
-**Straight dip:** ~0.01–0.05 mm dry per pass — multi-dip for gauge.[^2] **Coagulant dip:** coacervant + dwell gel shell; >~8 mil dry usually coagulant for economics.[^3][^4] Warm leach and staged cure follow.[^8] Rotate formers; exclude Cu/brass.[^3][^1]
+**Straight dip:** ~0.01–0.05 mm dry per pass — multi-dip for gauge.[^2] **Coagulant dip:** coacervant + dwell gel shell; >~8 mil dry usually coagulant for economics.[^3][^4] Warm leach and staged cure follow.[^8] Rotate formers.[^3]
 
 ---
 
@@ -37,7 +37,7 @@ Dipping deposits on a **former**; moulding replicates a **cavity interior**; spr
 
 ## Flat spread branch
 
-Industrial blade angles control strike-through; aqueous latex dries slower — run fabric slower.[^5]
+Industrial blade angles control strike-through.[^5]
 
 ---
 

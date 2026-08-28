@@ -37,15 +37,11 @@ A **glazed former** has a smooth, polished surface — dipped or cast film again
 
 </details>
 
-Glazed → shiny; bisque/sandblast → dull.
-
 ---
 
 ## Halogenation {#halogenation}
 
-Halogenation (chlorination) permanently reduces surface tack. Handbook example parameters: ~0.15% Cl, 4.5–7.5 min tumble; neutralize, rinse, dry 40–46°C; no copper or brass contact.
-
-This is industrial vocabulary — not a home procedure guide. Chlorinated faces change how [inks and adhesives](/literature-reviews/adhesives-and-seam-integrity) behave.
+Halogenation (chlorination) permanently reduces surface tack. Handbook example parameters: ~0.15% Cl, 4.5–7.5 min tumble; neutralize, rinse, dry 40–46°C; no copper or brass contact. Chlorinated faces change how [inks and adhesives](/literature-reviews/adhesives-and-seam-integrity) behave.
 
 ---
 
@@ -58,7 +54,7 @@ This is industrial vocabulary — not a home procedure guide. Chlorinated faces 
 
 </details>
 
-Wax bloom 0.5–1.0 phr for static ozone protection; flex breaks the barrier. See [Antidegradants in DIY Compounds](/literature-reviews/antidegradants-diy-compounds) and [Aging, Storage and Care](/literature-reviews/aging-storage-and-care).
+See [Antidegradants in DIY Compounds](/literature-reviews/antidegradants-diy-compounds) and [Aging, Storage and Care](/literature-reviews/aging-storage-and-care).
 
 ---
 
@@ -73,7 +69,7 @@ Calendered sheet may ship with distinct face and back finishes from the mill. Ve
 <details>
 <summary>Deep dive: Chlorination parameters</summary>
 
-0.15% Cl treatment window; rinse and dry parameters from handbook chlorination chapter. Industrial PPE and ventilation required.
+Industrial PPE and ventilation required for halogenation (see body parameters).
 
 </details>
 

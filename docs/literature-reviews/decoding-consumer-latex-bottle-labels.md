@@ -29,7 +29,7 @@ ISO 2004 types include **high-ammonia (HA)**, **low-ammonia (LA)**, and **medium
 
 A craft bottle that omits total solids content (TSC), ammonia %, mechanical stability time (MST), and polymer family is not auditable against those specs.
 
-**Prevulcanized latex** is vulcanized in the **liquid** state; a proper prevulcanized deposit can approach conventional post-dried properties; overcure yields short, weak rubber. Gloves from prevulcanized latex **need only warm-air drying** in the dipped-goods branch — read the bottle/TDS before assuming dry-only finishes your garment film.
+**Prevulcanized latex** is vulcanized in the **liquid** state; a proper prevulcanized deposit can approach conventional post-dried properties; overcure yields short, weak rubber. Read the bottle/TDS before assuming dry-only finishes your garment film.
 
 Fresh latex coagulates within hours without preservation; ammonia is the primary preservative in NR concentrate.
 

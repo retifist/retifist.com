@@ -78,7 +78,7 @@ Synthomer SyNovus-class TDS describes coagulant multi-dip **nitrile** latex.[^18
 
 Synthomer **REVACRYL**-class styrene-acrylic dispersions are the wrong polymer family for prevulcanized NR. Read the polymer family on the TDS before assuming a dry-only NR film.
 
-**Related mix-ups:** Historical dipping in cements from rubber and **benzene or gasoline** is a different process from latex dipping.[^6] Exam-glove thickness often **0.10 mm cuff to 0.20 mm fingers**.[^5]
+**Related mix-ups:** Historical dipping in cements from rubber and **benzene or gasoline** is a different process from latex dipping.[^6]
 
 ---
 
@@ -115,7 +115,7 @@ Caption: **plant and laboratory**, not hobby recipes.
 
 Dipping classes: straight, coagulant, heat-sensitised, electrodeposition.[^5][^23] Single dips **~0.01–0.05 mm** per pass.[^23] Multi-dip films reduce through-pinholes.[^23]
 
-Plant dipping: no copper, brass, or galvanized iron on equipment.[^4] Leach required for coagulant-dipped products; prevulc gloves dry-only.[^4] Dry films **> 8 mils** usually use coagulant for economics.[^4] RH window ~20–26 °C, 45–50% RH.[^4]
+Plant dipping: no copper, brass, or galvanized iron on equipment.[^4] Leach required for coagulant-dipped products; prevulc gloves dry-only.[^4] RH window ~20–26 °C, 45–50% RH.[^4]
 
 Casting: plaster vs metal; slush vs rotational.[^5] Prevulc film strength **always low** in casting section context.[^5]
 
@@ -161,7 +161,7 @@ ISO 3302-1:2014 rubber *dimensional tolerances*, including calendered-sheet scop
 [^14]: Revultex prevulcanized NR latex TDS (distributor PDF) — dipped articles, cold casting; example ASTM D412 films.
 [^15]: ASTM D3578 — product standard for *dipped NR examination gloves*. Not fashion-sheet certification.
 [^16]: ASTM D5151 — water-leak hole detection for *medical gloves*. Not a catsuit certificate.
-[^17]: ISO 4074 — dipped thin-film *condom* requirements. Path B product class, not garments.
+[^17]: ISO 4074 — dipped thin-film *condom* requirements. Liquid-latex / dipped-film product class, not garments.
 [^18]: Synthomer SyNovus Plus TDS — coagulant multi-dip **nitrile** latex. Parallel synthetic film pathway.
 [^19]: US Patent 3,755,232 — H₂O₂ / activator prevulc; uses include dips, threads, foams.
 [^20]: US Patent 2,415,028 — historical industrial spreading of vulcanizable latex.

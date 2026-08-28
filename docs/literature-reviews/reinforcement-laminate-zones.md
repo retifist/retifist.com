@@ -20,7 +20,7 @@ Multi-dip builds fail when the underlayer is dried or leached before the next di
 
 **Sheet-based work** adds material after you have commercial sheet: discs at seam intersections, strips along strap roots, or doubled gauge at an opening. Supported fabric liners reduce stretch and improve tear-stop compared with unsupported film.
 
-**Liquid latex work** builds strength into the film stack: multiple dips, NR inner with CR or XNBR outer, or textile combining before cut. Bond strength between dips drops if the first layer is dried and leached; fatty soaps hurt inter-ply adhesion. Low relative humidity can impair second-dip lamination.
+**Liquid latex work** builds strength into the film stack: multiple dips, NR inner with CR or XNBR outer, or textile combining before cut. Fatty soaps hurt inter-ply adhesion. Low relative humidity can impair second-dip lamination.
 
 Do not treat calender layouts or factory combining tables as hobby mix cards — plant-scale lineage.
 

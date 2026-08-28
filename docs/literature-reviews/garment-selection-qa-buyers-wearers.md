@@ -37,7 +37,7 @@ A **pinhole** is a through-thickness void — often from entrapped air during di
 2. **Powder/talc** — medical powdered gloves were banned as unreasonable risk; garment powder can carry NRL allergens in workplace framing. Sniff and look; powder is not a protein assay.
 3. **Odor** — handbook reodorants **mask** curative/putrefaction/microbial odors at 0.25–0.5 phr; root cause preferred. Sniff ≠ protein test.
 4. **Bloom vs crack** — map symptoms to [Aging, Storage and Care](/literature-reviews/aging-storage-and-care).
-5. **Stop rule** — new rash or breathing symptoms → stop wear; see [Allergy and Skin Contact](/literature-reviews/allergy-and-skin-contact). **Not medical advice.**
+5. **Stop rule** — new rash or breathing symptoms → stop wear; see [Allergy and Skin Contact](/literature-reviews/allergy-and-skin-contact).
 
 21 CFR **801.437** requires NRL caution on **medical devices** and forbids “hypoallergenic” on those devices. Retail fashion latex typically carries no equivalent labeling.
 

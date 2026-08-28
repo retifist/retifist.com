@@ -44,9 +44,9 @@ Heat-sensitized gelation for **flat** cast sheet is a different branch from Dunl
 ## Deep dives (optional)
 
 <details>
-<summary>Deep dive: Dunlop NR formulation table</summary>
+<summary>Deep dive: Dunlop NR foam formulation example</summary>
 
-HPL Dunlop-process NR foam: unfilled high-density vs competitive lower-density with kaolin/whiting/mica fillers; **30 min at 100 °C** adequate for thin foams. Gelling: **1.5 pphr sodium silicofluoride + 3–5 pphr ZnO** typical NR. Mattress/cushion industrial data — not shoulder-pad pattern grading.
+HPL Dunlop-process NR foam: unfilled high-density vs competitive lower-density with kaolin/whiting/mica fillers; **30 min at 100 °C** adequate for thin foams. Mattress/cushion industrial data — not shoulder-pad pattern grading.
 
 </details>
 

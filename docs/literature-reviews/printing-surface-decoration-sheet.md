@@ -31,7 +31,7 @@ A **stretch-ink vehicle** is the binder system that carries pigment and must fle
 
 ## Stretch-ink architecture {#stretch-ink}
 
-Stretchable ink patents combine polyester, **polyurethane elastomer**, pigment dispersion, and surfactants for **latex rubber** substrates with high elongation without cracking (US10487228 family).
+Stretchable ink patents target **latex rubber** substrates with high elongation without cracking (US10487228 family).
 
 Ask vendors for elongation data on NR-like substrates — marketing photos are not a spec sheet.
 

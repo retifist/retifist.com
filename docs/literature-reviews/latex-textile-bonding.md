@@ -18,7 +18,7 @@ Cotton can grip rubber mechanically through protruding fiber ends; smooth nylon,
 
 ---
 
-## Sheet-based work sheet–textile vs liquid latex work combining {#path-a-vs-path-b}
+## Sheet-based work sheet–textile vs liquid latex work combining {#sheet-vs-liquid-combining}
 
 **Sheet-based work** is buy commercial sheet and construct a garment, then attach textile. Shop *culture* around that path often means solvent rubber cement as a contact bond. That culture is a dictionary label — it does not require citing any fashion-latex manual. Solvent systems are the comparison pole for water resistance, open time, early tack, fire/explosion, and ventilation. Historically, “cements made from rubber and benzene or gasoline” were also the contrast to latex *dipping*, a liquid latex work process map, not a lining SOP.
 
@@ -94,11 +94,9 @@ Output is a **family + prep branch**. Point to [Adhesives and Seam Integrity](/l
 
 </details>
 
-“Polarity of latex(es) should match that of surfaces to be joined.” For porous substrates the latex must flow into pores; charge must be opposite or particles are repulsed. Same split: porous → mechanical; non-porous → matched polarity. Higher filler raises viscosity and **decreases** flow into porous surfaces.
+“Polarity of latex(es) should match that of surfaces to be joined.” Higher filler raises viscosity and **decreases** flow into porous surfaces.
 
-Latex-adhesive disadvantages include “Shrinks fabrics,” slow drying, poorer water resistance, freezing; aqueous latices tend to shrink textiles and wrinkle paper.
-
-Wet combining: high-viscosity compound applied to one material, then laminated, then dried on heated cans. Dry combining: tackifying resin, coat and dry, then combine through doubling rolls. Dry combining lets the latex film dry on separate adherends before they are united; wet combining brings surfaces together while films are still wet; tackifiers “more clearly manifest” in dry combining.
+Wet combining and dry combining are defined in the expander above and detailed in Deep dive: Wet vs dry fabric combining.
 
 “Glue it wet like a wet combine” or “let both coats dry then stick” is a maker-scale *analogy* to industrial wet/dry combining — not a documented fashion-sheet procedure.
 
@@ -106,7 +104,7 @@ Wet combining: high-viscosity compound applied to one material, then laminated, 
 
 ## Rubberising / lining practice layer {#rubberising-lining}
 
-Pre-treating textile so rubber will stick is engineered adhesion, not folklore. Rubber-to-textile bonding agents include latex–casein combinations or latex–resorcinol–formaldehyde combinations. Spreading and impregnation of fabrics with latex are documented industrial/historical processes. Combining and doubling are plant operations. RFL-class dips are the most important industrial rubber-to-textile adhesive *group* in Blackley’s account — **lineage**, not a hobby card.
+Pre-treating textile so rubber will stick is engineered adhesion. Rubber-to-textile bonding agents include latex–casein combinations or latex–resorcinol–formaldehyde combinations. Spreading and impregnation of fabrics with latex are documented industrial/historical processes. Combining and doubling are plant operations. RFL-class dips are the most important industrial rubber-to-textile adhesive *group* in Blackley’s account — **lineage**, not a hobby card.
 
 Do **not** copy RFL heat-cure packages as room-temperature garment cement. Equating solvent-cement rubberising with tire-cord RFL as the same chemistry is cargo-cult: they can share a *strategy* (pre-treat the textile) and still be different chemistry.
 
@@ -137,8 +135,6 @@ Peel *mode* can flip with rate. At laboratory peel rates, cohesive failure at lo
 | Rubber tears, cloth still stuck | Rubber tear | Substrate / design issue |
 | Edge lifts in a stretch zone | Edge lift | Geometry / stretch at the bond edge |
 
-“Glue on one side vs glue split” is useful shop talk aligned with adhesive vs cohesive *language*. It is not a documented fashion-sheet failure atlas.
-
 ---
 
 ## Safety {#safety}
@@ -150,7 +146,7 @@ Peel *mode* can flip with rate. At laboratory peel rates, cohesive failure at lo
 | Ammonia | OELs for ammonia as a substance — read the product SDS for a given latex adhesive |
 | Skin / allergy | Protein vs chemical classes; not a fashion wear certificate — see [Allergy review](/literature-reviews/allergy-and-skin-contact) |
 
-“Water-based is always safer” is folklore. Historical dipping in benzene or gasoline cements is a **process-map** contrast, not permission to use those solvents as a lining SOP.
+Historical dipping in benzene or gasoline cements is a **process-map** contrast, not permission to use those solvents as a lining SOP.
 
 ---
 
@@ -198,7 +194,7 @@ Blackley Table 19.2 textile-doubling and combining compounds include NR wet-comb
 
 **Cotton.** Protruding fiber ends provide a basis for satisfactory mechanical bonding in rubber. Porous mechanical-bond logic: polymer nature less important if particles enter pores.
 
-**Nylon / rayon / polyester.** Smooth continuous filament; poor mechanical bond; abrasion helps *static* adhesion in Blackley’s account. NR is low polarity vs polar nylon as a matching problem. Phenolic-resin level in an NR latex adhesive on *nylon fabric* affected peel, with an optimum around 3 phr in one paper — industrial claim, not a craft card.
+**Nylon / rayon / polyester.** Smooth continuous filament; poor mechanical bond; abrasion helps *static* adhesion in Blackley’s account. NR is low polarity vs polar nylon as a matching problem. Phenolic-resin level in an NR latex adhesive on *nylon fabric* affected peel, with an optimum around 3 phr in one paper — plant-scale result, not a craft card.
 
 **Modulus bridge (tire cord, not apparel).** RFL film modulus intermediate between rubber skim and nylon tire cord. Fabric-lined gloves: less stretch than unsupported; tear-stop of the glove film — glove analog only.
 
@@ -211,7 +207,7 @@ Latex adhesives wet already-wet surfaces; bonding agents for rubber-to-textile i
 
 Latex–RF type successful with rayon and polyamide; **not satisfactory** for polyester fibers without polyisocyanate / blocked-isocyanate routes.
 
-**Craft translation only if analogized:** “pre-treat the textile so rubber will wet it.” Heat-cure VP-latex RFL packages are **not** room-temperature garment cement.
+Heat-cure VP-latex RFL packages are **not** room-temperature garment cement.
 
 </details>
 

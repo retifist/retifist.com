@@ -35,11 +35,9 @@ Pick a **family** first. Brand second.
 
 Rubber dissolved in organic solvent. Typical sheet-based workflow: coat, air off, contact. Advantages include water resistance, a wide range of drying rates and open times, high early bond strength and/or tack, and wetting of some difficult surfaces.[^1] Disadvantages include explosion hazard, fire hazard, need for explosion-proof and ventilating equipment, and solvent-fume health hazard.[^1] Heptane / light aliphatic rubber cements are flammable liquids (SDS hazard class H225; store closed, away from heat and sparks). Always read the **product** SDS, not a generic internet card.[^6] Workplace flammable-liquid storage is framed in OSHA 29 CFR 1910.106;[^7] n-heptane flash/LEL/UEL and exposure literacy when cans are open: NIOSH Pocket Guide — n-Heptane.[^8]
 
-On calendered sheet, solvent cement is the family expected to wet a rubber face — see Q1.
-
 ### Water-based / latex adhesive
 
-Aqueous latex adhesive (rubber or blend in water). Typical liquid-latex and fabric-combining choice. Restricted interparticle coalescence may limit strength versus solution films.[^4] Main advantages over solution adhesives are low cost and absence of flammable and toxic solvents, plus a wide range of solids/viscosity, high molecular weight polymer, and it is easy to vary wetting and penetration of porous substrates.[^3] The latex column in industrial handbooks: nonflammable solvents, wide viscosity, high-MW material, variable penetration, set against poorer water resistance, freezing, fabric shrink, paper wrinkle/curl, contamination from some storage/application materials, slow drying.[^1] Latex adhesives can wet and combine surfaces that are already wet with water, unlike typical solution adhesives.[^4]
+Aqueous latex adhesive (rubber or blend in water). Typical liquid-latex and fabric-combining choice. Main advantages over solution adhesives are low cost and absence of flammable and toxic solvents, plus a wide range of solids/viscosity, high molecular weight polymer, and it is easy to vary wetting and penetration of porous substrates.[^3] The latex column in industrial handbooks: nonflammable solvents, wide viscosity, high-MW material, variable penetration, set against poorer water resistance, freezing, fabric shrink, paper wrinkle/curl, contamination from some storage/application materials, slow drying.[^1]
 
 Aqueous systems can still carry ammonia odor/exposure,[^9] freeze, and shrink fabrics.[^1]
 
@@ -82,13 +80,13 @@ Walk these in order. The output is a **glue family plus prep branch**, not a spe
    └─ Coat, dry to tack, then combine → dry combining (tackifiers more typical)
 ```
 
-**Q1 — substrate.** For *porous* substrates the polymer nature is less important because the bond is mainly mechanical; for *non-porous* substrates the polymer should match the polarity of the surface.[^3][^1][^4] Calendered fashion natural-rubber sheet is treated as a smooth, low-polarity rubber face. Sheet–sheet work on calendered sheet usually reaches for solvent cement. Aqueous latex adhesives are documented for porous wet-out and fabric combining; they are not the default story for sheet–sheet seams in maker practice.
+**Q1 — substrate.** For *porous* substrates the polymer nature is less important because the bond is mainly mechanical; for *non-porous* substrates the polymer should match the polarity of the surface.[^3][^1][^4] Calendered fashion natural-rubber sheet is treated as a smooth, low-polarity rubber face. Aqueous latex adhesives are documented for porous wet-out and fabric combining; they are not the default story for sheet–sheet seams in maker practice.
 
 **Q2 — contamination.** Industrial latex adhesives can be contaminated by some storage and application materials.[^1] Polish/silicone on an overlay block bonding — clean back to bare rubber or fabric before gluing.
 
 **Q3 — ventilation / fire.** If you cannot handle solvent like a flammable liquid with real airflow, the industrial table already lists fire, explosion, and health against nonflammable aqueous.[^1] That is a **family** gate, not a brand gate.
 
-**Q4 — stretch.** Peel tests evaluate fracture of bonded structures.[^3] Flexible T-peel / peel-stripping are method classes.[^10][^11] They are not garment pass/fail. Peel *mode* can flip with rate.[^12] High-movement areas benefit from lap geometry that does not invite edge peel.
+**Q4 — stretch.** Peel tests evaluate fracture of bonded structures.[^3] Flexible T-peel / peel-stripping are method classes.[^10][^11] They are not garment pass/fail. High-movement areas benefit from lap geometry that does not invite edge peel.
 
 **Q5 — wet vs dry.** Wet combining uses high-viscosity compound on one material, laminates, then dries on heated drums; dry combining uses tackifying resin, coats and dries each side, then combines through doubling rolls.[^1][^4] Dry combining lets each latex film dry before union; wet combining joins while the film is still wet; tackifiers matter more in dry combining.[^4]
 
@@ -100,7 +98,7 @@ You can classify many peels by eye once you know the vocabulary.
 
 ### Glue left on one side vs glue split down the middle
 
-Bonded structures are judged with fracture devices including peel tests.[^3] In peel literature, **adhesive** failure is separation at the glue–substrate interface; **cohesive** failure is split through the adhesive layer. Mode can change with peel rate (cohesive at low rate → adhesive at high rate in one studied system).[^12]
+Bonded structures are judged with fracture devices including peel tests.[^3] In peel literature, **adhesive** failure is separation at the glue–substrate interface; **cohesive** failure is split through the adhesive layer.
 
 At the bench: "all the dried glue stuck to one sheet, the other face looks clean" → think **adhesive** (prep, contamination, polarity mismatch, or never wetted). "The glue film tore, residue on both faces" → think **cohesive** (wrong family for water/heat, under-cured compound, or overfilled film).
 
@@ -136,7 +134,7 @@ Latex adhesives can be slow drying.[^1] Crosslinking in latex adhesives improves
 
 ## Safety
 
-**Solvent family.** Fire hazard and explosion hazard; special ventilation; fumes may pose a health hazard.[^1] Treat opened cans as flammable-liquid work: product SDS, closed containers, away from heat/sparks.[^6][^7][^8] If you cannot ventilate, the decision tree already sends you off solvent or to postpone.
+**Solvent family.** Fire hazard and explosion hazard; special ventilation; fumes may pose a health hazard.[^1] Treat opened cans as flammable-liquid work: closed containers, away from heat/sparks.[^6][^7][^8] If you cannot ventilate, the decision tree already sends you off solvent or to postpone.
 
 **Aqueous family.** Nonflammable in the handbook latex column, but poorer water resistance, subject to freezing, can shrink fabrics, can be contaminated by some materials.[^1] Some water-based systems still involve ammonia: OSHA chemical data for ammonia lists PEL 50 ppm, REL 25 ppm, IDLH 300 ppm.[^9]
 
@@ -151,7 +149,7 @@ Latex adhesives can be slow drying.[^1] Crosslinking in latex adhesives improves
 Skipping these does not break the main path. Formulas and plant-scale detail live here.
 
 <details>
-<summary>Deep dive: Solvent vs latex adhesive trade-offs (handbook table)</summary>
+<summary>Deep dive: Solvent vs latex adhesive trade-offs</summary>
 
 Vanderbilt's comparison for people converting from solvent-base adhesives to latex adhesives:[^1]
 
@@ -163,8 +161,6 @@ Vanderbilt's comparison for people converting from solvent-base adhesives to lat
 "The main advantage of these latex-based adhesives over solution-based adhesives is low cost, absence of flammable and toxic solvents," plus wide TSC/viscosity, high molecular weight, and control of wetting/penetration of porous substrates.[^3]
 
 Vanderbilt also notes NR latex adhesives retain a high-MW fraction that is insoluble in solvents; a Piccolyte A85 PSA study found similar tack/peel while aqueous 178° shear was far higher (all aqueous >6000 min vs all solvent <500 min at the resin levels shown).[^1] That is **PSA tape**, not calendered fashion sheet.
-
-Historical liquid-latex note: latex dipping is "less expedient" than dipping in cements of rubber with benzene or gasoline because latex viscosity is low and more dips are needed.[^2] Not a sheet-seam procedure.
 
 </details>
 
@@ -228,9 +224,7 @@ A wide range of testing devices evaluate fracture resistance of bonded structure
 | Rubber tear | Elastomer fails |
 | Substrate / contamination | Face never wetted or was fouled |
 
-**Standards (pointers):** ASTM D1876 T-peel (flexible–flexible);[^10] ASTM D903 peel/stripping strength.[^11] ASTM D412 / ASTM D624 are tensile/tear of vulcanized rubber: film QC, not peel pass/fail.[^15][^16]
-
-Peel mode can flip with rate/time.[^12] Do not treat one slow hand-peel as the only mode the seam will see in wear.
+**Standards (pointers):** ASTM D1876 T-peel (flexible–flexible);[^10] ASTM D903 peel/stripping strength.[^11] ASTM D412 / ASTM D624 are tensile/tear of vulcanized rubber: film QC, not peel pass/fail.[^15][^16] Peel mode can flip with rate/time.[^12] Do not treat one slow hand-peel as the only mode the seam will see in wear.
 
 </details>
 

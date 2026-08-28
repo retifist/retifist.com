@@ -89,13 +89,11 @@ An **SDS** (Safety Data Sheet) is the manufacturer’s official hazard and handl
 
 </details>
 
-On calendered sheet, solvent cement is the family makers expect to wet a smooth rubber face — see [Q1](#q1-substrate).
-
 ### Water-based / latex adhesive {#water-based-latex-adhesive}
 
 Aqueous latex adhesive — rubber or a blend suspended in water. Typical liquid-latex and fabric-combining choice.
 
-**Advantages:** no flammable solvent in the bottle; lower cost; wide viscosity range; can wet and penetrate porous fabrics; can join surfaces that are still damp with water.
+**Advantages:** no flammable solvent in the bottle; lower cost; wide viscosity range; can wet and penetrate porous fabrics.
 
 **Trade-offs:** poorer water resistance than solvent systems; can freeze in cold storage; may shrink or wrinkle some fabrics; contamination from wrong containers or tools; slower drying. Some formulas still carry **ammonia** odor — “water-based” is not the same as “harmless.”
 
@@ -121,8 +119,6 @@ Industrial handbooks describe plant lines you do not have at home. Before Q1:
 
 - **Calendered sheet seams** (sheet-based work) — use the [solvent-family](#solvent-rubber-cement) path from Q1. Do **not** copy dipping-tank recipes, factory wet-combining tables, or liquid-latex film glue habits onto smooth sheet faces.
 - **Wet fabric lamination** (liquid latex work or sheet–fabric) — follow [Q5 wet vs dry](#q5-wet-vs-dry). Do **not** treat factory textile-line wet combine like [dry-contact sheet cement](#q5-wet-vs-dry).
-
-If your workflow and your glue recipe came from different columns in a handbook, stop and walk the tree — the [intro warning](#two-workflows) exists because this mix-up is common.
 
 ```text
 1. What am I joining?
@@ -165,7 +161,7 @@ On **porous** materials (most fabrics), the bond is largely mechanical — glue 
 
 </details>
 
-Calendered fashion natural-rubber sheet is treated as a smooth, low-polarity rubber face. [Sheet–sheet work on calendered sheet](#cross-workflow-warning) usually reaches for solvent cement. Water-based latex adhesives are documented for fabric and porous wet-out; they are not the default story for sheet–sheet seams in maker practice.
+Calendered fashion natural-rubber sheet is treated as a smooth, low-polarity rubber face. Water-based latex adhesives are documented for fabric and porous wet-out; they are not the default story for sheet–sheet seams in maker practice.
 
 ### Q2 — contamination {#q2-contamination}
 
@@ -184,14 +180,14 @@ A **peel test** pulls a bonded strip apart at a controlled angle (often a **T-pe
 
 </details>
 
-Lab **peel tests** classify how bonds fail; they are not a pass/fail grade for your catsuit seam. High-movement areas benefit from lap geometry that does not invite [edge peel](#edge-lift-vs-mid-panel-peel). Peel mode can change with how fast you pull — a slow hand peel is not the only stress the seam will see in wear.
+Lab **peel tests** classify how bonds fail; they are not a pass/fail grade for your catsuit seam. High-movement areas benefit from lap geometry that does not invite [edge peel](#edge-lift-vs-mid-panel-peel).
 
 ### Q5 — wet vs dry {#q5-wet-vs-dry}
 
 <details>
 <summary>What are wet combining and dry combining?</summary>
 
-**Wet combining:** coat one surface with thick latex compound, press the second surface on while the film is still wet, then dry the assembly — often with heat. **Dry combining:** coat and dry each face separately until tacky, then marry them under pressure. Dry combining often uses extra **tackifiers** (sticky resins) to restore grab. Factory textile lines use both; at home you are usually in the dry-contact camp for [sheet seams](#cross-workflow-warning) and may use wet-style steps only for certain fabric lamination. This is the branch that catches [sheet-cement habits applied to wet fabric lamination](#cross-workflow-warning) — do not swap them.
+**Wet combining:** coat one surface with thick latex compound, press the second surface on while the film is still wet, then dry the assembly — often with heat. **Dry combining:** coat and dry each face separately until tacky, then marry them under pressure. Dry combining often uses extra **tackifiers** (sticky resins) to restore grab. Factory textile lines use both; at home you are usually in the dry-contact camp for [sheet seams](#cross-workflow-warning) and may use wet-style steps only for certain fabric lamination.
 
 </details>
 
@@ -203,7 +199,7 @@ You can classify many peels by eye once you know the vocabulary.
 
 ### Glue left on one side vs glue split down the middle
 
-In peel language, **adhesive failure** is separation at the glue–surface interface. **Cohesive failure** is a tear through the glue layer itself, leaving residue on both faces. Pull speed can flip which mode you see in lab samples.
+In peel language, **adhesive failure** is separation at the glue–surface interface. **Cohesive failure** is a tear through the glue layer itself, leaving residue on both faces.
 
 <details>
 <summary>What are adhesive and cohesive failure?</summary>
@@ -260,7 +256,7 @@ Soft or tacky days later → dry time, freeze damage, or wrong family. **Crossli
 
 ## Safety {#safety}
 
-**Solvent family.** Fire and explosion hazard; fumes may pose a health hazard. Treat opened cans as flammable-liquid work: read the product SDS, keep containers closed, stay away from heat and sparks. If you cannot ventilate properly, the [decision tree](#q3-ventilation-fire) already sends you off solvent or to postpone.
+**Solvent family.** Fire and explosion hazard; fumes may pose a health hazard. Treat opened cans as flammable-liquid work: keep containers closed, stay away from heat and sparks. If you cannot ventilate properly, the [decision tree](#q3-ventilation-fire) already sends you off solvent or to postpone.
 
 **Aqueous family.** No flammable solvent in the bottle, but poorer water resistance, freezing risk, possible fabric shrink, and contamination from wrong tools. Some water-based systems still involve ammonia — treat odor and ventilation seriously.
 
@@ -285,8 +281,6 @@ Handbook comparison for people converting from solvent to latex adhesives:
 | Explosion hazard; fire hazard; special explosion-proof and ventilating equipment; solvent fumes | Poorer water resistance; subject to freezing; shrinks fabrics; wrinkles or curls paper; contamination from some storage materials; slow drying |
 
 Main latex advantage over solvent: lower cost and absence of flammable, toxic solvents, plus control of wetting and penetration on porous substrates.
-
-Historical note: liquid **dipping** was once slower than dipping forms in rubber dissolved in benzene or gasoline because liquid latex is thin and needs more coats. That is liquid-latex work history, not a [sheet-seam recipe](#cross-workflow-warning).
 
 </details>
 
@@ -362,8 +356,6 @@ Latex adhesives in industry typically need at least 1 part antioxidant per 100 p
 | Rubber tear | Elastomer fails |
 | Substrate / contamination | Face never wetted or was fouled |
 
-Standard lab methods include ASTM D1876 (T-peel, flexible–flexible) and ASTM D903 (peel/stripping strength). ASTM D412 and D624 measure rubber tensile and tear — film quality checks, not seam pass/fail.
-
-Peel mode can flip with pull rate. Do not treat one slow hand-peel as the only stress your seam will see in wear.
+Standard lab methods include ASTM D1876 (T-peel, flexible–flexible) and ASTM D903 (peel/stripping strength). ASTM D412 and D624 measure rubber tensile and tear — film quality checks, not seam pass/fail. Peel mode can flip with pull rate — do not treat one slow hand-peel as the only stress your seam will see in wear.
 
 </details>

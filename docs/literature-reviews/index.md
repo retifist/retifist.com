@@ -22,6 +22,12 @@ Reference articles distilled from industrial handbooks and primary sources. They
     duration: 'Reference'
   },
   {
+    title: 'Delamination & Seam Failure Atlas',
+    link: '/literature-reviews/delamination-seam-failure-atlas',
+    description: 'Read the broken bond first — adhesive vs cohesive vs fiber-pull vs rubber-tear, with morphology cues.',
+    duration: 'Reference'
+  },
+  {
     title: 'Aging, Storage and Care',
     link: '/literature-reviews/aging-storage-and-care',
     description: 'Why latex ages, how to store sheet and liquid separately, and four symptom classes before you retire a piece.',
@@ -31,6 +37,12 @@ Reference articles distilled from industrial handbooks and primary sources. They
     title: 'Allergy and Skin Contact',
     link: '/literature-reviews/allergy-and-skin-contact',
     description: 'Type I protein vs Type IV chemical reactions, what labels do and do not mean — literacy, not medical advice.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Compatibility Matrix',
+    link: '/literature-reviews/compatibility-matrix-metals-oils-plastics',
+    description: 'Never / avoid / conditional / OK grid for metals, oils, plastics, and skin products touching NR.',
     duration: 'Reference'
   },
   {
@@ -52,6 +64,24 @@ Reference articles distilled from industrial handbooks and primary sources. They
     duration: 'Reference'
   },
   {
+    title: 'Coagulant Dipping for Wearable Thickness',
+    link: '/literature-reviews/coagulant-dipping-wearable-thickness',
+    description: 'Build thicker liquid-latex film per pass — dwell time, wet gel strength, leach, and humidity discipline.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Heat-Sensitized Gelation',
+    link: '/literature-reviews/heat-sensitized-gelation-slush-rotational-cast',
+    description: 'Slush and rotational casting with heat-sensitized compounds — closed mould gelation and blister prevention.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Film Defect Atlas',
+    link: '/literature-reviews/film-defect-atlas-industrial-to-craft',
+    description: 'Industrial defect names for liquid-latex film — pinholes, blown gel, humidity, webbing, leach discoloration.',
+    duration: 'Reference'
+  },
+  {
     title: 'Pigment & Filler Decks for Wearable NR Film',
     link: '/literature-reviews/pigment-filler-decks-wearable-nr-film',
     description: 'Compounding vs buying colored sheet, filler stiffness trade-offs, and metal-impurity aging risks.',
@@ -67,6 +97,12 @@ Reference articles distilled from industrial handbooks and primary sources. They
     title: 'Surface Finish Literacy',
     link: '/literature-reviews/surface-finish-literacy-gloss-matte-bloom',
     description: 'Gloss, matte, bloom, and chlorination cues — how film formation sets the face you see.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Chlorination for Tack Control',
+    link: '/literature-reviews/chlorination-tack-control-skin-contact',
+    description: 'Permanent de-tack on dipped film — halogenation parameters, neutralize/rinse discipline, skin-contact literacy.',
     duration: 'Reference'
   },
   {
@@ -94,6 +130,24 @@ Reference articles distilled from industrial handbooks and primary sources. They
     duration: 'Reference'
   },
   {
+    title: 'Edge Finishing Materials',
+    link: '/literature-reviews/edge-finishing-materials',
+    description: 'Tubes, tape, and binding choices — material families, shrink risk, and polarity at the rim.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Hardware & Metal Contact',
+    link: '/literature-reviews/hardware-metal-contact-snaps-eyelets',
+    description: 'Snaps, eyelets, and staining risks — brass catalysis, inspection cues, barrier washers.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Zipper Closure Compatibility',
+    link: '/literature-reviews/zipper-closure-material-compatibility',
+    description: 'Tape, coil, and stop materials — nylon prep bridge, shrink risk, scope boundaries.',
+    duration: 'Reference'
+  },
+  {
     title: 'Home Shop Ventilation & Solvent Exposure',
     link: '/literature-reviews/home-shop-ventilation-solvent-exposure',
     description: 'Two vapor stories — flammable cements on sheet work vs ammonia and powders on liquid latex work.',
@@ -103,6 +157,12 @@ Reference articles distilled from industrial handbooks and primary sources. They
     title: 'Decoding Consumer Latex Bottle Labels',
     link: '/literature-reviews/decoding-consumer-latex-bottle-labels',
     description: 'Concentrate fields vs marketing — ammonia bands, total solids, prevulcanized vs raw, polymer family.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Prevulcanized Consumer Latex',
+    link: '/literature-reviews/prevulcanized-consumer-latex-dry-only',
+    description: 'When dry-only may suffice for prevulcanized NR — overcure risk, modulus bands, reading bottle labels.',
     duration: 'Reference'
   },
   {

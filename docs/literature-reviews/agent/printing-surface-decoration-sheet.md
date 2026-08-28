@@ -25,7 +25,7 @@ Vulcanized film must stretch to at least **twice** its length under stress and r
 
 ## Stretch-ink architecture
 
-Stretchable ink patents combine polyester, **polyurethane elastomer**, pigment dispersion, and surfactants for **latex rubber** substrates with high elongation without cracking (US10487228 family).[^2]
+Stretchable ink patents target **latex rubber** substrates with high elongation without cracking (US10487228 family).[^2]
 
 ---
 

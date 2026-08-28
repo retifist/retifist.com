@@ -12,13 +12,13 @@ series: literature-reviews
 
 A home latex-garment shop runs **two different vapor stories**. **Sheet-based work** usually means **solvent contact cements and thinners** — heptane-class liquids that are **highly flammable** and need ventilation, sealed cans, and ignition control. **Liquid latex work** means **ammonia-preserved latex and dry compounding powders** — not the same fire profile, but prolonged **ammonia fumes** are a documented hazard.
 
-Use this before your first [cement session](#path-a-cement), before opening liquid latex to [compound indoors](#path-b-ammonia), and when planning where cans and bottles live relative to heaters and sleeping spaces. Pair with [Adhesives and Seam Integrity](/literature-reviews/adhesives-and-seam-integrity), [Decoding Consumer Latex Bottle Labels](/literature-reviews/decoding-consumer-latex-bottle-labels), and [Allergy and Skin Contact](/literature-reviews/allergy-and-skin-contact).
+Use this before your first [cement session](#sheet-based-cement), before opening liquid latex to [compound indoors](#liquid-latex-ammonia), and when planning where cans and bottles live relative to heaters and sleeping spaces. Pair with [Adhesives and Seam Integrity](/literature-reviews/adhesives-and-seam-integrity), [Decoding Consumer Latex Bottle Labels](/literature-reviews/decoding-consumer-latex-bottle-labels), and [Allergy and Skin Contact](/literature-reviews/allergy-and-skin-contact).
 
 ---
 
 ## Two vapor classes {#two-vapor-classes}
 
-| Pathway | Typical products | Primary hazard class | Wrong folklore |
+| Pathway | Typical products | Primary hazard class | Wrong assumption |
 | --- | --- | --- | --- |
 | **Sheet-based work** | Rubber cement, thinner, some primers | **Flammable vapor** + solvent health exposure | “Water-based glue is the same” |
 | **Liquid latex work** | NR concentrate, prevulc latex, ZnO/accelerator powders | **Ammonia fume** + **powder sensitization** + acid/alkali splash discipline | “It’s just water latex, no ventilation needed” |
@@ -29,7 +29,7 @@ If your shop step smells like **naphtha/heptane**, treat it as sheet-based solve
 
 ---
 
-## Sheet-based work — cement, thinner, ignition {#path-a-cement}
+## Sheet-based work — cement, thinner, ignition {#sheet-based-cement}
 
 Representative rubber-cement SDS sheets classify heptane or light aliphatic naphtha as **highly flammable liquid and vapor**, with storage cool, tightly closed, well-ventilated, away from heat/sparks/flame.
 
@@ -50,7 +50,7 @@ OSHA flammable-liquids rules define **closed containers** and workplace storage 
 
 ---
 
-## Liquid latex work — ammonia, powders, compounding hygiene {#path-b-ammonia}
+## Liquid latex work — ammonia, powders, compounding hygiene {#liquid-latex-ammonia}
 
 Handbook laboratory health sections require **ventilation**; note **prolonged ammonia fumes are hazardous** and recommend **low-ammonia latex plus ventilation** when ammonia is the driver. The same sections require **always add acid or alkali to water, never the reverse**; **respirators when dumping powders**; wash skin; and acknowledge **rubber-chemical sensitization**.
 
@@ -66,7 +66,7 @@ Ventilation does not replace [skin-contact allergy literacy](/literature-reviews
 
 ## Shared shop rules {#shared-rules}
 
-1. **Read the SDS** for every cement, thinner, latex, and compounding powder — class hazards beat brand folklore.
+1. **Read the SDS** for every cement, thinner, latex, and compounding powder — class hazards beat brand marketing.
 2. **Separate storage:** flammable solvents away from heat; liquid latex away from **copper/brass** contact.
 3. **Closed containers** when not actively in use.
 4. **Laundry work clothes** that saw powder or solvent mist.

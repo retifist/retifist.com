@@ -58,7 +58,7 @@ Calendered sheet may ship with distinct face and back finishes from the mill. Ve
 <details>
 <summary>Deep dive: Chlorination parameters</summary>
 
-0.15% Cl treatment window; rinse and dry parameters from handbook chlorination chapter.[^2]
+Industrial PPE and ventilation required for halogenation (see body parameters).[^2]
 
 </details>
 

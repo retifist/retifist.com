@@ -42,7 +42,7 @@ Clay filler stiffens.[^3] High-styrene SBR raises modulus and set.[^4] MG graft 
 [^5]: Vanderbilt — MG latex summary.
 
 <details>
-<summary>Deep dive: Table 16.12</summary>
+<summary>Deep dive: High-styrene SBR polymeric filler</summary>
 
 Modulus/tear/set vs high-styrene SBR load.[^4]
 

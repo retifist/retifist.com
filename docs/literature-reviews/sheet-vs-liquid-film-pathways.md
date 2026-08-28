@@ -73,7 +73,7 @@ In **dipping**, a **coagulant** is a chemical (often a calcium salt) applied to 
 <details>
 <summary>What is leach?</summary>
 
-**Leach** is a warm-water wash step that extracts soluble chemicals from a wet dipped film before final dry/cure. It is **required** for coagulant-dipped products in industrial lines. It is not a Path A sheet-wash ritual.
+**Leach** is a warm-water wash step that extracts soluble chemicals from a wet dipped film before final dry/cure. It is **required** for coagulant-dipped products in industrial lines. It is not a sheet-based wash ritual.
 
 </details>
 
@@ -117,7 +117,7 @@ Synthomer SyNovus-class TDS describes coagulant multi-dip **nitrile** latex. Tha
 
 Synthomer **REVACRYL**-class styrene-acrylic dispersions are the wrong polymer family for prevulcanized NR. Theatrical or construction “liquid latex” that is acrylic is not NR liquid latex work feedstock. Read the polymer family on the TDS before assuming a dry-only NR film.
 
-**Related mix-ups:** Historical dipping in cements from rubber and **benzene or gasoline** is a different process from latex dipping. Exam-glove thickness often **0.10 mm cuff to 0.20 mm fingers**. Do **not** present that band as fashion garment gauge.
+**Related mix-ups:** Historical dipping in cements from rubber and **benzene or gasoline** is a different process from latex dipping.
 
 ---
 
@@ -164,7 +164,7 @@ Thin-walled products are made by immersing a former in suitably compounded latex
 
 ### Plant dipping
 
-Equipment contacting latex must be free of copper, brass, or galvanized iron. Rotate formers 180–360° after dip. Warm-water leach tank **required** for coagulant-dipped products; prevulcanized latex gloves need only warm-air drying. Former glaze → shiny dipped goods; bisque/sandblast → dull. Dry films **> 8 mils** usually use coagulant for economics / faster build.
+Equipment contacting latex must be free of copper, brass, or galvanized iron. Rotate formers 180–360° after dip. Warm-water leach tank **required** for coagulant-dipped products; prevulcanized latex gloves need only warm-air drying. Former glaze → shiny dipped goods; bisque/sandblast → dull.
 
 Air in compound → pinholes (reject). Ideal window given as ~20–26 °C, 45–50% RH. Exam-glove thickness **0.10–0.20 mm** is glove geometry, **not** fashion garment gauge.
 

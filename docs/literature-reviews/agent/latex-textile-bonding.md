@@ -75,11 +75,9 @@ Point to [Adhesives and Seam Integrity](/literature-reviews/adhesives-and-seam-i
    └─ Dry: coat, dry to a tacky film, then join (doubling)
 ```
 
-“Polarity of latex(es) should match that of surfaces to be joined.” For porous substrates the latex must flow into pores; charge must be opposite or particles are repulsed.[^1] Same split: porous → mechanical; non-porous → matched polarity.[^3][^5] Higher filler raises viscosity and **decreases** flow into porous surfaces.[^1]
+“Polarity of latex(es) should match that of surfaces to be joined.” Higher filler raises viscosity and **decreases** flow into porous surfaces.[^1]
 
-Latex-adhesive disadvantages include “Shrinks fabrics,” slow drying, poorer water resistance, freezing.[^1][^3]
-
-Wet combining: high-viscosity compound applied to one material, then laminated, then dried on heated cans.[^1] Dry combining: tackifying resin, coat and dry, then combine through doubling rolls.[^1] Blackley: dry combining lets the latex film dry on separate adherends before they are united; wet combining brings surfaces together while films are still wet; tackifiers “more clearly manifest” in dry combining.[^5]
+Wet combining and dry combining are defined in the decision tree and detailed in Deep dive: Wet vs dry fabric combining.
 
 A Vanderbilt PSA study found NR latex and solvent NR with similar tack/peel but much higher shear adhesion for the latex system.[^1]
 
@@ -98,8 +96,6 @@ Do **not** copy RFL heat-cure packages as room-temperature garment cement. Equat
 Fracture-test devices include peel tests: fracture resistance of a thin layer on a thick substrate, or of two layers bonded together.[^3] Coated-fabric adhesion is a standards *family*: ASTM D751; ISO 2411.[^8][^9] ISO 36: stripping force for rubber–textile **plies**; **does not apply to coated fabrics** (use ISO 2411).[^10][^9] ASTM D1876 T-peel; ASTM D903 peel/stripping.[^11][^12]
 
 Adhesion may be measured under static or dynamic conditions. Most development used static tests **without prior fatiguing**; those are “preliminary sorting tests only.”[^5]
-
-Peel *mode* can flip with rate.[^13]
 
 | What you see | Literacy label |
 | --- | --- |

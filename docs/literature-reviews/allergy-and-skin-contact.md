@@ -12,13 +12,13 @@ series: literature-reviews
 
 “Latex allergy” covers three different patterns. One is an immediate reaction to **proteins** in natural rubber latex (NRL). Another is a delayed contact reaction to **cure chemicals** (accelerators and related additives). A third is **irritant** dermatitis, which is not that immune allergy. Collapsing them into one bucket leads to the wrong avoidance and to false safety from “hypoallergenic,” “FDA,” or “food-contact” talk.
 
-Use this before [first skin-contact wear](#three-reaction-classes), when [choosing a liquid-latex bottle](#path-b-liquid-latex-work), when a seller says “hypoallergenic” or “FDA,” or when a [rash appears after wearing](#when-to-stop-and-seek-care). Medical **devices** that contain natural rubber latex must carry a specific caution and must not say “hypoallergenic” on that NRL device. Fashion sheet, craft liquid, and catsuits typically sit **outside** that rule. Food-contact rubber tables list accelerators for **food**; they are not dermal wear clearance.
+Use this before [first skin-contact wear](#three-reaction-classes), when [choosing a liquid-latex bottle](#liquid-latex-leach-and-powder), when a seller says “hypoallergenic” or “FDA,” or when a [rash appears after wearing](#when-to-stop-and-seek-care). Medical **devices** that contain natural rubber latex must carry a specific caution and must not say “hypoallergenic” on that NRL device. Fashion sheet, craft liquid, and catsuits typically sit **outside** that rule. Food-contact rubber tables list accelerators for **food**; they are not dermal wear clearance.
 
 ---
 
 ## Three reaction classes (literacy only) {#three-reaction-classes}
 
-> **Not medical advice.** Timing and class names below are **literacy**, not a self-test. Overlapping rashes happen. Do not diagnose from a clock.
+Timing and class names below are **literacy**, not a self-test. Overlapping rashes happen. Do not diagnose from a clock.
 
 NIOSH’s 1997 Alert on NRL gloves and other NRL products separates three patterns:
 
@@ -32,7 +32,7 @@ NIOSH: NRL **proteins** can cause allergic reactions; **processing chemicals** a
 
 Clinical reviews use the same split: Hevea proteins → Type I; processing chemicals / antioxidants → Type IV. Public literacy from AAAAI: delayed-type contact dermatitis often **12–36 h**, usually from **added chemicals**; immediate reactions in previously sensitized people; anaphylaxis named as a *severe immediate* pattern. AAAAI’s glossary: immune overreaction to **proteins** in NRL; synthetic “latex” paints not shown to pose that protein hazard to latex-sensitive individuals.
 
-**Do not** copy treatment or epinephrine instructions from those pages into this article. **Not medical advice.**
+**Do not** copy treatment or epinephrine instructions from those pages into this article.
 
 For storage and oils that can irritate skin or film, see [Aging, Storage and Care](/literature-reviews/aging-storage-and-care) — that article does not diagnose reactions either.
 
@@ -40,9 +40,7 @@ For storage and oils that can irritate skin or film, see [Aging, Storage and Car
 
 ## Timing literacy (not diagnosis) {#timing-literacy}
 
-- **Immediate / protein (Type I literacy):** minutes to hours after contact in NIOSH’s triad; AAAAI: immediate reactions in previously sensitized people.
-- **Delayed / chemical (Type IV literacy):** NIOSH: allergic contact dermatitis from chemicals, usually **24–48 h**. AAAAI public page: delayed-type contact dermatitis **12–36 h**, usually added chemicals. Those windows **overlap in the real world**. A clock is not a lab test.
-- **Irritant:** NIOSH lists irritant contact dermatitis as **not** true allergy. Ammonia odor on liquid-latex concentrate can cause **human discomfort** (especially above 0.3% ammonia in the Practical Guide’s wording) and is **not** Type I or Type IV in that composition discussion.
+NIOSH and AAAAI timing windows **overlap in the real world** (delayed often cited as **12–48 h**; immediate as minutes to hours in previously sensitized people). A clock is not a lab test. Ammonia odor on liquid-latex concentrate can cause **human discomfort** (especially above 0.3% ammonia in the Practical Guide’s wording) and is **not** Type I or Type IV in that composition discussion.
 
 If a wearer or maker notices a new rash, hives, breathing trouble, or swelling after latex contact, **stop wearing / stop compounding that article and seek clinical care**. That sentence is a literacy stop-rule, **not** a treatment protocol.
 
@@ -54,7 +52,7 @@ Names of **families**, not a prediction of *your* reaction.
 
 ### Proteins (NRL feedstock)
 
-Fresh NRL is not “just rubber.” Table 2.1: rubber 30–35%; **proteins 1–1.5%**, plus resins, carbohydrates, minerals, water. The rubber particle surface is covered by a **protein-lipid envelope**; lutoid membranes are protein.
+Fresh NRL is not “just rubber.” Handbook composition: rubber 30–35%; **proteins 1–1.5%**, plus resins, carbohydrates, minerals, water. The rubber particle surface is covered by a **protein-lipid envelope**; lutoid membranes are protein.
 
 <details>
 <summary>What is natural rubber latex (NRL)?</summary>
@@ -69,7 +67,7 @@ Fresh NRL is not “just rubber.” Table 2.1: rubber 30–35%; **proteins 1–1
 
 ### Accelerator families (compounding)
 
-Organic accelerators plus zinc oxide enable fast latex-film cure; many are active below 100 °C. Handbook Table 1 types include thiuram, dithiocarbamate, xanthate, thiazole (including sulfenamide), thiourea, guanidine. Dithiocarbamates are the fastest and most used for latex; thiazoles and thiurams are too slow alone and are used as secondaries.
+Organic accelerators plus zinc oxide enable fast latex-film cure; many are active below 100 °C. Handbook accelerator families include thiuram, dithiocarbamate, xanthate, thiazole (including sulfenamide), thiourea, guanidine. Dithiocarbamates are the fastest and most used for latex; thiazoles and thiurams are too slow alone and are used as secondaries.
 
 <details>
 <summary>What are accelerators?</summary>
@@ -108,11 +106,11 @@ Do not treat a food-contact table row, an “FDA” badge on a listing, or “sk
 
 ---
 
-## Sheet-based work vs liquid latex work: leach and powder {#path-a-vs-path-b}
+## Sheet-based work vs liquid latex work: leach and powder {#sheet-vs-liquid-leach-and-powder}
 
 Advice **differs** here. Do not apply glove-leach language to a bought roll, or fashion-sheet silence to a dipped former line.
 
-### Liquid latex work — dipped / coagulant goods {#path-b-liquid-latex-work}
+### Liquid latex work — dipped / coagulant goods {#liquid-latex-leach-and-powder}
 
 For latex-dipped products intended to contact the **human body**, the vulcanizing system should be designed to **minimize N-nitrosamines and N-nitrosatable amines**. That is a **liquid latex work industrial formulation principle** for gloves, condoms, and similar dipped lines — not a home cast-and-wear SOP.
 
@@ -124,11 +122,11 @@ NIOSH: **powder binds proteins** (Type I amplifier in the glove/occupational sto
 
 A maker who **dips** (liquid latex work) inherits the *idea* that leach extracts water-soluble stuff from a wet gel. Copying tank temperatures, dwell, or “this dip is medical-glove protein grade” without a measured method is not supported.
 
-### Sheet-based work — commercial sheet / finished fashion garments {#path-a-sheet-based-work}
+### Sheet-based work — commercial sheet / finished fashion garments {#sheet-based-leach-and-powder}
 
 Industrial leach texts are glove/dipped. ISO 12243 assays water-extractable protein in NR **medical gloves**; the standard does **not** address safety or labelling; extraction for **non-glove** NR articles is **not validated**. You cannot convert a glove protein number into garment safe/unsafe.
 
-**Both paths (same advice):** Type I vs Type IV literacy, no DIY patch test, food-contact ≠ wear cert, 801.437 is a **device** rule, stop-and-seek-care if symptoms.
+**Both pathways (same advice):** Type I vs Type IV literacy, no DIY patch test, 801.437 is a **device** rule, stop-and-seek-care if symptoms.
 
 For glue and seam work after a reaction, see [Adhesives and Seam Integrity](/literature-reviews/adhesives-and-seam-integrity).
 
@@ -136,7 +134,7 @@ For glue and seam work after a reaction, see [Adhesives and Seam Integrity](/lit
 
 ## Buyer / maker checklist (questions, not self-tests) {#buyer-checklist}
 
-**Not medical advice.** These are **questions to a seller or to your own notes**, not a home challenge test. Do **not** DIY patch-test a garment or bottle on skin to “see if you’re allergic.”
+These are **questions to a seller or to your own notes**, not a home challenge test. Do **not** DIY patch-test a garment or bottle on skin to “see if you’re allergic.”
 
 | Ask | Why it matters | What silence means |
 | --- | --- | --- |
@@ -165,14 +163,14 @@ This review does **not** tell you which drug, which specialist algorithm, or whi
 
 ## Deep dives (optional)
 
-Skipping these does not break the main path. **Still not medical advice.**
+Skipping these does not break the main path.
 
 <details>
 <summary>Deep dive: Accelerator chemical families (handbook map)</summary>
 
 **phr** = parts per hundred rubber. Tables are **handbook examples, not craft recipes.**
 
-**Vanderbilt Table 1 types:** thiuram (METHYL TUADS), dithiocarbamate (BUTYL ZIMATE), **xanthate (PROPYL ZITHATE)**, thiazole including sulfenamide (mercapto CAPTAX / ZETAX; sulfenamide MORFAX), thiourea (THIATE U), guanidine.
+**Vanderbilt accelerator families:** thiuram (METHYL TUADS), dithiocarbamate (BUTYL ZIMATE), **xanthate (PROPYL ZITHATE)**, thiazole including sulfenamide (mercapto CAPTAX / ZETAX; sulfenamide MORFAX), thiourea (THIATE U), guanidine.
 
 Dithiocarbamates fastest and most used; thiazoles too slow alone (secondary with dithiocarbamates); thiurams too slow alone (boost with dithiocarbamates/thioureas; low/no free sulfur).
 
@@ -187,7 +185,7 @@ Dithiocarbamates fastest and most used; thiazoles too slow alone (secondary with
 
 **Surgeon-glove example (handbook, not craft recipe)**
 
-| Ingredient (Table 4.4 excerpt) | phr (handbook) |
+| Ingredient (handbook excerpt) | phr (handbook) |
 | --- | --- |
 | 50% ZDEC/ZDBC | 0.50–0.85 |
 | 50% ZMBT | 0.25–0.45 |

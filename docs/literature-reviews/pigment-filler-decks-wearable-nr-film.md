@@ -59,7 +59,7 @@ Insoluble solids and immiscible liquids must be dispersed or emulsified before l
 
 **Mineral clay.** Handbook example: DIXIE clay 0 → 50 phr drops tensile **3100 → 1500 psi** while stress at 500% rises **500 → 1100 psi** — stiffer, weaker in tension.
 
-**High-styrene SBR filler.** At 20 pphr, crescent tear **1769 N/cm**, modulus at 300% **2.76 MPa**, permanent set **30%**; handbook flags modulus rise as disadvantage for some applications.
+**High-styrene SBR filler.** Raises modulus, tear, and permanent set at load; handbook flags modulus rise as a disadvantage for some applications. See deep dive for the load table.
 
 <details>
 <summary>What does phr mean?</summary>
@@ -91,7 +91,7 @@ See [Sheet vs Liquid Film Pathways](/literature-reviews/sheet-vs-liquid-film-pat
 ## Deep dives (optional)
 
 <details>
-<summary>Deep dive: High-styrene SBR polymeric filler (Table 16.12)</summary>
+<summary>Deep dive: High-styrene SBR polymeric filler</summary>
 
 NR base compound; high-styrene SBR at 0/10/15/20 pphr; vulcanize 15 min @ 93°C.
 

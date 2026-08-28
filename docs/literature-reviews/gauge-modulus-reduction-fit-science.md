@@ -62,7 +62,7 @@ Pattern **reduction** (negative ease) is geometry — how much the flat pattern 
 ## Deep dives (optional)
 
 <details>
-<summary>Deep dive: High-styrene SBR table (Table 16.12)</summary>
+<summary>Deep dive: High-styrene SBR polymeric filler</summary>
 
 Modulus/tear/set vs high-styrene SBR load at 0/10/15/20 pphr — plant example, not a home mixing card.
 
