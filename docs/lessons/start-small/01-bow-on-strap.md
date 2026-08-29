@@ -3,6 +3,7 @@ title: 01 — Bow on strap — real-time glue
 description: Cut and glue the bow pattern with live curl waits; strap loop with no fasteners.
 duration: '25–35 min video'
 estimate: '~90 min DIY'
+transcript: /transcripts/01-bow-on-strap.md
 ---
 
 # 01 — Bow on strap — real-time glue
@@ -26,4 +27,4 @@ About 90 minutes at the desk (30 minutes buffer + ~60 minutes work). Published v
 
 Placeholder embed for local debug — replace the id when the published episode is live.
 
-<YouTubeEmbed videoId="dQw4w9WgXcQ" title="Placeholder — 01 Bow on strap (replace with published episode)" />
+<YouTubeEmbed videoId="dQw4w9WgXcQ" title="Placeholder — 01 Bow on strap (replace with published episode)" transcript="/transcripts/01-bow-on-strap.md" />

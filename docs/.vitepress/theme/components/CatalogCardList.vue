@@ -24,14 +24,16 @@ const rows = computed(() =>
   <ul class="rf-catalog" :class="{ 'rf-catalog--lit': variant === 'lit' }" role="list">
     <li v-for="item in rows" :key="item.link" class="rf-catalog__item">
       <a class="rf-catalog__link" :href="withBase(item.link)">
-        <span class="rf-catalog__title">{{ item.title }}</span>
-        <span v-if="item.durationLabel" class="rf-catalog__duration">{{ item.durationLabel }}</span>
-        <span v-else class="rf-catalog__duration rf-catalog__duration--empty" aria-hidden="true">—</span>
+        <span class="rf-catalog__head">
+          <span class="rf-catalog__title">{{ item.title }}</span>
+          <span v-if="item.durationLabel" class="rf-catalog__duration">{{ item.durationLabel }}</span>
+          <span v-else class="rf-catalog__duration rf-catalog__duration--empty" aria-hidden="true">—</span>
+        </span>
+        <p v-if="item.description" class="rf-catalog__desc">{{ item.description }}</p>
+        <ul v-if="item.tags?.length" class="rf-catalog__tags" aria-label="Tags">
+          <li v-for="tag in item.tags" :key="tag">{{ tag }}</li>
+        </ul>
       </a>
-      <p v-if="item.description" class="rf-catalog__desc">{{ item.description }}</p>
-      <ul v-if="item.tags?.length" class="rf-catalog__tags" aria-label="Tags">
-        <li v-for="tag in item.tags" :key="tag">{{ tag }}</li>
-      </ul>
     </li>
   </ul>
 </template>
@@ -47,7 +49,7 @@ const rows = computed(() =>
 }
 
 .rf-catalog__item {
-  padding: 0.9rem 0;
+  padding: 0;
   border-bottom: 1px solid var(--vp-c-divider);
 }
 
@@ -57,13 +59,25 @@ const rows = computed(() =>
 
 .rf-catalog__link {
   display: flex;
+  flex-direction: column;
+  padding: 0.9rem 0;
+  text-decoration: none;
+  color: inherit;
+  font-family: var(--rf-font-ui);
+  cursor: pointer;
+}
+
+.rf-catalog__link:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
+}
+
+.rf-catalog__head {
+  display: flex;
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: space-between;
   gap: 0.35rem 1rem;
-  text-decoration: none;
-  color: inherit;
-  font-family: var(--rf-font-ui);
 }
 
 .rf-catalog__title {
@@ -111,6 +125,10 @@ const rows = computed(() =>
 
 .rf-catalog--lit .rf-catalog__title {
   color: var(--rf-lit-1);
+}
+
+.rf-catalog--lit .rf-catalog__link:focus-visible {
+  outline-color: var(--rf-lit-1);
 }
 
 .rf-catalog--lit .rf-catalog__link:hover .rf-catalog__title {

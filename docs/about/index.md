@@ -1,13 +1,13 @@
 ---
 title: About
-description: What Retifist is, and a short note about the first creator.
+description: What retifist.com is, and who Retifist is.
 ---
 
 # About
 
 ## What is Retifist?
 
-Retifist is an **education** project for latex garment craft. The public site and videos teach the work in SFW, school-appropriate language — patterns, glue practice, fit, fasteners, and the safety habits that belong next to solvents and open blades.
+[retifist.com](https://retifist.com) is an **education** site for latex garment craft. The public pages and videos teach the work in SFW, school-appropriate language — patterns, glue practice, fit, fasteners, and the safety habits that belong next to solvents and open blades.
 
 The learning path is meant to scale with ambition:
 
@@ -16,13 +16,13 @@ The learning path is meant to scale with ambition:
 3. **More complicated projects** — multi-panel fit, contrast paneling, appliqué, and optional fasteners once the basics stick.
 4. **Advanced / “factory” technique** — deeper notes on glue systems, cure timing, shaping seams, and solvent posture for longer sessions — the kind of method that still works when the piece is larger than a weekend sample.
 
-Nothing here is for sale. This is not a storefront or commission desk. Lessons, patterns, technique pages, and [Projects](/projects/) examples exist so makers can try the craft, see how techniques get used, and decide whether a bigger workspace is worth it.
+Nothing on the site is for sale. This is not a storefront or commission desk. Lessons, patterns, technique pages, and [Projects](/projects/) examples exist so makers can try the craft, see how techniques get used, and decide whether a bigger workspace is worth it.
 
 If you want updates, use the [Links](/links/) page for YouTube, Twitch, and Instagram.
 
-## About the first creator
+## Who is Retifist?
 
-Retifist is the maker behind this site — a hobby educator building latex garments at desk scale and documenting the process for other makers.
+Retifist is the maker behind retifist.com — a hobby educator building latex garments at desk scale and documenting the process for other makers.
 
 Public posture: patient bench mentor, SFW craft identity on this site, practical about materials and safety. Worn or adult-context viewing lives off-site and is labeled where outbound links leave the SFW hub.
 

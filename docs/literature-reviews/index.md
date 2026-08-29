@@ -10,183 +10,279 @@ layout: doc
 
 Reference articles distilled from industrial handbooks and primary sources. They answer *why* and *what the literature says* — not step-by-step construction. Pair them with [Lessons](/lessons/) and [Technique](/technique/) when you want the bench work.
 
-<p class="rf-lit-blurb">Grey on purpose: these pages are slower, denser, and less exciting than follow-along lessons. Start with the executive summary; open Deep dives only when you need the chemistry or plant-scale detail.</p>
+<p class="rf-lit-blurb">99% of crafters have never bothered to read these and have been just fine. Start with the executive summary; open Deep dives only when you want the handbook-level detail.</p>
 
-## Published
+Sheet work and liquid work are separate articles. Do not mix them.
+
+## Shared
 
 <CatalogCardList variant="lit" :items="[
   {
-    title: 'Adhesives and Seam Integrity',
-    link: '/literature-reviews/adhesives-and-seam-integrity',
-    description: 'Glue families, a five-question decision tree, and how to read a failed seam — plain language for the bench.',
-    duration: 'Reference'
-  },
-  {
-    title: 'Delamination & Seam Failure Atlas',
-    link: '/literature-reviews/delamination-seam-failure-atlas',
-    description: 'Read the broken bond first — adhesive vs cohesive vs fiber-pull vs rubber-tear, with morphology cues.',
-    duration: 'Reference'
-  },
-  {
-    title: 'Aging, Storage and Care',
-    link: '/literature-reviews/aging-storage-and-care',
-    description: 'Why latex ages, how to store sheet and liquid separately, and four symptom classes before you retire a piece.',
-    duration: 'Reference'
-  },
-  {
     title: 'Allergy and Skin Contact',
     link: '/literature-reviews/allergy-and-skin-contact',
-    description: 'Type I protein vs Type IV chemical reactions, what labels do and do not mean — literacy, not medical advice.',
+    description: 'Type I protein vs Type IV chemical reactions, and what labels do and do not mean. Literacy, not medical advice.',
     duration: 'Reference'
   },
   {
     title: 'Compatibility Matrix',
     link: '/literature-reviews/compatibility-matrix-metals-oils-plastics',
-    description: 'Never / avoid / conditional / OK grid for metals, oils, plastics, and skin products touching NR.',
+    description: 'Never / avoid / conditional / OK for metals, oils, plastics, and skin products that touch natural rubber.',
+    duration: 'Reference'
+  }
+]" />
+
+## Sheet pathway
+
+<CatalogCardList variant="lit" :items="[
+  {
+    title: 'Sheet Adhesives and Seam Integrity',
+    link: '/literature-reviews/sheet-adhesives-and-seam-integrity',
+    description: 'Solvent cement on commercial sheet: flash off, open time, polarity, and how to read a failed glue line.',
     duration: 'Reference'
   },
   {
-    title: 'Sheet vs Liquid Film Pathways',
-    link: '/literature-reviews/sheet-vs-liquid-film-pathways',
-    description: 'Two pathways that must not be mixed — calendered sheet vs liquid-to-film, with do-not-mix examples.',
+    title: 'Sheet Delamination and Seam Failure',
+    link: '/literature-reviews/sheet-delamination-seam-failure',
+    description: 'Read a peeled sheet seam: adhesive vs cohesive, edge lift, and what the faces are telling you.',
     duration: 'Reference'
   },
   {
-    title: 'Latex Textile Bonding',
-    link: '/literature-reviews/latex-textile-bonding',
-    description: 'Cotton vs nylon bond cues, wet/dry combining, peel literacy, and stretch mismatch at the bond edge.',
+    title: 'Sheet Aging, Storage and Care',
+    link: '/literature-reviews/sheet-aging-storage-and-care',
+    description: 'Heat, light, ozone, and oils age bought sheet and finished garments. Store cool and dark. Keep petroleum off the film.',
     duration: 'Reference'
   },
   {
-    title: 'Former Dip vs Mould Cast vs Flat Spread',
-    link: '/literature-reviews/former-dip-vs-mould-cast-vs-flat-spread',
-    description: 'Liquid latex forming choices — dipping, mould casting, and industrial spreading — with do-not-mix warnings.',
+    title: 'Buying Formed Latex Sheet',
+    link: '/literature-reviews/sheet-film-pathway',
+    description: 'Commercial calendered roll goods. You cut and glue a film the mill already made.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Sheet Latex–Textile Bonding',
+    link: '/literature-reviews/sheet-latex-textile-bonding',
+    description: 'Cotton vs nylon when you glue fabric to commercial sheet: mechanical grip, polarity, and stretch at the lap.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Colored Sheet: Pigment and Filler Effects',
+    link: '/literature-reviews/sheet-pigment-filler-decks',
+    description: 'What you inherit when you buy pre-colored commercial sheet: opacity, stiffness, set, and metal-impurity aging.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Printing on Latex Sheet',
+    link: '/literature-reviews/sheet-printing-surface-decoration',
+    description: 'Why bought NR sheet rejects cotton inks — stretch-ink vehicles and QC method classes.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Sheet Surface Finish',
+    link: '/literature-reviews/sheet-surface-finish-literacy',
+    description: 'Reading gloss, matte, and bloom on bought calendered sheet — vendor faces and storage powder.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Sheet Gauge, Modulus, and Reduction',
+    link: '/literature-reviews/sheet-gauge-modulus-reduction',
+    description: 'Thickness, inherited stiffness, and pattern shrink on bought commercial sheet.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Calendered Latex Sheet',
+    link: '/literature-reviews/sheet-calendered-sheet',
+    description: 'ISO thickness-tolerance language and catalog millimetre menus for roll goods.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Sheet Reinforcement Zones',
+    link: '/literature-reviews/sheet-reinforcement-laminate-zones',
+    description: 'Where to add strips or discs on commercial sheet before a junction is trapped.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Sheet Edge Finishing Materials',
+    link: '/literature-reviews/sheet-edge-finishing-materials',
+    description: 'NR tube and strip at the rim: solvent-cement family and gauge match.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Sheet Hardware and Metal Contact',
+    link: '/literature-reviews/sheet-hardware-metal-contact',
+    description: 'Snaps and eyelets on cut sheet: brass staining, base-metal checks, and halo inspection.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Sheet Zipper Closure Compatibility',
+    link: '/literature-reviews/sheet-zipper-closure-compatibility',
+    description: 'Zipper tape and coil materials for bonding to commercial sheet.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Sheet Ventilation and Solvent Exposure',
+    link: '/literature-reviews/sheet-ventilation-solvent-exposure',
+    description: 'Flammable solvent cements and thinners for sheet glue work. Ventilation, sealed cans, and ignition control.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Sheet Garment Selection QA',
+    link: '/literature-reviews/sheet-garment-selection-qa',
+    description: 'Pre-wear checks on bought sheet garments: holes, powder, odor, bloom, and when to stop.',
+    duration: 'Reference'
+  }
+]" />
+
+## Liquid pathway
+
+<CatalogCardList variant="lit" :items="[
+  {
+    title: 'Liquid Adhesives and Seam Integrity',
+    link: '/literature-reviews/liquid-adhesives-and-seam-integrity',
+    description: 'Water-based latex adhesives for film and fabric joins: wet vs dry combine, contamination, and peel literacy.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Liquid Delamination and Seam Failure',
+    link: '/literature-reviews/liquid-delamination-seam-failure',
+    description: 'Read a failed film join or multi-dip ply split before you add more latex.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Liquid Latex Aging, Storage and Care',
+    link: '/literature-reviews/liquid-aging-storage-and-care',
+    description: 'Bottle storage without freeze or copper fittings, and why leftover coagulant salt and settled compound change how cast film ages.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Forming Film from Liquid Latex',
+    link: '/literature-reviews/liquid-film-pathway',
+    description: 'Dip, cast, or spread from a bottle or tank. Concentrate vs compound, and how the film is vulcanized.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Liquid Latex–Textile Bonding',
+    link: '/literature-reviews/liquid-latex-textile-bonding',
+    description: 'Aqueous combining of latex and fabric: wet vs dry, shrink, and tire-cord pretreat in plain language.',
+    duration: 'Reference'
+  },
+  {
+    title: 'Former Dip, Mould Cast, and Flat Spread',
+    link: '/literature-reviews/liquid-former-dip-vs-mould-cast-vs-flat-spread',
+    description: 'Pick a forming method by geometry and gauge. Straight dips are thin; coagulant and heat-gel build thicker walls.',
     duration: 'Reference'
   },
   {
     title: 'Coagulant Dipping for Wearable Thickness',
-    link: '/literature-reviews/coagulant-dipping-wearable-thickness',
-    description: 'Build thicker liquid-latex film per pass — dwell time, wet gel strength, leach, and humidity discipline.',
+    link: '/literature-reviews/liquid-coagulant-dipping-wearable-thickness',
+    description: 'One dwell can build 0.2–0.8 mm. Leach, humidity, and wet-gel strength decide whether it holds.',
     duration: 'Reference'
   },
   {
     title: 'Heat-Sensitized Gelation',
-    link: '/literature-reviews/heat-sensitized-gelation-slush-rotational-cast',
-    description: 'Slush and rotational casting with heat-sensitized compounds — closed mould gelation and blister prevention.',
+    link: '/literature-reviews/liquid-heat-sensitized-gelation',
+    description: 'Closed-mould slush and rotational casting. Heat plus a sensitizer gels the wall; dry before you cure.',
     duration: 'Reference'
   },
   {
-    title: 'Film Defect Atlas',
-    link: '/literature-reviews/film-defect-atlas-industrial-to-craft',
-    description: 'Industrial defect names for liquid-latex film — pinholes, blown gel, humidity, webbing, leach discoloration.',
+    title: 'Liquid Film Defects',
+    link: '/literature-reviews/liquid-film-defect-atlas',
+    description: 'Pinholes, blown gel, webbing, and leach discoloration. Craft symptom to industrial name to first check.',
     duration: 'Reference'
   },
   {
-    title: 'Pigment & Filler Decks for Wearable NR Film',
-    link: '/literature-reviews/pigment-filler-decks-wearable-nr-film',
-    description: 'Compounding vs buying colored sheet, filler stiffness trade-offs, and metal-impurity aging risks.',
+    title: 'Pigment and Filler Compounding',
+    link: '/literature-reviews/liquid-pigment-filler-decks',
+    description: 'Tint and opacify NR before the film forms: dispersion buckets, filler stiffness, and metal-impurity aging.',
     duration: 'Reference'
   },
   {
-    title: 'Printing & Surface Decoration on Latex Sheet',
-    link: '/literature-reviews/printing-surface-decoration-sheet',
-    description: 'Why NR sheet is a hard print substrate — stretch-ink architecture and surface prep literacy.',
-    duration: 'Reference'
-  },
-  {
-    title: 'Surface Finish Literacy',
-    link: '/literature-reviews/surface-finish-literacy-gloss-matte-bloom',
-    description: 'Gloss, matte, bloom, and chlorination cues — how film formation sets the face you see.',
+    title: 'Liquid Film Surface Finish',
+    link: '/literature-reviews/liquid-surface-finish-literacy',
+    description: 'How dipped and cast film get gloss or matte from the former or bed, plus bloom and de-tack classes.',
     duration: 'Reference'
   },
   {
     title: 'Chlorination for Tack Control',
-    link: '/literature-reviews/chlorination-tack-control-skin-contact',
-    description: 'Permanent de-tack on dipped film — halogenation parameters, neutralize/rinse discipline, skin-contact literacy.',
+    link: '/literature-reviews/liquid-chlorination-tack-control',
+    description: 'Permanent de-tack on dipped film — halogenation windows, neutralize and rinse, skin-contact literacy.',
     duration: 'Reference'
   },
   {
-    title: 'Liquid Latex Painting vs Compounding Pigment',
-    link: '/literature-reviews/liquid-latex-painting-vs-compounding-pigment',
-    description: 'Three classes of color on NR — compound pigment, surface coat, and mislabeled polymers.',
+    title: 'Painting vs Compounding Pigment',
+    link: '/literature-reviews/liquid-painting-vs-compounding-pigment',
+    description: 'Three classes of color on liquid NR: pigment in the compound, an NR surface coat, and bottles that are a different polymer.',
     duration: 'Reference'
   },
   {
-    title: 'Gauge, Modulus & Reduction',
-    link: '/literature-reviews/gauge-modulus-reduction-fit-science',
-    description: 'Thickness, stiffness, and pattern geometry as separate fit levers — industrial curves for both pathways.',
+    title: 'Liquid Gauge, Modulus, and Reduction',
+    link: '/literature-reviews/liquid-gauge-modulus-reduction',
+    description: 'Thickness, compound stiffness, and pattern shrink on dipped or cast film.',
     duration: 'Reference'
   },
   {
-    title: 'Calendered Sheet vs Home-Cast Film',
-    link: '/literature-reviews/calendered-sheet-vs-home-cast-film',
-    description: 'Buy commercial sheet vs form film from liquid — formation comparison and buy-vs-make framing.',
+    title: 'Home-Cast Latex Film',
+    link: '/literature-reviews/liquid-home-cast-film',
+    description: 'Lab glass spread, belt-spreading patents, coagulant dip, and mould cast as ways to form film from liquid.',
     duration: 'Reference'
   },
   {
-    title: 'Reinforcement & Laminate Zones',
-    link: '/literature-reviews/reinforcement-laminate-zones',
-    description: 'Where stress concentrates — sheet reinforcement vs liquid-latex ply builds, zone map, diagnostics.',
+    title: 'Liquid Reinforcement and Laminate Zones',
+    link: '/literature-reviews/liquid-reinforcement-laminate-zones',
+    description: 'Build strength in the dip or spread stack: wet-gel timing, fatty soaps, and NR/CR/XNBR outers.',
     duration: 'Reference'
   },
   {
-    title: 'Edge Finishing Materials',
-    link: '/literature-reviews/edge-finishing-materials',
-    description: 'Tubes, tape, and binding choices — material families, shrink risk, and polarity at the rim.',
+    title: 'Liquid Edge Finishing Materials',
+    link: '/literature-reviews/liquid-edge-finishing-materials',
+    description: 'Textile tape and aqueous spread at the rim: shrink, polarity, and migration.',
     duration: 'Reference'
   },
   {
-    title: 'Hardware & Metal Contact',
-    link: '/literature-reviews/hardware-metal-contact-snaps-eyelets',
-    description: 'Snaps, eyelets, and staining risks — brass catalysis, inspection cues, barrier washers.',
+    title: 'Liquid Hardware and Metal Contact',
+    link: '/literature-reviews/liquid-hardware-metal-contact',
+    description: 'Copper, brass, and galvanized contact with wet latex, leach water, and dipped or cast film.',
     duration: 'Reference'
   },
   {
-    title: 'Zipper Closure Compatibility',
-    link: '/literature-reviews/zipper-closure-material-compatibility',
-    description: 'Tape, coil, and stop materials — nylon prep bridge, shrink risk, scope boundaries.',
+    title: 'Liquid Zipper Closure Compatibility',
+    link: '/literature-reviews/liquid-zipper-closure-compatibility',
+    description: 'Aqueous latex on zipper tape: fabric shrink, polarity matching, and nylon filament limits.',
     duration: 'Reference'
   },
   {
-    title: 'Home Shop Ventilation & Solvent Exposure',
-    link: '/literature-reviews/home-shop-ventilation-solvent-exposure',
-    description: 'Two vapor stories — flammable cements on sheet work vs ammonia and powders on liquid latex work.',
+    title: 'Liquid Latex Ventilation and Ammonia',
+    link: '/literature-reviews/liquid-ventilation-ammonia',
+    description: 'Ammonia fumes and compounding powders on liquid latex work. Ventilation, dust, and acid/alkali hygiene.',
     duration: 'Reference'
   },
   {
-    title: 'Decoding Consumer Latex Bottle Labels',
-    link: '/literature-reviews/decoding-consumer-latex-bottle-labels',
-    description: 'Concentrate fields vs marketing — ammonia bands, total solids, prevulcanized vs raw, polymer family.',
+    title: 'Decoding Liquid Latex Bottle Labels',
+    link: '/literature-reviews/liquid-decoding-bottle-labels',
+    description: 'Ammonia band, total solids, prevulc vs raw, and polymer family. Marketing words are not those fields.',
     duration: 'Reference'
   },
   {
     title: 'Prevulcanized Consumer Latex',
-    link: '/literature-reviews/prevulcanized-consumer-latex-dry-only',
-    description: 'When dry-only may suffice for prevulcanized NR — overcure risk, modulus bands, reading bottle labels.',
+    link: '/literature-reviews/liquid-prevulcanized-consumer-latex',
+    description: 'Warm-air dry can finish a true prevulc NR film. Overcure and a mystery bottle both wreck that assumption.',
     duration: 'Reference'
   },
   {
-    title: 'Garment Selection QA for Buyers & Wearers',
-    link: '/literature-reviews/garment-selection-qa-buyers-wearers',
-    description: 'Borrowed dipped-goods QC vocabulary for pre-wear inspection — pinholes, odor, bloom, stop-care.',
+    title: 'Synthetic Lattices: CR, NBR, and SBR',
+    link: '/literature-reviews/liquid-synthetic-lattices',
+    description: 'When liquid NR is the wrong polymer: CR, NBR, and SBR compounding, polarity, and allergy literacy.',
     duration: 'Reference'
   },
   {
-    title: 'Synthetic Lattices for Costume Film',
-    link: '/literature-reviews/synthetic-lattices-nbr-cr-sbr-costume',
-    description: 'When NR is not the answer — CR, NBR, and SBR latices for oil, ozone, and modulus targets.',
-    duration: 'Reference'
-  },
-  {
-    title: 'Latex Foam Padding for Costume Volume',
-    link: '/literature-reviews/latex-foam-padding-costume-volume',
-    description: 'Industrial foam rubber vs flat sheet — Dunlop gelling and costume volume literacy.',
+    title: 'Latex Foam for Costume Volume',
+    link: '/literature-reviews/liquid-foam-padding',
+    description: 'Industrial latex foam: expand, shape, gel, vulcanize. Dunlop gelling and why whipped bottles collapse.',
     duration: 'Reference'
   },
   {
     title: 'Antidegradants in DIY Compounds',
-    link: '/literature-reviews/antidegradants-diy-compounds',
-    description: 'Retarding failure you cannot prevent — antioxidant budgets, wax bloom, and PPD strategies.',
+    link: '/literature-reviews/liquid-antidegradants-diy-compounds',
+    description: 'You cannot stop latex aging, only slow it. Antioxidant budgets, amine vs phenolic stain, wax bloom, and PPD.',
     duration: 'Reference'
   }
 ]" />
