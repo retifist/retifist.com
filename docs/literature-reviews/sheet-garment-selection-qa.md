@@ -2,6 +2,7 @@
 title: Sheet Garment Selection QA
 description: Pre-wear checks on bought sheet garments — holes, powder, odor, bloom, and when to stop.
 series: literature-reviews
+tags: [sheet, qa, garments]
 ---
 
 # Sheet Garment Selection QA

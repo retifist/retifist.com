@@ -2,6 +2,7 @@
 title: Calendered Latex Sheet
 description: Already-formed calendered roll goods. ISO thickness tolerance language, catalog menus, and why you buy the mill’s film.
 series: literature-reviews
+tags: [sheet, calendered, gauge]
 ---
 
 # Calendered Latex Sheet

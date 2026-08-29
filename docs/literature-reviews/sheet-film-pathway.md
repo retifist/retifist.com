@@ -2,6 +2,7 @@
 title: Buying Formed Latex Sheet
 description: Commercial calendered sheet as a ready film. Catalog thickness, ISO tolerance language, and what you do after you buy the roll.
 series: literature-reviews
+tags: [sheet, film, buying]
 ---
 
 # Buying Formed Latex Sheet

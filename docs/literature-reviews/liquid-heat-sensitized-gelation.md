@@ -2,6 +2,7 @@
 title: Heat-Sensitized Gelation
 description: Slush and rotational casting with heat-sensitized compounds. Closed-mould gel, leach, supported dry, and blister prevention.
 series: literature-reviews
+tags: [liquid, gelation, casting]
 ---
 
 # Heat-Sensitized Gelation

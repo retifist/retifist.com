@@ -2,6 +2,7 @@
 title: Antidegradants in DIY Compounds
 description: You cannot stop latex aging, only slow it. Antioxidant budgets, amine vs phenolic stain, wax bloom, and PPD for flexing ozone.
 series: literature-reviews
+tags: [liquid, aging, antidegradants]
 ---
 
 # Antidegradants in DIY Compounds

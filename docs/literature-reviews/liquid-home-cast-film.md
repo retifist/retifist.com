@@ -2,6 +2,7 @@
 title: Home-Cast Latex Film
 description: Forming film from liquid by lab spread, industrial belt spreading, coagulant dip, or mould cast. Handbook physics for home-formed film.
 series: literature-reviews
+tags: [liquid, film, casting]
 ---
 
 # Home-Cast Latex Film

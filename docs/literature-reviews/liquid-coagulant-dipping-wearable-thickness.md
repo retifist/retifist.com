@@ -2,6 +2,7 @@
 title: Coagulant Dipping for Wearable Thickness
 description: Build thicker liquid-latex film per pass. Coacervant families, dwell-time kinetics, wet-gel strength, leach, and humidity.
 series: literature-reviews
+tags: [liquid, dipping, coagulant]
 ---
 
 # Coagulant Dipping for Wearable Thickness

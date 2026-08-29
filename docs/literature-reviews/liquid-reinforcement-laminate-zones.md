@@ -2,6 +2,7 @@
 title: Liquid Reinforcement and Laminate Zones
 description: Build strength in the dip or spread stack — wet-gel timing, fatty soaps, and NR / CR / XNBR outers.
 series: literature-reviews
+tags: [liquid, reinforcement, laminate]
 ---
 
 # Liquid Reinforcement and Laminate Zones

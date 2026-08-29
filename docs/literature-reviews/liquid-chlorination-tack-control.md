@@ -2,6 +2,7 @@
 title: Chlorination for Tack Control
 description: Permanent de-tack on dipped film — aqueous halogenation, neutralize and rinse, and why it is not an allergy fix.
 series: literature-reviews
+tags: [liquid, chlorination, tack]
 ---
 
 # Chlorination for Tack Control

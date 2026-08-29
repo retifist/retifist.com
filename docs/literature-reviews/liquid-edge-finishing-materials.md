@@ -2,6 +2,7 @@
 title: Liquid Edge Finishing Materials
 description: Textile tape and aqueous spread at the rim — shrink, polarity, and migration.
 series: literature-reviews
+tags: [liquid, edges, textile]
 ---
 
 # Liquid Edge Finishing Materials

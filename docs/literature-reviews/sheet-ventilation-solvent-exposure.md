@@ -2,6 +2,7 @@
 title: Sheet Ventilation and Solvent Exposure
 description: Flammable solvent cements and thinners for sheet glue work. Ventilation, sealed cans, and ignition control.
 series: literature-reviews
+tags: [sheet, ventilation, solvent]
 ---
 
 # Sheet Ventilation and Solvent Exposure

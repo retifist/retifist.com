@@ -2,6 +2,7 @@
 title: Sheet Reinforcement Zones
 description: Where to add strips or discs on commercial sheet before a junction is trapped.
 series: literature-reviews
+tags: [sheet, reinforcement, seams]
 ---
 
 # Sheet Reinforcement Zones

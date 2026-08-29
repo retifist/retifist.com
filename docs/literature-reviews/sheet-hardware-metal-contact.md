@@ -2,6 +2,7 @@
 title: Sheet Hardware & Metal Contact
 description: Snaps and eyelets on cut sheet — brass staining, base-metal checks, and halo inspection.
 series: literature-reviews
+tags: [sheet, hardware, metals]
 ---
 
 # Sheet Hardware & Metal Contact

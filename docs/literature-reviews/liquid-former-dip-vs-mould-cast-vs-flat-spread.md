@@ -2,6 +2,7 @@
 title: Former Dip, Mould Cast, and Flat Spread
 description: Liquid latex forming choices. Dipping a former, casting in a cavity, or industrial spreading, routed by geometry and gauge.
 series: literature-reviews
+tags: [liquid, dipping, forming]
 ---
 
 # Former Dip, Mould Cast, and Flat Spread

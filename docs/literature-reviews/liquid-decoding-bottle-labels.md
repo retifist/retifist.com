@@ -2,6 +2,7 @@
 title: Decoding Liquid Latex Bottle Labels
 description: Concentrate fields versus marketing. Ammonia bands, total solids, prevulcanized versus raw, and polymer family on the TDS.
 series: literature-reviews
+tags: [liquid, labels, compounding]
 ---
 
 # Decoding Liquid Latex Bottle Labels

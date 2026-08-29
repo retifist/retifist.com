@@ -2,6 +2,7 @@
 title: Sheet Aging, Storage and Care
 description: Heat, light, ozone, and oils age bought sheet and finished garments. Store cool and dark. Keep petroleum off the film.
 series: literature-reviews
+tags: [sheet, aging, storage]
 ---
 
 # Sheet Aging, Storage and Care

@@ -2,6 +2,7 @@
 title: Sheet Surface Finish
 description: Reading gloss, matte, and bloom on bought calendered sheet — vendor faces and storage powder.
 series: literature-reviews
+tags: [sheet, finish, bloom]
 ---
 
 # Sheet Surface Finish

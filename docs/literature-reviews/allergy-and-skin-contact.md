@@ -2,6 +2,7 @@
 title: Allergy and Skin Contact
 description: Type I protein vs Type IV chemical reactions, and what labels do and do not mean. Literacy, not medical advice.
 series: literature-reviews
+tags: [allergy, skin, labels]
 ---
 
 # Allergy and Skin Contact

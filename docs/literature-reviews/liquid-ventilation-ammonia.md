@@ -2,6 +2,7 @@
 title: Liquid Latex Ventilation and Ammonia
 description: Ammonia fumes and compounding powders on liquid latex work. Ventilation, dust, and acid/alkali hygiene.
 series: literature-reviews
+tags: [liquid, ventilation, ammonia]
 ---
 
 # Liquid Latex Ventilation and Ammonia

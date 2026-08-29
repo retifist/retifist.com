@@ -2,6 +2,7 @@
 title: Liquid Adhesives and Seam Integrity
 description: Water-based latex adhesives for cast or dipped film and fabric combining — wet vs dry, contamination, and how to read a failed join.
 series: literature-reviews
+tags: [liquid, adhesives, seams]
 ---
 
 # Liquid Adhesives and Seam Integrity

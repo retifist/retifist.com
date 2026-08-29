@@ -2,6 +2,7 @@
 title: Gauge, Modulus, and Reduction on Cast or Dipped Film
 description: Thickness, compound stiffness, and pattern shrink as separate fit levers on film you form from liquid latex.
 series: literature-reviews
+tags: [liquid, gauge, modulus]
 ---
 
 # Gauge, Modulus, and Reduction on Cast or Dipped Film

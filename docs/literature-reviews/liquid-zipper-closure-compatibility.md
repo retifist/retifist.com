@@ -2,6 +2,7 @@
 title: Liquid Zipper Closure Compatibility
 description: Aqueous latex on zipper tape — fabric shrink, polarity matching, and nylon filament limits.
 series: literature-reviews
+tags: [liquid, zippers, closures]
 ---
 
 # Liquid Zipper Closure Compatibility

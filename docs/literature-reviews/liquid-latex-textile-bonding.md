@@ -2,6 +2,7 @@
 title: Liquid Latex–Textile Bonding
 description: Aqueous combining of latex and fabric — wet vs dry, shrink, cotton vs nylon, and tire-cord pretreat in plain language.
 series: literature-reviews
+tags: [liquid, textile, adhesives]
 ---
 
 # Liquid Latex–Textile Bonding

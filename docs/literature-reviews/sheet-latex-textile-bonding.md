@@ -2,6 +2,7 @@
 title: Sheet Latex–Textile Bonding
 description: Cotton vs nylon when you glue fabric to commercial sheet — mechanical grip, polarity, and stretch at the lap.
 series: literature-reviews
+tags: [sheet, textile, adhesives]
 ---
 
 # Sheet Latex–Textile Bonding

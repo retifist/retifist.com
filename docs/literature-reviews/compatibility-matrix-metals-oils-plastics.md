@@ -2,6 +2,7 @@
 title: Compatibility Matrix
 description: Never / avoid / conditional / OK for metals, oils, plastics, and skin products that touch natural rubber.
 series: literature-reviews
+tags: [compatibility, metals, oils, plastics]
 ---
 
 # Compatibility Matrix: Metals, Oils, Plastics, and Skin Products

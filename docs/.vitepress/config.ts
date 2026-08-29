@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import { relativePathToLlmsPath } from './theme/utils/llmsPaths'
 import { vitepressMathConfig } from './markdown/math'
 import { isMermaidFence } from './theme/utils/mermaid'
+import { buildSeoHead, isAgentSitemapUrl, SITE_ORIGIN } from './theme/utils/seo'
 
 const lessonsStartSmall = [
   { text: '00 — Prep, materials, and safety', link: '/lessons/start-small/00-prep-materials-safety' },
@@ -87,6 +88,12 @@ export default defineConfig({
   base: '/',
   appearance: 'force-dark',
   cleanUrls: true,
+  sitemap: {
+    hostname: SITE_ORIGIN,
+    transformItems(items) {
+      return items.filter((item) => !isAgentSitemapUrl(item.url))
+    },
+  },
   // Static agent stubs / transcripts live under public/ — do not treat as VitePress pages
   srcExclude: ['**/public/**'],
   head: [
@@ -100,8 +107,14 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/brand/logo-good-5.svg', type: 'image/svg+xml' }],
   ],
   transformHead({ pageData }) {
-    const href = relativePathToLlmsPath(pageData.relativePath || 'index.md')
-    return [['link', { rel: 'alternate', type: 'text/markdown', href }]]
+    const relativePath = pageData.relativePath || 'index.md'
+    const seo = buildSeoHead({
+      relativePath,
+      title: pageData.title,
+      description: pageData.description,
+      frontmatter: pageData.frontmatter,
+    })
+    return [...seo, ['link', { rel: 'alternate', type: 'text/markdown', href: relativePathToLlmsPath(relativePath) }]]
   },
   markdown: {
     math: vitepressMathConfig(),
@@ -215,5 +228,8 @@ export default defineConfig({
     },
     socialLinks: [],
     outline: { level: [2, 3] },
+    notFound: {
+      quote: 'This page slipped, stretched, and split.',
+    },
   },
 })

@@ -2,6 +2,7 @@
 title: Sheet Delamination and Seam Failure
 description: Read a peeled sheet seam — adhesive vs cohesive, edge lift, and what the faces are telling you.
 series: literature-reviews
+tags: [sheet, delamination, seams]
 ---
 
 # Sheet Delamination and Seam Failure

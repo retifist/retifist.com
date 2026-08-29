@@ -2,6 +2,7 @@
 title: Liquid Latex Aging, Storage and Care
 description: Bottle storage without freeze or copper fittings, and why leftover coagulant salt and settled compound change how cast film ages.
 series: literature-reviews
+tags: [liquid, aging, storage]
 ---
 
 # Liquid Latex Aging, Storage and Care

@@ -2,6 +2,7 @@
 title: Pigment and Filler Compounding for Liquid Latex
 description: "How to tint and opacify NR before the film forms: dispersion buckets, filler stiffness, and metal-impurity aging."
 series: literature-reviews
+tags: [liquid, pigment, compounding]
 ---
 
 # Pigment and Filler Compounding for Liquid Latex

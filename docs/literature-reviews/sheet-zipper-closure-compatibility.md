@@ -2,6 +2,7 @@
 title: Sheet Zipper Closure Compatibility
 description: Zipper tape and coil materials for bonding to commercial sheet — nylon prep, shrink, and what ASTM D2054 actually covers.
 series: literature-reviews
+tags: [sheet, zippers, closures]
 ---
 
 # Sheet Zipper Closure Compatibility

@@ -2,6 +2,7 @@
 title: Printing on Latex Sheet
 description: Why bought NR sheet rejects cotton inks — stretch-ink vehicles, QC method classes, and testing the face you bought.
 series: literature-reviews
+tags: [sheet, printing, finish]
 ---
 
 # Printing on Latex Sheet

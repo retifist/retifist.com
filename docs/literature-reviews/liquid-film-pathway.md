@@ -2,6 +2,7 @@
 title: Forming Film from Liquid Latex
 description: Liquid latex to film by dip, cast, or spread. Concentrate vs compound, vulcanization, and the industrial forming tree.
 series: literature-reviews
+tags: [liquid, film, dipping]
 ---
 
 # Forming Film from Liquid Latex

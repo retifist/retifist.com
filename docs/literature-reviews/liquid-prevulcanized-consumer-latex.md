@@ -2,6 +2,7 @@
 title: Prevulcanized Consumer Latex
 description: When warm-air dry may finish a prevulcanized NR film. Overcure risk, modulus bands, and reading the bottle before you assume chemistry.
 series: literature-reviews
+tags: [liquid, prevulc, film]
 ---
 
 # Prevulcanized Consumer Latex

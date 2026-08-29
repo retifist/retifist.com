@@ -2,6 +2,7 @@
 title: Liquid Film Surface Finish
 description: How dipped and cast film get gloss or matte from the former or bed, plus bloom and de-tack classes.
 series: literature-reviews
+tags: [liquid, finish, tack]
 ---
 
 # Liquid Film Surface Finish

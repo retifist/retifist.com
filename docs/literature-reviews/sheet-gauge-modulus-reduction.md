@@ -2,6 +2,7 @@
 title: Gauge, Modulus, and Reduction on Bought Sheet
 description: Thickness, inherited stiffness, and pattern shrink as separate fit levers on commercial latex sheet.
 series: literature-reviews
+tags: [sheet, gauge, modulus]
 ---
 
 # Gauge, Modulus, and Reduction on Bought Sheet

@@ -2,6 +2,7 @@
 title: Liquid Film Defects
 description: Industrial names for liquid-latex film failures. Pinholes, blown gel, humidity windows, webbing, and leach discoloration.
 series: literature-reviews
+tags: [liquid, defects, film]
 ---
 
 # Liquid Film Defects

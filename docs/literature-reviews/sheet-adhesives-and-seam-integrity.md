@@ -2,6 +2,7 @@
 title: Sheet Adhesives and Seam Integrity
 description: Solvent cement on commercial sheet — flash off, open time, polarity, and how to read a failed glue line.
 series: literature-reviews
+tags: [sheet, adhesives, seams]
 ---
 
 # Sheet Adhesives and Seam Integrity

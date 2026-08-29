@@ -2,6 +2,7 @@
 title: Sheet Edge Finishing Materials
 description: NR tube and strip at the rim — solvent-cement family and gauge match.
 series: literature-reviews
+tags: [sheet, edges, adhesives]
 ---
 
 # Sheet Edge Finishing Materials

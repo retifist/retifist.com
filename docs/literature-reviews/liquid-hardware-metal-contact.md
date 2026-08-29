@@ -2,6 +2,7 @@
 title: Liquid Hardware & Metal Contact
 description: Copper, brass, and galvanized contact with wet latex, leach water, and dipped or cast film.
 series: literature-reviews
+tags: [liquid, hardware, metals]
 ---
 
 # Liquid Hardware & Metal Contact

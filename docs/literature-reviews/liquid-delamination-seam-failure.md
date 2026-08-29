@@ -2,6 +2,7 @@
 title: Liquid Delamination and Seam Failure
 description: Read a failed film join or multi-dip ply split before you add more latex.
 series: literature-reviews
+tags: [liquid, delamination, seams]
 ---
 
 # Liquid Delamination and Seam Failure
