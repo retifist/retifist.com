@@ -1,4 +1,4 @@
-import { relativePathToHumanUrl } from './llmsPaths'
+import { relativePathToHumanUrl, stripAgentSegment } from './llmsPaths'
 
 export const SITE_ORIGIN = 'https://retifist.com'
 export const SITE_NAME = 'Retifist'
@@ -35,7 +35,7 @@ export function toAbsoluteUrl(sitePath: string): string {
 
 /** Strip the `agent/` segment so duplicates canonicalize to the human article. */
 export function humanRelativePath(relativePath: string): string {
-  return relativePath.replace(/\\/g, '/').replace(/(^|\/)agent\//, '$1')
+  return stripAgentSegment(relativePath)
 }
 
 export function canonicalPath(relativePath: string): string {

@@ -5,12 +5,22 @@ import { relativePathToLlmsPath } from '../utils/llmsPaths'
 
 const { page } = useData()
 
+const show = computed(
+  () => page.value?.isNotFound !== true && page.value?.relativePath !== '404.md',
+)
+
 const href = computed(() => relativePathToLlmsPath(page.value.relativePath || 'index.md'))
 </script>
 
 <template>
-  <p class="rf-llms-footer">
-    <a :href="href" class="rf-llms-footer__link">Markdown for agents</a>
+  <p v-if="show" class="rf-llms-footer">
+    <!-- target=_blank: VitePress treats .md as an in-app route and 404s the click. -->
+    <a
+      :href="href"
+      class="rf-llms-footer__link"
+      target="_blank"
+      rel="noopener"
+      >Markdown for agents</a>
   </p>
 </template>
 

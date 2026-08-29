@@ -53,9 +53,13 @@ function stripYamlFrontmatter(source) {
 }
 
 function relativePathToLlmsPath(relativePath) {
-  const normalized = relativePath.replace(/\\/g, '/').replace(/^\//, '')
-  if (!normalized) return '/llms/index.md'
-  const withMd = normalized.endsWith('.md') ? normalized : `${normalized}.md`
+  const stripped = relativePath
+    .replace(/\\/g, '/')
+    .replace(/(^|\/)agent(?=\/|$)/g, '$1')
+    .replace(/\/{2,}/g, '/')
+    .replace(/^\//, '')
+  if (!stripped) return '/llms/index.md'
+  const withMd = stripped.endsWith('.md') ? stripped : `${stripped}.md`
   return `/llms/${withMd}`
 }
 

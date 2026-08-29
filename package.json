@@ -10,7 +10,9 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "transcript:check": "node scripts/check-transcripts.mjs",
-    "smoke": "node scripts/smoke.mjs"
+    "smoke": "node scripts/smoke.mjs",
+    "links:check": "node scripts/link-spider.mjs --local",
+    "links:check:live": "node scripts/link-spider.mjs --live"
   },
   "devDependencies": {
     "markdown-it-mathjax3": "^4.3.2",

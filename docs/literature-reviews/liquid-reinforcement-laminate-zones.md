@@ -70,7 +70,7 @@ Failed-join vocabulary: [Liquid delamination](/literature-reviews/liquid-delamin
 
 ## Deep dives (optional)
 
-<details>
+<details id="wet-gel">
 <summary>Deep dive: Multi-dip ply bond and wet-gel window</summary>
 
 Inter-ply bond drops rapidly when the first layer is dried and leached. Fresh wet gel maximizes adhesion. Remedies in that industrial account: minimize underlayer drying and leaching; avoid excess fatty soaps; use the hydrophilicity of fresh gel.

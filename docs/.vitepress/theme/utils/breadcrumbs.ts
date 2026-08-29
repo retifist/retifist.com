@@ -54,7 +54,7 @@ export function buildBreadcrumbs(path: string, pageTitle?: string): Crumb[] {
     return [{ title: 'Home' }]
   }
 
-  const parts = normalized.split('/').filter(Boolean)
+  const parts = normalized.split('/').filter(Boolean).filter((part) => part !== 'agent')
   const crumbs: Crumb[] = [{ title: 'Home', link: '/' }]
 
   let acc = ''

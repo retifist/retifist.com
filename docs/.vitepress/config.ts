@@ -114,6 +114,7 @@ export default defineConfig({
       description: pageData.description,
       frontmatter: pageData.frontmatter,
     })
+    if (relativePath === '404.md') return seo
     return [...seo, ['link', { rel: 'alternate', type: 'text/markdown', href: relativePathToLlmsPath(relativePath) }]]
   },
   markdown: {

@@ -27,7 +27,7 @@ const transcriptHref = computed(() => props.transcript?.trim() || '')
   </div>
   <p v-else class="rf-youtube__missing">Video embed unavailable — missing video id.</p>
   <p v-if="transcriptHref" class="rf-youtube__transcript">
-    <a :href="transcriptHref">Transcript</a>
+    <a :href="transcriptHref" target="_blank" rel="noopener">Transcript</a>
   </p>
 </template>
 
