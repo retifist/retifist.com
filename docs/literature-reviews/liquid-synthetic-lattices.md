@@ -1,5 +1,5 @@
 ---
-title: Synthetic Lattices: CR, NBR, and SBR
+title: "Synthetic Lattices: CR, NBR, and SBR"
 description: When liquid NR is the wrong polymer. Polychloroprene, nitrile, and SBR compounding rules, polarity, and allergy literacy.
 series: literature-reviews
 ---

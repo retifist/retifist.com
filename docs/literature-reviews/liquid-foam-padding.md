@@ -1,6 +1,6 @@
 ---
 title: Latex Foam for Costume Volume
-description: Industrial latex foam: expand, shape, gel, vulcanize. Dunlop gelling, thin-section limits, and why whipped bottles collapse.
+description: "Industrial latex foam: expand, shape, gel, vulcanize. Dunlop gelling, thin-section limits, and why whipped bottles collapse."
 series: literature-reviews
 ---
 

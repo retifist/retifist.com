@@ -1,6 +1,6 @@
 ---
-title: Colored Sheet: Pigment and Filler Effects
-description: What bought pre-colored commercial NR sheet inherits: opacity, stiffness, set, metal-impurity aging. Endnotes for verification.
+title: "Colored Sheet: Pigment and Filler Effects"
+description: "What bought pre-colored commercial NR sheet inherits: opacity, stiffness, set, metal-impurity aging. Endnotes for verification."
 series: literature-reviews
 human_page: /literature-reviews/sheet-pigment-filler-decks
 ---

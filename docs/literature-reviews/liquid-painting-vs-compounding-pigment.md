@@ -1,6 +1,6 @@
 ---
 title: Painting vs Compounding Pigment
-description: Three classes of color on liquid NR: pigment in the compound, an NR surface coat, and bottles that are a different polymer.
+description: "Three classes of color on liquid NR: pigment in the compound, an NR surface coat, and bottles that are a different polymer."
 series: literature-reviews
 ---
 

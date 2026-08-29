@@ -1,5 +1,5 @@
 ---
-title: Synthetic Lattices: CR, NBR, and SBR
+title: "Synthetic Lattices: CR, NBR, and SBR"
 description: Liquid CR, NBR, and SBR compounding rules, polarity, and allergy literacy. Endnotes for verification.
 series: literature-reviews
 human_page: /literature-reviews/liquid-synthetic-lattices
