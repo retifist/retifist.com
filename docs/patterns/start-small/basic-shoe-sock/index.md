@@ -9,6 +9,8 @@ Second Start Small pattern: a fitted latex sock over a platform ankle-height hee
 
 ## Download
 
+<PatternPlaceholderBanner />
+
 <DownloadLink
   href="/downloads/basic-shoe-sock-pattern.pdf"
   label="Download basic shoe sock worksheet PDF"

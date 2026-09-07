@@ -30,6 +30,34 @@ Sheet work and liquid work are separate articles. Do not mix them.
     description: 'Never / avoid / conditional / OK for metals, oils, plastics, and skin products that touch natural rubber.',
     duration: 'Reference',
     tags: ['compatibility', 'metals', 'oils', 'plastics']
+  },
+  {
+    title: 'Body-region pressure sensitivity',
+    link: '/literature-reviews/body-region-pressure-sensitivity',
+    description: 'Acuity, pressure-pain threshold, and preferred clothing pressure are three maps — do not average them for garment fit.',
+    duration: 'Experimental',
+    tags: ['pressure', 'comfort', 'psychophysics']
+  },
+  {
+    title: 'Pattern reduction and body pressure targets',
+    link: '/literature-reviews/pattern-reduction-pressure-targets',
+    description: 'Reduction × gauge × radius → Laplace contact pressure; ~0.8 kPa mid-limb skintight soft-NR mark.',
+    duration: 'Experimental',
+    tags: ['reduction', 'gauge', 'pressure', 'clo3d']
+  },
+  {
+    title: 'Reduction and pressure sensitivity',
+    link: '/literature-reviews/reduction-and-pressure-sensitivity',
+    description: 'Laplace P ÷ Scale C m_C → feels-like intensity; equal-% partial cancelation.',
+    duration: 'Experimental',
+    tags: ['reduction', 'pressure', 'feels-like']
+  },
+  {
+    title: 'Simulating natural rubber sheet in Clo3D',
+    link: '/literature-reviews/clo3d-material-simulation',
+    description: 'Calendered natural rubber sheet Clo3D presets — gauge-scaled K, render, and downloadable .zfab fabrics.',
+    duration: 'Experimental',
+    tags: ['clo3d', 'sheet', 'simulation']
   }
 ]" />
 

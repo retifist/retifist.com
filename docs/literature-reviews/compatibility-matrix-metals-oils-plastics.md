@@ -7,13 +7,13 @@ tags: [compatibility, metals, oils, plastics]
 
 # Compatibility Matrix: Metals, Oils, Plastics, and Skin Products
 
-> **Safety.** Solvent cements and some oils are flammable. Oil on a latex glove or a worn film can be a chemical attack, not only a slip layer. Read the product SDS.
+> **Safety.** Solvent cements and some oils are flammable. Oil on a latex glove or a worn film can chemically damage the rubber, not only act as a slip layer. Read the product SDS.
 
 ## Executive summary
 
 This is a **never / avoid / conditional / OK** grid for what touches natural rubber. The same cured film sees copper-catalyzed aging and oil swell whether it started as bought sheet or as a dried latex coat. Wet latex in a bottle or a hose is a different contact state: brass, copper, and wet galvanized fittings are never acceptable there.
 
-Petroleum and mineral-oil skin products attack thin NR barriers. Use the grid when you pick a bottle, a tray, a snap, or a cream that will sit on rubber. Fastener taxonomy lives in [Sheet Hardware & Metal Contact](/literature-reviews/sheet-hardware-metal-contact) and [Liquid Hardware & Metal Contact](/literature-reviews/liquid-hardware-metal-contact).
+Petroleum and mineral-oil skin products can chemically damage thin NR barriers. Use the grid when you pick a bottle, a tray, a snap, or a cream that will sit on rubber. Fastener taxonomy lives in [Sheet Hardware & Metal Contact](/literature-reviews/sheet-hardware-metal-contact) and [Liquid Hardware & Metal Contact](/literature-reviews/liquid-hardware-metal-contact).
 
 ---
 

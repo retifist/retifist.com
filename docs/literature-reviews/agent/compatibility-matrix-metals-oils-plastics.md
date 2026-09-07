@@ -9,11 +9,11 @@ human_page: /literature-reviews/compatibility-matrix-metals-oils-plastics
 
 Human page: https://retifist.com/literature-reviews/compatibility-matrix-metals-oils-plastics
 
-> **Safety.** Solvent cements and some oils are flammable. Oil on latex film is a chemical attack vector as well as a barrier issue. Read the product SDS.
+> **Safety.** Solvent cements and some oils are flammable. Oil on latex film can chemically damage the rubber as well as being a barrier issue. Read the product SDS.
 
 ## Executive summary
 
-Never / avoid / conditional / OK grid for contact with natural rubber. Cured NR film takes copper-catalyzed aging and oil swell regardless of how the film was made.[^3][^4] Wet latex compound is a separate contact state: brass, copper, and wet galvanized fittings are never acceptable.[^1][^2] Petroleum and mineral-oil skin products attack thin NR barriers.[^5][^6]
+Never / avoid / conditional / OK grid for contact with natural rubber. Cured NR film takes copper-catalyzed aging and oil swell regardless of how the film was made.[^3][^4] Wet latex compound is a separate contact state: brass, copper, and wet galvanized fittings are never acceptable.[^1][^2] Petroleum and mineral-oil skin products can chemically damage thin NR barriers.[^5][^6]
 
 Fastener taxonomy: [Sheet Hardware & Metal Contact](/literature-reviews/sheet-hardware-metal-contact), [Liquid Hardware & Metal Contact](/literature-reviews/liquid-hardware-metal-contact).
 

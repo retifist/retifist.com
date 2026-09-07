@@ -145,17 +145,72 @@ html.dark {
   border-top: none;
 }
 
-.rf-safety-callout {
-  margin: 1rem 0 1.5rem;
-  padding: 0.9rem 1rem;
-  background: rgba(227, 124, 136, 0.1);
-  border: 1px solid rgba(185, 71, 84, 0.45);
-  border-top: 3px solid var(--rf-safety-5);
-  font-family: var(--rf-font-ui);
+/* In-page warnings — Downloads box is the standard. Site-top bar is the exception. */
+.rf-warning,
+.rf-safety-callout,
+.vp-doc blockquote,
+.vp-doc .custom-block.warning,
+.vp-doc .custom-block.danger {
+  margin: 0 0 1.25rem;
+  padding: 0.85rem 1rem;
+  background: var(--vp-c-warning-soft);
+  border: 1px solid var(--vp-c-warning-2);
+  border-left: 4px solid var(--vp-c-warning-1);
+  border-radius: 0;
   color: var(--vp-c-text-1);
+  font-family: var(--rf-font-ui);
+  font-size: 0.95rem;
+  line-height: 1.45;
 }
 
-.rf-safety-callout strong {
+.rf-warning__text,
+.rf-warning p,
+.rf-safety-callout p,
+.vp-doc blockquote p,
+.vp-doc .custom-block.warning p,
+.vp-doc .custom-block.danger p {
+  margin: 0;
+  color: var(--vp-c-text-1);
+  font-family: var(--rf-font-ui);
+}
+
+.rf-warning__text strong,
+.rf-warning strong,
+.vp-doc blockquote strong,
+.vp-doc .custom-block.warning .custom-block-title,
+.vp-doc .custom-block.warning strong {
+  color: var(--vp-c-warning-1);
+  font-weight: 700;
+}
+
+.vp-doc .custom-block.warning .custom-block-title,
+.vp-doc .custom-block.danger .custom-block-title {
+  margin: 0 0 0.35rem;
+  font-size: inherit;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.rf-warning__scope {
+  display: block;
+  margin-top: 0.45rem;
+  color: var(--vp-c-text-2);
+  font-size: 0.85rem;
+}
+
+/* Safety IA keeps the same box, red tokens */
+.rf-warning--safety,
+.rf-safety-callout,
+.vp-doc .custom-block.danger {
+  background: var(--vp-c-danger-soft);
+  border-color: var(--vp-c-danger-2);
+  border-left-color: var(--vp-c-danger-1);
+}
+
+.rf-warning--safety strong,
+.rf-safety-callout strong,
+.vp-doc .custom-block.danger .custom-block-title,
+.vp-doc .custom-block.danger strong {
   color: var(--rf-safety-4);
 }
 

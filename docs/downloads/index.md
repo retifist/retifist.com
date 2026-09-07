@@ -1,13 +1,15 @@
 ---
 title: Downloads
-description: PDF pattern packets for Retifist Start Small.
+description: PDF pattern packets and Clo3D natural rubber sheet fabric presets.
 ---
 
 # Downloads
 
-v1 downloads are **PDF patterns only**. Placeholder files are shipped for local debug so links resolve; replace bytes with curated packets when ready. Paths stay stable.
+Pattern PDFs are the Start Small packets. Clo3D fabrics sit further down with the experimental-verification notice.
 
 ## Pattern PDFs
+
+<PatternPlaceholderBanner />
 
 <DownloadLink
   href="/downloads/bow-pattern.pdf"
@@ -26,6 +28,67 @@ v1 downloads are **PDF patterns only**. Placeholder files are shipped for local 
 - [Bow](/patterns/start-small/bow/)
 - [Basic shoe sock](/patterns/start-small/basic-shoe-sock/)
 
-### Placeholder note
+## Clo3D natural rubber sheet presets {#clo3d-nr-sheet-presets}
 
-If a packet is not ready for publish, keep the DownloadLink `available` flag false or leave a clearly labeled placeholder PDF in `docs/public/downloads/` so preview does not 404. Do not invent silent dead links.
+<ExperimentalVerificationBanner />
+
+Import these `.zfab` fabrics in a licensed Clo3D install. Explainer: [Simulating natural rubber sheet in Clo3D](/literature-reviews/clo3d-material-simulation).
+
+<DownloadLink
+  href="/downloads/clo3d/NR-sheet-0.20-black.zfab"
+  label="Natural rubber sheet 0.20 mm black"
+/>
+
+<DownloadLink
+  href="/downloads/clo3d/NR-sheet-0.20-red.zfab"
+  label="Natural rubber sheet 0.20 mm red"
+/>
+
+<DownloadLink
+  href="/downloads/clo3d/NR-sheet-0.30-black.zfab"
+  label="Natural rubber sheet 0.30 mm black"
+  note="Reference gauge for the published scale rules."
+/>
+
+<DownloadLink
+  href="/downloads/clo3d/NR-sheet-0.30-red.zfab"
+  label="Natural rubber sheet 0.30 mm red"
+/>
+
+<DownloadLink
+  href="/downloads/clo3d/NR-sheet-0.40-black.zfab"
+  label="Natural rubber sheet 0.40 mm black"
+  note="Near the fashion 0.33–0.45 mm band."
+/>
+
+<DownloadLink
+  href="/downloads/clo3d/NR-sheet-0.40-red.zfab"
+  label="Natural rubber sheet 0.40 mm red"
+/>
+
+<DownloadLink
+  href="/downloads/clo3d/NR-sheet-0.80-black.zfab"
+  label="Natural rubber sheet 0.80 mm black"
+/>
+
+<DownloadLink
+  href="/downloads/clo3d/NR-sheet-0.80-red.zfab"
+  label="Natural rubber sheet 0.80 mm red"
+/>
+
+<DownloadLink
+  href="/downloads/clo3d/NR-sheet-1.00-black.zfab"
+  label="Natural rubber sheet 1.00 mm black"
+/>
+
+<DownloadLink
+  href="/downloads/clo3d/NR-sheet-1.00-red.zfab"
+  label="Natural rubber sheet 1.00 mm red"
+/>
+
+### Related reviews
+
+- [Body-region pressure sensitivity](/literature-reviews/body-region-pressure-sensitivity)
+- [Pattern reduction and body pressure targets](/literature-reviews/pattern-reduction-pressure-targets)
+- [Reduction and pressure sensitivity](/literature-reviews/reduction-and-pressure-sensitivity)
+- [Simulating natural rubber sheet in Clo3D](/literature-reviews/clo3d-material-simulation)

@@ -9,6 +9,8 @@ Entry pattern for Start Small. Print at 100% scale, cut paper templates in 00, t
 
 ## Download
 
+<PatternPlaceholderBanner />
+
 <DownloadLink
   href="/downloads/bow-pattern.pdf"
   label="Download bow pattern PDF"

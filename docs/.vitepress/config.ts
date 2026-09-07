@@ -33,6 +33,10 @@ const techniqueItems = [
 const literatureReviewShared = [
   { text: 'Allergy and Skin Contact', link: '/literature-reviews/allergy-and-skin-contact' },
   { text: 'Compatibility Matrix', link: '/literature-reviews/compatibility-matrix-metals-oils-plastics' },
+  { text: 'Body-region pressure sensitivity', link: '/literature-reviews/body-region-pressure-sensitivity' },
+  { text: 'Pattern reduction → pressure', link: '/literature-reviews/pattern-reduction-pressure-targets' },
+  { text: 'Reduction × pressure sensitivity', link: '/literature-reviews/reduction-and-pressure-sensitivity' },
+  { text: 'Simulating natural rubber sheet in Clo3D', link: '/literature-reviews/clo3d-material-simulation' },
 ]
 
 const literatureReviewSheet = [
@@ -88,6 +92,22 @@ export default defineConfig({
   base: '/',
   appearance: 'force-dark',
   cleanUrls: true,
+  vite: {
+    assetsInclude: ['**/*.zfab'],
+    plugins: [
+      {
+        name: 'retifist-zfab-mime',
+        configureServer(server) {
+          server.middlewares.use((req, res, next) => {
+            if (req.url && /\.zfab(\?|$)/.test(req.url)) {
+              res.setHeader('Content-Type', 'application/octet-stream')
+            }
+            next()
+          })
+        },
+      },
+    ],
+  },
   sitemap: {
     hostname: SITE_ORIGIN,
     transformItems(items) {
@@ -210,7 +230,10 @@ export default defineConfig({
       '/downloads/': [
         {
           text: 'Downloads',
-          items: [{ text: 'PDF patterns', link: '/downloads/' }],
+          items: [
+            { text: 'PDF patterns', link: '/downloads/' },
+            { text: 'Clo3D natural rubber fabrics', link: '/downloads/#clo3d-nr-sheet-presets' },
+          ],
         },
       ],
       '/safety/': [
