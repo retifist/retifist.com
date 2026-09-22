@@ -9,7 +9,7 @@ tags: [clo3d, sheet, gauge, simulation, leftover]
 
 ## Executive summary
 
-This repository models calendered natural rubber sheet as an isotropic, dielectric solid film in Clo3D. Presets scale stretch, shear, and bending resistance across standard gauges from 0.20 mm to 1.00 mm. Use these presets when assigning materials to 3D patterns, switching sheet gauge, or evaluating skintight drape against avatar geometry. Open YAML files under [`assets/`](assets/) and `clo3d/yaml/` serve as the source of truth for all parameters. Do not adjust the simulation Stretch sliders to create garment fit pressure. Fit pressure is controlled by 2D pattern reduction, gauge, and compound modulus.
+This repository models calendered natural rubber sheet as an isotropic, dielectric solid film in Clo3D. Presets scale stretch, shear, and bending resistance across standard gauges from 0.20 mm to 1.00 mm. Use these presets when assigning materials to 3D patterns, switching sheet gauge, or evaluating skintight drape against avatar geometry. Open YAML files under `assets/` and `clo3d/yaml/` serve as the source of truth for all parameters. Do not adjust the simulation Stretch sliders to create garment fit pressure. Fit pressure is controlled by 2D pattern reduction, gauge, and compound modulus.
 
 **Related:** [Pattern reduction → pressure targets](/literature-reviews/pattern-reduction-pressure-targets) · [Reduction × pressure sensitivity](/literature-reviews/reduction-and-pressure-sensitivity) · [Body-region pressure sensitivity](/literature-reviews/body-region-pressure-sensitivity)
 
@@ -54,7 +54,7 @@ Industrial benchmarks establish the physical neighborhood for soft, unfilled nat
 - **Optical constants:** Purified *Hevea brasiliensis* rubber has an experimental refractive index ($n_D^{25}$) between 1.519 and 1.522 (McPherson & Cummings, 1935). Setting the index of refraction (IOR) to 1.50 matches physical measurements.
 - **Metadata artifacts:** The preset files contain fixed-length strings such as `Classification: Tricot` and `Content: Nylon(100%)`. These are length-locked structural leftovers from the base `.zfab` template and do not affect physical behavior.
 
-For the full property rationale, see [`clo3d/nr-sheet-settings.md`](../../../clo3d/nr-sheet-settings.md).
+For the full property rationale, see `clo3d/nr-sheet-settings.md`.
 
 </details>
 
@@ -101,7 +101,7 @@ $$D = \frac{E t^3}{12(1 - \nu^2)}$$
 
 where $E$ is Young's modulus and $\nu$ is Poisson's ratio. Thin membranes collapse easily under gravity, while heavier gauges maintain structural form around limb contours.
 
-A complete per-gauge property matrix is maintained in [`clo3d/nr-sheet-settings.md`](../../../clo3d/nr-sheet-settings.md).
+A complete per-gauge property matrix is maintained in `clo3d/nr-sheet-settings.md`.
 
 </details>
 
@@ -152,17 +152,17 @@ Clo3D `.zfab` files are proprietary binary archives based on vendor templates. T
 <details>
 <summary>Detail: Repository assets and licensing structure</summary>
 
-Freely redistributable text definitions are located in the repository under [`assets/`](assets/) and `clo3d/yaml/`:
+Freely redistributable text definitions are located in the repository under `assets/` and `clo3d/yaml/`:
 
-- **0.20 mm:** [`assets/NR-sheet-0.20-black.yaml`](assets/NR-sheet-0.20-black.yaml) · [red](assets/NR-sheet-0.20-red.yaml)
-- **0.30 mm reference:** [`NR-sheet-0.30-black.yaml`](assets/NR-sheet-0.30-black.yaml) · [red](assets/NR-sheet-0.30-red.yaml)
-- **0.40 mm:** [`NR-sheet-0.40-black.yaml`](assets/NR-sheet-0.40-black.yaml) · [red](assets/NR-sheet-0.40-red.yaml)
-- **0.80 mm:** [`NR-sheet-0.80-black.yaml`](assets/NR-sheet-0.80-black.yaml) · [red](assets/NR-sheet-0.80-red.yaml)
-- **1.00 mm:** [`NR-sheet-1.00-black.yaml`](assets/NR-sheet-1.00-black.yaml) · [red](assets/NR-sheet-1.00-red.yaml)
+- **0.20 mm:** `assets/NR-sheet-0.20-black.yaml` · `assets/NR-sheet-0.20-red.yaml`
+- **0.30 mm reference:** `NR-sheet-0.30-black.yaml` · `assets/NR-sheet-0.30-red.yaml`
+- **0.40 mm:** `NR-sheet-0.40-black.yaml` · `assets/NR-sheet-0.40-red.yaml`
+- **0.80 mm:** `NR-sheet-0.80-black.yaml` · `assets/NR-sheet-0.80-red.yaml`
+- **1.00 mm:** `NR-sheet-1.00-black.yaml` · `assets/NR-sheet-1.00-red.yaml`
 
-Binary files located at `clo3d/presets/*.zfab` and `clo3d/edit.zfab` are derived from Clo3D base templates and are intended solely for local workspace use. Details on copyright and distribution constraints are documented in [`assets/README.md`](assets/README.md).
+Binary files located at `clo3d/presets/*.zfab` and `clo3d/edit.zfab` are derived from Clo3D base templates and are intended solely for local workspace use. Details on copyright and distribution constraints are documented in `assets/README.md`.
 
-The build tool injects the YAML stiffness coefficients and mass records directly into the base template archive. Tool instructions and options are documented in [`tools/ZfabYaml/README.md`](../../../tools/ZfabYaml/README.md).
+The build tool injects the YAML stiffness coefficients and mass records directly into the base template archive. Tool instructions and options are documented in `tools/ZfabYaml/README.md`.
 
 </details>
 
@@ -205,7 +205,7 @@ where $L_0$ is the relaxed pattern dimension and $L$ is the circumferential body
 
 For natural rubber sheet in the fashion gauge band (0.33 to 0.45 mm) fitted over a limb radius of approximately 10 cm, skintight fit targets an interface pressure of roughly 0.8 kPa. Adjusting the Clo3D Stretch slider changes the internal solver spring constant across mesh vertices, altering drape under gravity and collision response, but it does not reproduce the circumferential stress field created by pattern reduction.
 
-For full derivations, see [`target-body-pressure.md`](../../../clo3d/target-body-pressure.md) and the review on [pattern reduction and pressure targets](/literature-reviews/pattern-reduction-pressure-targets).
+For full derivations, see `target-body-pressure.md` and the review on [pattern reduction and pressure targets](/literature-reviews/pattern-reduction-pressure-targets).
 
 </details>
 

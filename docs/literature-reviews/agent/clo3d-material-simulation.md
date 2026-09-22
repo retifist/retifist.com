@@ -11,7 +11,7 @@ Human page: /literature-reviews/clo3d-material-simulation
 
 ## Executive summary
 
-Clo3D presets model calendered NR sheet: isotropic in-plane `K`, gauge-scaled thickness/GSM/stretch/shear/bend; polished dielectric render.[^1] Redistributable SoT: YAML in [`assets/`](assets/) / `clo3d/yaml/`. Do **not** claim free redistribution of `edit.zfab` or treat packed `.zfab` as a free product.[^2]
+Clo3D presets model calendered NR sheet: isotropic in-plane `K`, gauge-scaled thickness/GSM/stretch/shear/bend; polished dielectric render.[^1] Redistributable SoT: YAML in `assets/` / `clo3d/yaml/`. Do **not** claim free redistribution of `edit.zfab` or treat packed `.zfab` as a free product.[^2]
 
 Related: [pressure targets](/literature-reviews/pattern-reduction-pressure-targets), [reduction × sensitivity](/literature-reviews/reduction-and-pressure-sensitivity), [body-region pressure sensitivity](/literature-reviews/body-region-pressure-sensitivity).
 
