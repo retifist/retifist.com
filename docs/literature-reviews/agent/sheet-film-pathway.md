@@ -1,67 +1,64 @@
 ---
 title: Buying Formed Latex Sheet
-description: Commercial calendered sheet as a ready film. Catalog thickness, ISO tolerance language, and post-purchase work. Endnotes for verification.
+description: Commercial calendered sheet you buy already formed. Thickness-menu reading and post-purchase work. Endnotes for verification.
 series: literature-reviews
 human_page: /literature-reviews/sheet-film-pathway
 ---
 
 # Buying Formed Latex Sheet
 
-Human page: https://retifist.com/literature-reviews/sheet-film-pathway
+Human page: /literature-reviews/sheet-film-pathway
 
 > **Safety.** Natural-rubber protein and accelerator chemistry can matter for skin contact. Literacy, not a wear certificate. See [Allergy and Skin Contact](/literature-reviews/allergy-and-skin-contact).
 
 ## Executive summary
 
-This pathway starts with commercial sheet already formed. Cut, glue, finish. ISO 3302-1 is a dimensional-tolerance framework for calendered rubber sheet, not a mill SOP.[^1] Manufacturer category pages describe calendered NR sheeting as industrial or catalog goods.[^2][^3]
+Sheet pathway: buy commercial **sheet** already formed, then cut, apply adhesive, and finish.[^1][^2]
 
-Use with [Calendered latex sheet](/literature-reviews/sheet-calendered-sheet). Seams: [Sheet adhesives and seam integrity](/literature-reviews/sheet-adhesives-and-seam-integrity).
+Pair with [Calendered latex sheet](/literature-reviews/sheet-calendered-sheet) and [Sheet adhesives and seam integrity](/literature-reviews/sheet-adhesives-and-seam-integrity).
 
----
+## What sheet are you buying?
 
-## What you are buying
+```mermaid
+flowchart LR
+  buy[Buy commercial sheet] --> cut[Cut]
+  cut --> bond[Apply adhesive]
+  bond --> finish[Finish]
+```
 
-Commercial latex sheet is sold with thickness menus, finish options, and cure-state options.[^2][^3] Fashion suppliers usually mean calendered roll goods.
+Catalog goods list thickness, finish, and cure state.[^2][^3] Fashion suppliers usually mean calendered sheet. Color, stretch, and shine do not change the goods class.
 
-Shop culture is typically solvent rubber cement as a contact bond. That is a pathway label, not a handbook procedure.
+Solvent rubber cement as a contact bond is typical shop culture. It is a pathway habit, not a procedure in this article.
 
-Color, stretch, and shine do not change the feedstock class.
+**Detail.** Calendered sheet is solid rubber formed between rollers. White Cross Rubber Products describes calendered natural-rubber sheeting from about 300 µm, smooth or cloth finish, and cure-state options.[^2] That is a category page.
 
----
+## How do you read a thickness?
 
-## How thickness is specified
+Read printed millimetres. Keep any named tolerance class with the number. A polishable face and a roughened back are that seller’s catalog description.[^3]
 
-Catalogs quote millimetres. ISO 3302-1 includes calendered rubber sheet in its dimensional-tolerance scope. It is a tolerance class for solid rubber, not coated fabric, and not a garment construction chapter.[^1]
+ISO 3302-1:2014 is a dimensional-tolerance standard whose scope includes calendered sheet. It is not a mill recipe and not a garment chapter.[^1]
 
-Vendor tables that interpret ST classes for thin sheet are guidance, not the standard text. One published reading: 0–1 mm ST1 ±0.15 mm.[^4]
+**Detail.** ISO 3302-1 covers solid rubber, including calendered sheet, and excludes rubber-coated fabrics.[^1] EMI Seals publishes an ISO 3302-1-aligned table: 0–1 mm at ST1 as ±0.15 mm. That number is the vendor table.[^4] Elastomade lists about 0.25–1.05 mm, with a polishable upper face and a roughened underside.[^3]
 
-WCRP-class category pages: calendered NR from about 300 µm; smooth or cloth finish; cure-state options.[^2] Elastomade-class retail menus: about 0.25–1.05 mm; polishable upper / roughened underside.[^3] Categorize. Do not treat a catalog chart as an audited fashion mill process.
+## What do you do after the sheet arrives?
 
----
+Age and store formed sheet as vulcanized rubber goods. See [Sheet aging, storage, and care](/literature-reviews/sheet-aging-storage-and-care). Join with the adhesive article.
 
-## After you have the sheet
+ASTM D412 (tension) and ASTM D624 (tear) are method classes for vulcanized rubber. Both can be used on vulcanized sheet.[^5][^6]
 
-Once film exists, heat, light, ozone, oils, and metals age it. See [Sheet aging, storage, and care](/literature-reviews/sheet-aging-storage-and-care).
+Protein, accelerator, and irritant classes stay in [Allergy and Skin Contact](/literature-reviews/allergy-and-skin-contact).
 
-ASTM D412 and ASTM D624 are tensile and tear *method classes* for vulcanized rubber.[^5][^6] They are not a garment QC card.
+## When does this pathway fit?
 
-Protein versus accelerator versus irritant classes remain literacy. See [Allergy and Skin Contact](/literature-reviews/allergy-and-skin-contact).
+Use it when you need sheet now and will accept catalog thickness and finish. Repeatability is the sheet you bought.
 
----
-
-## When this pathway fits
-
-Need a usable film now. Accept catalog thickness and finish. Repeatability is the mill’s sheet.
-
-Forming from liquid is a different primer: [Forming film from liquid latex](/literature-reviews/liquid-film-pathway).
-
----
+Forming from liquid latex: [Forming film from liquid latex](/literature-reviews/liquid-film-pathway).
 
 ## Endnotes
 
-[^1]: ISO 3302-1:2014 — rubber dimensional tolerances, including calendered-sheet scope. Tolerance framework, not a fashion mill SOP or garment construction chapter.
-[^2]: WCRP natural rubber sheeting — manufacturer category page: calendered NR (thickness menus, finish, cure-state options) as industrial/catalog goods.
-[^3]: Elastomade latex sheeting chart — retail garment-sheet menu (thickness; polishable upper / roughened underside). Categorize, do not endorse.
-[^4]: EMI Seals ISO 3302-1-aligned tolerance tables — vendor interpretation of ST classes for thin sheet (example: 0–1 mm ST1). Not the standard text.
-[^5]: ASTM D412 — tensile method class for rubber. Shared once a vulcanized film exists.
-[^6]: ASTM D624 — tear method class for rubber.
+[^1]: ISO 3302-1:2014. *Rubber — Tolerances for products — Part 1: Dimensional tolerances.* Scope includes calendered sheet; not rubber-coated fabrics. Tolerance framework, not a mill SOP. https://www.iso.org/standard/62492.html
+[^2]: White Cross Rubber Products. Natural rubber sheeting: calendered natural rubber from about 300 µm; smooth or cloth finish; cure-state options. https://www.wcrp.uk.com/product/natural-rubber-sheet/
+[^3]: Elastomade Accessories. Latex sheeting chart: about 0.25–1.05 mm; polishable upper face and roughened underside. Catalog menu. https://elastomade.com/latex-sheet/
+[^4]: EMI Seals. *Manufacturing Tolerances* v3.0, ISO 3302-1-aligned. Example: 0–1 mm ST1 ±0.15 mm. Vendor interpretation, not the purchased ISO text. https://emiseals.com/wp-content/uploads/2023/12/EMI-Manufacturing-Tolerances-v3.0.pdf
+[^5]: ASTM D412. *Standard Test Methods for Vulcanized Rubber and Thermoplastic Elastomers—Tension.* Method class for vulcanized rubber. https://store.astm.org/d0412-16.html
+[^6]: ASTM D624. *Standard Test Method for Tear Strength of Conventional Vulcanized Rubber and Thermoplastic Elastomers.* https://store.astm.org/d0624-00r12.html

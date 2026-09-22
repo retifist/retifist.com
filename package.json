@@ -7,6 +7,7 @@
   },
   "scripts": {
     "llms:generate": "node scripts/generate-llms.mjs",
+    "lit:sync": "node scripts/sync-literature-reviews.mjs",
     "docs:dev": "node scripts/generate-llms.mjs && vitepress dev docs",
     "docs:build": "node scripts/generate-llms.mjs && vitepress build docs",
     "docs:preview": "vitepress preview docs",

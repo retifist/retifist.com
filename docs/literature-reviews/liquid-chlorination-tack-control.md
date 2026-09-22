@@ -1,99 +1,120 @@
 ---
 title: Chlorination for Tack Control
-description: Permanent de-tack on dipped film — aqueous halogenation, neutralize and rinse, and why it is not an allergy fix.
+description: Permanent de-tack on dipped film. Aqueous halogenation, then neutralize, rinse, and dry warm.
 series: literature-reviews
 tags: [liquid, chlorination, tack]
 ---
 
 # Chlorination for Tack Control
 
-> **Safety.** Chlorine, hypochlorite, and bromine are oxidizing and corrosive. The process develops acidity. Neutralize before the final rinses. No copper or brass in contact with the liquor. Read the product and process SDS. **Halogenation reduces tack. It does not remove natural-rubber protein.** See [Allergy and Skin Contact](/literature-reviews/allergy-and-skin-contact).
+> **Safety.** The bath turns acidic. Neutralize before the water rinses. Keep copper and brass out of the liquor and off anything that touches the goods. Read the product and process SDS. Halogenation on this page is a tack treatment. Protein and allergy classes are in [Allergy and Skin Contact](/literature-reviews/allergy-and-skin-contact).
 
 ## Executive summary
 
-Cured dipped film is often tacky. **Talc** is a temporary industrial dust. Permanent de-tack in dipped-goods plants is aqueous **halogenation**: chlorine water, sodium hypochlorite, or bromine water, typically in a tumbler. Commercial practice mostly uses aqueous chlorine.
+Vulcanized dipped film is naturally tacky. Talc dusting provides a cheap, temporary fix. A permanent commercial alternative is aqueous halogenation using chlorine water, sodium hypochlorite, or bromine water. Finished goods tumble in the liquor, enter a neutralizing bath, receive three water rinses, and dry in warm air. Commercial manufacturing lines rely primarily on chlorine water.
 
-Handbook example: about 0.15% chlorine, 4.5–7.5 minutes at room temperature. Higher-sulfur cured goods need less chlorine time than low-sulfur films. Pair with [Liquid Film Surface Finish](/literature-reviews/liquid-surface-finish-literacy) for how the former set the face you are treating.
+Use this treatment with liquid latex after the film is fully vulcanized. How that initial surface formed is covered in [Liquid Film Surface Finish](/literature-reviews/liquid-surface-finish-literacy).
 
----
+## Questions this article answers
 
-## What halogenation does {#what-it-does}
+- [When do you halogenate a dipped film?](#when)
+- [Which solution cuts tack with less discoloration?](#solution)
+- [How does sulfur in the vulcanized film change the time?](#sulfur)
+- [What order do you treat, neutralize, rinse, and dry?](#order)
+- [What does halogenation change for skin contact?](#skin)
 
-<details>
-<summary>What does halogenation mean?</summary>
+## When do you halogenate a dipped film? {#when}
 
-**Halogenation** here means chlorination or bromination of the cured rubber surface. The chemistry cuts tack permanently. It is a post-cure finish on dipped goods.
+### How
 
-</details>
+Halogenate dipped goods when you need a permanent surface treatment rather than a temporary powder coating. Household gloves and medical tubing are standard examples. For dipped gloves where the wearer must handle wet items, apply chlorine or bromine water to cut surface drag.
 
-Embossing a grip texture is a different operation. On industrial gloves, embossing alone is not enough when the goods need wet grip. Plants use halogenation for that job.
+### Why
 
----
+Talc sits loosely on the rubber and washes away during use. Halogenation chemically modifies the vulcanized surface, keeping drag low permanently. Surface texturing on a former alters physical contact area, but wet rubber remains slick without this chemical treatment.
 
-## Solution choice {#solution-choice}
+## Which solution cuts tack with less discoloration? {#solution}
+
+### How
+
+Use dilute chlorine water to match standard dipped-goods operations. Select your halogen source based on process priorities:
 
 | Solution | Tack reduction | Discoloration |
 | --- | --- | --- |
-| Chlorine water | About the same as bromine | Least among the three |
-| Bromine water | Strong | More than chlorine |
-| Hypochlorite (household-bleach type) | Less efficient | Similar to bromine |
+| Chlorine water | About the same as bromine water | Least of the three |
+| Bromine water | About the same degree as chlorine water | More than chlorine |
+| Sodium hypochlorite | Less than chlorine or bromine | About the same as bromine |
 
-Hypochlorite is easier to source than cylinder chlorine. Time and concentration still have to match **your** film’s [sulfur level](#sulfur-level).
+### Why
 
----
-
-## Sulfur level vs treatment time {#sulfur-level}
-
-The handbook ties treatment intensity to how much sulfur is in the cured film. Goods cured at about 1.5–1.75 **phr** sulfur need less chlorine time than films at 0.25–0.35 phr.
+Chlorine gas ships in pressurized cylinders. Bromine is a liquid, and sodium hypochlorite comes pre-mixed in solution. Both alternatives avoid the handling hazards of gas cylinders. Plants still favor aqueous chlorine gas solutions because they minimize discoloration while matching the tack reduction of bromine.
 
 <details>
-<summary>What does phr mean?</summary>
+<summary>Detail: Hypochlorite in the Vanderbilt laboratory</summary>
 
-**phr** is parts per hundred rubber. 1.5 phr sulfur means 1.5 parts sulfur for every 100 parts rubber in the compound.
+The Vanderbilt laboratory evaluated commercial household bleach (Clorox brand sodium hypochlorite) for film treatment, noting it was the simplest process to stage in a small facility. Laboratory testing confirmed that hypochlorite ranks below chlorine water in friction reduction and causes more yellowing.
 
 </details>
 
-Copying a glove-line time onto a low-sulfur cast panel (or the other way around) is how you over- or under-treat.
+## How does sulfur in the vulcanized film change the time? {#sulfur}
 
----
+### How
 
-## Process discipline {#process-discipline}
+Adjust tumbling duration between 4.5 and 7.5 minutes based on the sulfur content of the vulcanized film. Shorten exposure for high-sulfur compounds. Lengthen exposure for low-sulfur compounds.
 
-A handbook liquor example: about 1.5 ml of chlorine water per 2.5 cm² of latex surface, enough to wet all of it. After the tumble:
+### Why
 
-1. **Neutralize** 5–7 minutes in about 1% sodium thiosulfate or ammonia.
-2. **Three water rinses**, 5–7 minutes each, with tumbling.
-3. **Dry** in a warm-air tumbler at 40–46°C.
-
-Use fresh chlorine solution for each batch. Skipping neutralize or rinse leaves acidic residues. That is a skin-contact and aging problem. See [Aging, Storage and Care](/literature-reviews/liquid-aging-storage-and-care).
+The halogenation reaction rate depends directly on the sulfur present in the vulcanizate. Higher sulfur concentrations react rapidly with dissolved chlorine. Lower sulfur concentrations react slowly and require longer contact times to achieve the same surface finish.
 
 <details>
-<summary>What does neutralize mean here?</summary>
+<summary>Detail: Sulfur levels and bath concentration</summary>
 
-The chlorination bath develops acidity. **Neutralize** means a follow-up bath (thiosulfate or ammonia in the handbook) that kills leftover oxidizer and brings the surface out of that acid state before you rinse and dry. Rinse water alone is not the neutralize step.
+Goods compounded with 1.5 to 1.75 phr sulfur react faster than goods made with 0.25 to 0.35 phr sulfur. When treating low-sulfur film, processors may raise the chlorine concentration in the bath to shorten cycle times instead of extending the tumble duration.
 
 </details>
 
----
+## What order do you treat, neutralize, rinse, and dry? {#order}
 
-## Skin contact {#skin-contact}
+### How
 
-Chlorination changes surface chemistry for tack and drag. Residual process acids and leftover hypochlorite are why the neutralize-and-rinse window exists. Protein allergy classes still apply. Complete rinse, then a gentle dry.
+Run the entire sequence at room temperature. Use vessels lined with glass or made of stainless steel. Follow the standard schedule:
 
----
+```mermaid
+flowchart TD
+  stock["Chlorine water 0.56 percent by weight at saturation"] --> bath["Dilute to about 0.15 percent"]
+  goods["Latex goods loaded in the tumbler"] --> treat
+  bath --> treat["Tumble 4.5 to 7.5 minutes"]
+  treat --> discharge["Discharge the chlorine water"]
+  discharge --> neut["Neutralize 5 to 7 minutes in 1 percent sodium thiosulfate or ammonia"]
+  neut --> rinse["Three rinses, 5 to 7 minutes each, with tumbling"]
+  rinse --> dry["Tumble-dry in warm air at 40 to 46 C"]
+```
 
-## Deep dives (optional)
+Discharge and replace the chlorine liquor after each batch. Keep all copper and brass hardware away from the solution and out of contact with wet goods.
+
+### Why
+
+Halogenation generates hydrochloric acid in the liquor. A dedicated 5 to 7 minute bath in 1 percent sodium thiosulfate or dilute ammonia neutralizes this acid before fresh water enters. Three successive tumbling rinses remove residual salts and processing chemicals. A warm-air cycle at 40 to 46 °C dries the goods and stabilizes the surface.
 
 <details>
-<summary>Deep dive: Diluting the chlorine stock</summary>
+<summary>Detail: Stock saturation and bath volume ratios</summary>
 
-Saturated chlorine water is about 0.56% chlorine. Plants dilute that stock to about 0.15% for the treatment bath.
+Chlorine saturation in water reaches 0.56 percent chlorine by weight at standard conditions. Diluting this stock concentrate creates the working bath target of approximately 0.15 percent.
+
+The liquid ratio requires approximately 1.5 ml of chlorine solution for every 2.5 cm² of latex surface area. This volume ensures complete submersion and uniform fluid movement across all surfaces in the tumbler.
 
 </details>
 
-<details>
-<summary>Deep dive: Wet grip vs embossing</summary>
+## What does halogenation change for skin contact? {#skin}
 
-Industrial dipped goods use halogenation (chlorine or bromine) when wet grip matters. A textured (embossed) surface without that chemistry is not treated as a substitute in the handbook.
+### How
 
-</details>
+Never place chlorinated goods against skin until the neutralization, triple rinse, and warm-air drying stages are fully complete. Review the Safety Data Sheet for every bath component. Refer to [Allergy and Skin Contact](/literature-reviews/allergy-and-skin-contact) to understand protein extraction and accelerator sensitivities.
+
+### Why
+
+Halogenation changes surface friction and drag. The neutralization and multi-stage rinsing procedures exist specifically to eliminate acidic reaction byproducts and processing residues that cause dermal irritation.
+
+## Sources
+
+- *The Vanderbilt Latex Handbook*. 3rd ed. Edited by Robert Francis Mausser. Norwalk, CT: R.T. Vanderbilt Company, 1987. [Library of Congress](https://lccn.loc.gov/92117844)

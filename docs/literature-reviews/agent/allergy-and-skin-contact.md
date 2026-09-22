@@ -7,7 +7,7 @@ human_page: /literature-reviews/allergy-and-skin-contact
 
 # Allergy and Skin Contact
 
-Human page: https://retifist.com/literature-reviews/allergy-and-skin-contact
+Human page: /literature-reviews/allergy-and-skin-contact
 
 > **Not medical advice.** This article is literacy: names for reaction *classes*, typical *timing patterns*, and what labels do or do not mean. It is not diagnosis, treatment, emergency protocol, or a product “safe to wear” certificate. Seek a qualified clinician for symptoms.
 

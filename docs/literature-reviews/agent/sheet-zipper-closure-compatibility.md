@@ -1,71 +1,119 @@
 ---
 title: Sheet Zipper Closure Compatibility
-description: Zipper tape and coil materials for bonding to commercial sheet — with endnotes.
+description: Zipper tape, coil, and stops on bought sheet, with endnotes.
 series: literature-reviews
 human_page: /literature-reviews/sheet-zipper-closure-compatibility
+tags: [sheet, zippers, closures]
 ---
 
 # Sheet Zipper Closure Compatibility
 
-Human page: https://retifist.com/literature-reviews/sheet-zipper-closure-compatibility
+Human page: /literature-reviews/sheet-zipper-closure-compatibility
 
-> **Safety.** Solvent rubber cement on sheet: flammable vapor; ventilate.[^2] Cleaners at the tape edge can attack the bond. Grid: [Compatibility Matrix](/literature-reviews/compatibility-matrix-metals-oils-plastics).
+> **Safety.** Solvent rubber cement on bought sheet: fire and fume class.[^1] Product SDS. [Sheet adhesives](/literature-reviews/sheet-adhesives-and-seam-integrity). [Sheet ventilation](/literature-reviews/sheet-ventilation-solvent-exposure).
 
 ## Executive summary
 
-Compatibility of zipper tape, coil, and stops with commercial sheet. Continuous-filament nylon and polyester present a smooth, waxlike face with poor mechanical bonding to rubber unless a prep bridge is used.[^1] Metal coil is a metal-contact problem ([sheet hardware](/literature-reviews/sheet-hardware-metal-contact)). ASTM D2054 is zipper-*tape* textile crocking, not NR-sheet bond strength.[^4]
+Bought sheet. Zipper choice turns on tape fiber, coil or teeth, and stops. The fiber comparison is cord and fabric in heavy rubber goods, used here as a material cue.[^2][^3] Metal coil is a metal-contact question ([Sheet hardware](/literature-reviews/sheet-hardware-metal-contact)).
 
-Glue families: [Sheet Adhesives and Seam Integrity](/literature-reviews/sheet-adhesives-and-seam-integrity). Fiber cues: [Sheet Latex Textile Bonding](/literature-reviews/sheet-latex-textile-bonding).
+## Questions this article answers
 
----
+- [Which zipper parts matter on sheet?](#which-parts)
+- [Cotton tape or a slick nylon or polyester tape?](#cotton-or-slick)
+- [How do I choose coil and adhesive?](#choose)
+- [What does ASTM D2054 test?](#d2054)
 
-## Components
+## Which zipper parts matter on sheet? {#which-parts}
 
-| Part | Compatibility question |
+### How
+
+| Part | Question |
 | --- | --- |
-| Woven tape | Fiber (cotton vs nylon vs PET); prep need |
-| Coil / teeth | Nylon vs metal → sheet hardware if metal |
-| Stops / pull | Material + solvent-cleaner exposure |
+| Woven tape | Cotton, nylon, or polyester |
+| Coil or teeth | Nylon, or metal → [Sheet hardware](/literature-reviews/sheet-hardware-metal-contact) |
+| Stops and pull | Metal or plastic in the cement zone |
 
----
+Attach steps: [Sheet adhesives](/literature-reviews/sheet-adhesives-and-seam-integrity). Cloth faces: [Sheet latex–textile bonding](/literature-reviews/sheet-latex-textile-bonding).
 
-## Nylon and polyester tape
+### Why
 
-Cotton: protruding fiber ends embed in the rubber matrix. Rayon, nylon (polyamide), and polyester: continuous filament, smooth waxlike surface, poor mechanical bond unless abraded or chemically bridged.[^1]
+The bond that matters is tape face to sheet. Coil is a second material. ASTM D2054 does not measure that bond.[^5]
 
-Non-porous faces: latex polarity should match the surfaces to be joined. Handbook polarity band: NR / SBR / BR / IIR at the low end; NBR / XNBR at the high end.[^3]
+## Cotton tape or a slick nylon or polyester tape? {#cotton-or-slick}
 
-Industrial analog: abrasion plus latex–casein dip on tire cord. Combined effect greater than either step alone under dynamic conditions.[^1]
+### How
 
----
+Read the tape fiber. Cotton in these handbooks is staple fiber. Nylon and polyester are continuous filaments. The sentences are about cord and fabric, not a named zipper.[^2] Cloth faces: [Sheet latex–textile bonding](/literature-reviews/sheet-latex-textile-bonding).
 
-## Decision cues
+A latex adhesive can shrink textile.[^1][^4] Bought-sheet lap: solvent rubber cement.
 
-```text
-cotton → mechanical key easier
-nylon / PET → prep bridge before solvent cement
-metal coil → compatibility matrix + sheet hardware
-solvent cement on sheet → sheet adhesives
-water-based coat on tape → [Liquid Zipper Closure Compatibility](/literature-reviews/liquid-zipper-closure-compatibility)
-```
+### Why
 
-Latex-adhesive shrink and aqueous tape coats are on the liquid zipper page.[^2][^5]
+Cotton is staple fiber; protruding ends embed in the rubber matrix. Rayon, polyamide, and polyester are continuous filaments with a smooth, wax-like surface and lack that mechanical key. The page’s subject is cord and fabric.[^2] The 1966 set states the same limit for rayon, nylon, and polyester (“Terylene” or “Dacron”).[^3]
 
----
+Porous substrate: latex-adhesive bond mainly mechanical; polymer nature less important. Non-porous: matched polarity.[^4] Vanderbilt places NR in the low-polarity band.[^1]
+
+### Detail
 
 <details>
-<summary>Deep dive: ASTM D2054 scope</summary>
+<summary>Detail: Abrasion, and one word the two Blackley books do not share</summary>
 
-ASTM D2054: colorfastness of zipper tapes to crocking. Textile QC. Not NR-sheet bond strength.[^4]
+High-tenacity rayon cord: prior abrasion improves static adhesion to rubber. Under dynamic conditions the improvement is not so marked unless a dip follows. Combined effect greater than either step alone.[^2][^3]
+
+1997 page text: latex-casein **abrasive**.[^2] 1966 page text: latex-casein **adhesive**.[^3] Same report otherwise. No silent winner. Tire-cord analog, not calendered-sheet zipper tape.
 
 </details>
 
----
+<details>
+<summary>Detail: Polarity bands for a non-porous face</summary>
+
+Non-porous: polarity of the latex should match the surfaces to be joined. High: NBR, XNBR, XSBR, PSBR. Medium: CR, PVC. Low: NR, SBR, BR, IIR.[^1]
+
+Porous: mainly mechanical; non-porous: matched polarity. Non-polar: polyisoprene or SBR. High polarity: acrylonitrile–butadiene, acrylics, styrene–vinylpyridine–butadiene, or carboxylated polymers.[^4]
+
+</details>
+
+## How do I choose coil and adhesive? {#choose}
+
+### How
+
+```mermaid
+flowchart TD
+  fiber{Cord and fabric in the handbooks}
+  fiber -->|Cotton| cotton[Fiber ends can embed. Cue only for a zipper tape]
+  fiber -->|Nylon or polyester| slick[Smooth face. Mechanical key missing]
+  coil{Coil or teeth}
+  coil -->|Metal| metal[Sheet hardware and the compatibility matrix]
+  coil -->|Nylon| nylonCoil[Filament is the slick class in that comparison]
+  family{Adhesive family}
+  family -->|Solvent rubber cement| cement[Fire and fume class. Sheet adhesives]
+  family -->|Latex adhesive| shrink[Can shrink textiles]
+```
+
+Metal coil and metal stops: [Compatibility matrix](/literature-reviews/compatibility-matrix-metals-oils-plastics) and [Sheet hardware](/literature-reviews/sheet-hardware-metal-contact). Water-based coat on the tape: [Liquid zipper closure compatibility](/literature-reviews/liquid-zipper-closure-compatibility).
+
+### Why
+
+Branch follows the fiber class in the handbooks and the adhesive family.[^2][^1] A latex adhesive can shrink cloth.[^1][^4] Solvent rubber cement is the bought-sheet family and the fire and fume class.[^1]
+
+## What does ASTM D2054 test? {#d2054}
+
+### How
+
+ASTM D2054: colorfastness of zipper tapes to crocking. Not a bond-strength method for natural-rubber sheet.[^5]
+
+### Why
+
+Subject is the textile tape and color rub-off. Textile QC. Not sheet bond strength.[^5]
 
 ## Endnotes
 
-[^1]: Blackley, High Polymer Latices — cotton fiber-end mechanical key vs rayon / nylon / polyester continuous-filament smooth face; abrasion + latex–casein.
-[^2]: Vanderbilt Latex Handbook — adhesives comparison; latex adhesives shrink fabrics; solvent systems carry fire / fume hazards.
-[^3]: Vanderbilt Latex Handbook — latex polarity should match surfaces; polarity bands (NR low; NBR high).
-[^4]: ASTM D2054 — zipper-tape textile crocking; scope boundary.
-[^5]: Practical Guide to Latex Technology — aqueous shrink; porous bond.
+[^1]: *The Vanderbilt Latex Handbook*. 3rd ed. Edited by Robert Francis Mausser. Norwalk, CT: R.T. Vanderbilt Company, 1987. https://lccn.loc.gov/92117844 Solvent-adhesive disadvantages include fire hazard and solvent fumes. Latex-adhesive disadvantages include “Shrinks fabrics.” Non-porous: polarity of the latex should match the surfaces to be joined. High: NBR, XNBR, XSBR, PSBR. Medium: CR, PVC. Low: NR, SBR, BR, IIR.
+
+[^2]: *Polymer Latices: Science and Technology — Volume 3: Applications of Latices*. 2nd ed. D. C. Blackley. Chapman & Hall / Springer, 1997. https://books.google.com/books?id=Y2VPGj7YbykC Cotton staple fibre ends embed in rubber. Continuous-filament rayon, polyamide, and polyester have a smooth, wax-like surface and lack that mechanical key. Abrasion of high-tenacity rayon improves static adhesion; dynamic gain needs a following treatment. Page text: “latex-casein abrasive.”
+
+[^3]: *High Polymer Latices: Their Science and Technology*. 2 vols. D. C. Blackley. London: Maclaren; New York: Palmerton, 1966. https://lccn.loc.gov/66077950 Same mechanical-key limit for rayon, polyamide (“nylon”), and polyester (“Terylene” or “Dacron”). Same abrasion report; page text: “latex-casein adhesive.” Tier 4 corroboration. Do not cite this set as Polymer Latices Volume 3.
+
+[^4]: *Practical Guide to Latex Technology*. Rani Joseph. Shawbury: Smithers Rapra Technology, 2013. https://books.google.com/books/about/Practical_Guide_to_Latex_Technology.html?id=NB5AMwEACAAJ “The tendency of aqueous lattices to shrink textiles and to wrinkle paper.” Porous substrates: bond mainly mechanical. Non-porous: matched polarity. Non-polar: polyisoprene or SBR. High polarity: acrylonitrile–butadiene, acrylics, styrene–vinylpyridine–butadiene, or carboxylated polymers.
+
+[^5]: ASTM D2054. Colorfastness of zipper tapes to crocking. Scope boundary: textile tape, not natural-rubber sheet bond strength. No URL recorded.

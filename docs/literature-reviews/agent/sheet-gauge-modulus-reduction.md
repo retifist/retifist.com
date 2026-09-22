@@ -7,54 +7,48 @@ human_page: /literature-reviews/sheet-gauge-modulus-reduction
 
 # Gauge, Modulus, and Reduction on Bought Sheet
 
-Human page: https://retifist.com/literature-reviews/sheet-gauge-modulus-reduction
+Human page: /literature-reviews/sheet-gauge-modulus-reduction
 
 ## Executive summary
 
-On bought calendered sheet, fit is three knobs. Gauge is roll thickness. Modulus is stiffness at a stated stretch, already set by the mill compound. Reduction is pattern shrink versus body measurements.
+On bought calendered sheet, fit has three levers. Gauge is roll thickness. Modulus is stiffness at a stated stretch, already set in the mill compound. Reduction is pattern shrink versus body measurements.
 
-Thinner, softer, and smaller-cut are different moves. Use when picking a catalog millimetre, or when two rolls of the same printed thickness feel different.
+Thinner, softer, and a smaller pattern are different moves. Use when picking a catalog millimetre, or when two rolls of the same printed thickness feel different.
 
----
+## How do you read gauge on a roll?
 
-## Gauge is catalog thickness
+Gauge is thickness. Read the millimetres on the product line. A tolerance class, when printed, stays with that number.[^1]
 
-Gauge is thickness (mm or mil). Retail garment-sheet menus commonly about **0.25–1.05 mm**.[^1]
+Retail garment-sheet charts are seller lists. The Elastomade chart runs about 0.25–1.05 mm. That range is that chart.[^2]
 
-ISO 3302-1 includes calendered rubber sheet in dimensional-tolerance scope. Tolerance framework for solid rubber, not a garment construction chapter.[^2]
+Menu language: [Calendered latex sheet](/literature-reviews/sheet-calendered-sheet).
 
-Vendor menu language: [Calendered latex sheet](/literature-reviews/sheet-calendered-sheet).
+## What does modulus mean on sheet you bought?
 
----
+Modulus is stress at a stated extension (force per area). Higher modulus is boardier at the same gauge.
 
-## Modulus is inherited stiffness
+The roll is already compounded. Same printed thickness can still differ in the hand when the compound differs. Filler and color: [Colored sheet: pigment and filler effects](/literature-reviews/sheet-pigment-filler-decks).
 
-Modulus is stress at fixed extension (MPa at 300%, psi at 500%). Higher modulus is boardier at the same gauge.
+At an unchanged modulus, a thicker piece of the same rubber takes more total force to bend and to reach the same stretch. Wall thickness changed. The stress number did not.
 
-The mill already compounded the roll. Same printed thickness can still differ in hand if filler load differs. Inherited filler effects: [Colored sheet: pigment and filler effects](/literature-reviews/sheet-pigment-filler-decks).
+## What is reduction?
 
-At unchanged modulus, a thicker piece of the same rubber is harder to bend and takes more force to reach the same body stretch. Gauge geometry, not a new MPa number.
+Reduction is negative ease. Flat pieces are drawn smaller than body measurements so the garment must stretch to close. Catalog thickness changes the wall.
 
-Elastomeric film must stretch at least **2×** and recover. Fit needs strain margin inside that capability.[^3]
+## Which change actually changes the fit?
 
----
+- Catalog millimetre when wall thickness should change. Read the seller spec.[^2]
+- Same-gauge rolls that feel different are different compounds. Bagging after wear can follow set or aging. [Sheet aging, storage, and care](/literature-reviews/sheet-aging-storage-and-care).
+- Pattern outline when negative ease should change.
 
-## Reduction is pattern geometry
-
-Reduction is negative ease: flat pieces drawn smaller than body measurements so the garment must stretch to close.
-
----
-
-## Decision cues
-
-- Catalog millimetre when the wall thickness should change. Read the vendor spec.
-- Same-gauge rolls that feel different are different compounds. Bagging after wear often traces to set or aging, not the printed millimetre. [Sheet aging, storage, and care](/literature-reviews/sheet-aging-storage-and-care).
-- Change the pattern outline for more or less negative ease.
-
----
+```mermaid
+flowchart TD
+  fit[Fit on bought sheet] --> gauge[Gauge: thickness on the roll]
+  fit --> modulus[Modulus: stiffness already in the rubber]
+  fit --> reduction[Reduction: how small you cut the pattern]
+```
 
 ## Endnotes
 
-[^1]: Elastomade / WCRP-class retail catalogs — garment-sheet thickness menus about 0.25–1.05 mm.
-[^2]: ISO 3302-1 — rubber dimensional tolerances; calendered-sheet scope.
-[^3]: Vanderbilt Latex Handbook — elastomeric film stretch-and-recover criterion (≥2×).
+[^1]: ISO 3302-1:2014. *Rubber — Tolerances for products — Part 1: Dimensional tolerances.* Scope includes calendered sheet. Tolerance framework, not a garment pattern chapter.
+[^2]: Elastomade Accessories latex sheeting chart. Product-scoped thickness menu, about 0.25–1.05 mm.

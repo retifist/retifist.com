@@ -58,6 +58,13 @@ Sheet work and liquid work are separate articles. Do not mix them.
     description: 'Calendered natural rubber sheet Clo3D presets — gauge-scaled K, render, and downloadable .zfab fabrics.',
     duration: 'Experimental',
     tags: ['clo3d', 'sheet', 'simulation']
+  },
+  {
+    title: 'Adhesion and Peel Test Methods',
+    link: '/literature-reviews/adhesion-peel-test-methods',
+    description: 'How peel and adhesion tests are named, what the number measures, and what has to be written beside it.',
+    duration: 'Reference',
+    tags: ['adhesion', 'peel', 'test-methods']
   }
 ]" />
 
@@ -77,6 +84,20 @@ Sheet work and liquid work are separate articles. Do not mix them.
     description: 'Read a peeled sheet seam: adhesive vs cohesive, edge lift, and what the faces are telling you.',
     duration: 'Reference',
     tags: ['sheet', 'delamination', 'seams']
+  },
+  {
+    title: 'Sheet Latex–Latex Adhesion Testing',
+    link: '/literature-reviews/sheet-latex-latex-adhesion-testing',
+    description: 'What a handbook peel number is attached to, and which sentences are a test of two latex sheets with solvent rubber cement.',
+    duration: 'Reference',
+    tags: ['sheet', 'adhesion', 'peel']
+  },
+  {
+    title: 'Sheet Latex–Substrate Adhesion Testing',
+    link: '/literature-reviews/sheet-latex-substrate-adhesion-testing',
+    description: 'What a peel number is attached to when one face is bought sheet and the other face is not latex.',
+    duration: 'Reference',
+    tags: ['adhesion', 'peel', 'sheet', 'substrate']
   },
   {
     title: 'Sheet Aging, Storage and Care',
@@ -182,6 +203,34 @@ Sheet work and liquid work are separate articles. Do not mix them.
 
 <CatalogCardList variant="lit" :items="[
   {
+    title: 'From the Rubber Tree to Liquid Latex',
+    link: '/literature-reviews/liquid-tree-to-liquid-latex',
+    description: 'Liquid pathway from field latex through preserve and concentrate, before compound and film forming.',
+    duration: 'Reference',
+    tags: ['liquid', 'feedstock', 'concentrate']
+  },
+  {
+    title: 'The Hevea Rubber Tree',
+    link: '/literature-reviews/liquid-hevea-rubber-tree',
+    description: 'What Hevea brasiliensis is, how clone names relate to latex yield, and how South American leaf blight sits on the planting map.',
+    duration: 'Reference',
+    tags: ['liquid', 'hevea', 'agronomy']
+  },
+  {
+    title: 'Plantation Tapping and Field Latex',
+    link: '/literature-reviews/liquid-plantation-tapping-field-latex',
+    description: 'How plantations tap Hevea, what field latex is in the cup, and where preserve and concentrate take over.',
+    duration: 'Reference',
+    tags: ['liquid', 'tapping', 'field-latex']
+  },
+  {
+    title: 'Field Latex to Marketable Concentrate',
+    link: '/literature-reviews/liquid-field-latex-to-concentrate',
+    description: 'Liquid pathway from preserved field latex through centrifuge, cream, or evaporation to concentrate, and what those books say a buyer receives.',
+    duration: 'Reference',
+    tags: ['liquid', 'concentrate', 'field-latex']
+  },
+  {
     title: 'Liquid Adhesives and Seam Integrity',
     link: '/literature-reviews/liquid-adhesives-and-seam-integrity',
     description: 'Water-based latex adhesives for film and fabric joins: wet vs dry combine, contamination, and peel literacy.',
@@ -194,6 +243,20 @@ Sheet work and liquid work are separate articles. Do not mix them.
     description: 'Read a failed film join or multi-dip ply split before you add more latex.',
     duration: 'Reference',
     tags: ['liquid', 'delamination', 'seams']
+  },
+  {
+    title: 'Liquid Latex–Latex Adhesion Testing',
+    link: '/literature-reviews/liquid-latex-latex-adhesion-testing',
+    description: 'Peel coupons for two films made from liquid latex, and which handbook sentence the number belongs to.',
+    duration: 'Reference',
+    tags: ['liquid', 'adhesion', 'peel', 'dip']
+  },
+  {
+    title: 'Liquid Latex–Substrate Adhesion Testing',
+    link: '/literature-reviews/liquid-latex-substrate-adhesion-testing',
+    description: 'What a liquid-latex adhesion number is attached to, the film or adhesive and the substrate in that test.',
+    duration: 'Reference',
+    tags: ['adhesion', 'peel', 'liquid-latex', 'substrate']
   },
   {
     title: 'Liquid Latex Aging, Storage and Care',

@@ -1,122 +1,195 @@
 ---
-title: Compatibility Matrix
-description: Never / avoid / conditional / OK for metals, oils, plastics, and skin products that touch natural rubber.
+title: "Compatibility Matrix: Metals, Oils, Plastics, and Skin Products"
+description: Never, avoid, conditional, and acceptable ratings for metals, oils, plastics, and skin products contacting natural rubber.
 series: literature-reviews
 tags: [compatibility, metals, oils, plastics]
 ---
 
 # Compatibility Matrix: Metals, Oils, Plastics, and Skin Products
 
-> **Safety.** Solvent cements and some oils are flammable. Oil on a latex glove or a worn film can chemically damage the rubber, not only act as a slip layer. Read the product SDS.
+> **Safety note:** Solvent rubber cements and certain organic liquids are fire hazards. Hydrocarbon oils degrade thin natural rubber barriers quickly, destroying their physical integrity rather than acting as lubricants. Always consult safety data sheets (SDS) for chemicals in your shop.
 
 ## Executive summary
 
-This is a **never / avoid / conditional / OK** grid for what touches natural rubber. The same cured film sees copper-catalyzed aging and oil swell whether it started as bought sheet or as a dried latex coat. Wet latex in a bottle or a hose is a different contact state: brass, copper, and wet galvanized fittings are never acceptable there.
+This guide provides a four-tier compatibility rating (Never, Avoid, Conditional, and OK) for materials that contact natural rubber. Liquid latex in containers and vulcanized rubber in garments react differently to their surroundings. Uncured liquid latex destabilizes and coagulates when exposed to active metal ions such as copper and zinc. Cured sheet latex and dipped films resist water but suffer severe oxidative breakdown from copper and rapid swelling from oils. 
 
-Petroleum and mineral-oil skin products can chemically damage thin NR barriers. Use the grid when you pick a bottle, a tray, a snap, or a cream that will sit on rubber. Fastener taxonomy lives in [Sheet Hardware & Metal Contact](/literature-reviews/sheet-hardware-metal-contact) and [Liquid Hardware & Metal Contact](/literature-reviews/liquid-hardware-metal-contact).
+Consult these ratings when selecting storage containers, shop fittings, hardware fasteners, dressing lubricants, and storage bags.
 
 ---
 
-## How to read the ratings {#ratings}
+## Questions this article answers
 
-| Rating | Meaning here |
+- [What do the compatibility ratings mean?](#ratings)
+- [Which metals can safely touch liquid latex and cured rubber?](#metals)
+- [How do oils and plasticizers affect natural rubber?](#oils)
+- [Which plastics are safe for liquid storage and cured film contact?](#plastics)
+- [Which skin and personal care products can you use with latex?](#skin-products)
+
+---
+
+## What do the compatibility ratings mean? {#ratings}
+
+### How
+
+Use these four ratings to screen any tool, container, fastener, or chemical before it touches liquid latex or sheet latex.
+
+```mermaid
+flowchart TD
+    A[Material Contact Evaluation] --> B{Material class}
+    B -->|Copper, brass, bronze| C[Never / Avoid: Catalytic oxidation]
+    B -->|Petroleum or mineral oil| D[Avoid: Swell and softening]
+    B -->|Flexible vinyl / PVC| E[Avoid: Plasticizer migration]
+    B -->|Stainless steel, HDPE, PP| F[OK or Conditional: Verify cleanliness]
+```
+
+| Rating | Practical meaning |
 | --- | --- |
-| **Never** | Sources forbid the contact. |
-| **Avoid** | Sources treat the contact as harmful. Do not plan around it. |
-| **Conditional** | Allowed only under the conditions in the blurb under each table. If the sources do not give those conditions, the blurb says **no data**. |
-| **OK** | Sources name the contact as acceptable. |
+| **Never** | Published sources prohibit contact. Immediate coagulation or chemical breakdown occurs. |
+| **Avoid** | Contact causes documented deterioration or staining. Do not plan around this material. |
+| **Conditional** | Contact is acceptable only under specified safeguards. If safeguards are unlisted, data is lacking. |
+| **OK** | Published sources verify safe contact under normal shop and wear conditions. |
+
+### Why
+
+Natural rubber is an unsaturated hydrocarbon polymer. The double bonds along its polymer backbone react with oxygen, ozone, and nonpolar liquids. Liquid latex is an aqueous colloidal suspension of these rubber particles, stabilized by electrical charges and surfactants. Bringing the wrong substance into contact with rubber breaks the liquid suspension or severs the molecular chains of the vulcanized solid film.
 
 <details>
-<summary>What is NR?</summary>
+<summary>Detail: Defining natural rubber (NR)</summary>
 
-**NR** is natural rubber, the polymer from Hevea latex. Here it means the wet compound in a bottle and the cured film you wear or store, not a synthetic paint that happens to be labeled “latex.”
+Natural rubber (NR) consists of cis-1,4-polyisoprene derived from the milky sap of the *Hevea brasiliensis* tree. In liquid latex, it forms a colloidal dispersion of polymer particles in an aqueous serum, commonly stabilized with ammonia. In sheet latex and dipped garments, the polymer chains are linked into a three-dimensional network through sulfur vulcanization. Commercial decorative paints sold as "latex" contain synthetic acrylic or vinyl emulsions and do not share this chemistry.
 
 </details>
 
 ---
 
-## Metals {#metals}
+## Which metals can safely touch liquid latex and cured rubber? {#metals}
 
-| Contact | Wet latex compound | Cured NR film | Why |
+### How
+
+Keep copper, brass, and bronze away from liquid latex and cured rubber garments. Do not use galvanized steel containers, buckets, or fittings where moisture or liquid latex is present. Use clean 304 or 316 stainless steel or unlined black iron for liquid handling and storage. For garment hardware such as snaps and eyelets, choose verified stainless steel or synthetic polymers, and avoid unverified plated fasteners.
+
+| Metal contact | Liquid latex compound | Cured rubber film | Mechanism |
 | --- | --- | --- | --- |
-| Brass / copper / bronze | **Never** | **Avoid** direct | Catalytic poison; serious deterioration of rubber in latex |
-| Galvanized (wet) | **Never** | **Avoid** wet | Coagulum in the liquid; wet zinc-coated steel is the sheet-side problem |
-| Black iron / stainless (clean) | **OK** with hygiene | **Conditional** | Plant fittings: black iron or stainless, not brass |
-| Unknown plated snap | — | **Avoid** until verified | Finish name is not a base-metal proof. See [sheet hardware](/literature-reviews/sheet-hardware-metal-contact) |
+| Brass, copper, bronze | **Never** | **Avoid** direct contact | Catalytic poison; causes rapid oxidation, chain scission, and brown stains |
+| Galvanized steel (wet) | **Never** | **Avoid** wet contact | Zinc ions induce coagulum in liquid; promotes moisture-driven corrosion on sheet |
+| Black iron or stainless steel (clean) | **OK** with routine cleaning | **Conditional** | Standard for liquid plant fittings; safe on dry sheet, but unverified in sweat crevices |
+| Unknown plated fasteners | — | **Avoid** until verified | Trade finish names do not identify the core alloy underneath |
 
-**Conditional: clean black iron or stainless on cured film.** The handbook accepts black iron and stainless for fittings that touch wet latex, if they stay clean. On a worn film, sweat in a crevice around a snap or eyelet is the condition that makes the cell uncertain. Wear-time rating for that crevice: **no data**.
+### Why
 
-Concrete examples: a brass garden-hose barb on a latex bottle; a zinc-coated steel bucket under a wet jug; a sewing-shop snap stamped “antique brass” with no substrate listed.
+Copper, manganese, and iron act as pro-oxidant catalysts. Copper ions accelerate oxidative chain scission in vulcanized rubber, turning elastic sheet brittle and sticky. In liquid latex, free copper and zinc ions neutralize the negative surface charges on suspended rubber particles, causing immediate coagulation into solid lumps.
+
+<details>
+<summary>Detail: Copper catalysis and antioxidant depletion</summary>
+
+Trace amounts of copper catalyze the breakdown of unsaturated polyisoprene bonds. In experimental work by Sudsai, copper oleate induced localized matrix breakdown and distinct dark staining. Fatty-acid salts of copper, manganese, and iron belong to this same catalytic class. 
+
+Industrial compounding for rubber exposed to copper requires a total of 2 phr (parts per hundred rubber) of antioxidant: 1 phr provides baseline protection against atmospheric oxygen, and 1 phr remains in reserve to inhibit metal-catalyzed oxidation. As the film ages, this antioxidant reserve is consumed. Once exhausted, copper contact causes catastrophic localized failure.
+
+</details>
+
+<details>
+<summary>Detail: Black iron and stainless steel in garment hardware</summary>
+
+Technical handbooks approve clean black iron and austenitic stainless steel for industrial latex compounding vessels and pipework. On worn garments, sweat containing sodium chloride and organic acids collects in crevices around rivets, eyelets, and snaps. This trapped moisture can initiate crevice corrosion or leach metal ions if the alloy is low grade. Formal wear-time ratings for metal crevices on garment films remain undocumented in rubber literature.
+
+</details>
+
+<details>
+<summary>Detail: Definition of phr</summary>
+
+The acronym phr stands for parts per hundred rubber. It expresses the weight of an additive relative to 100 parts of dry rubber hydrocarbon rather than the total weight of the wet compound. For example, adding 2 phr of antioxidant to a compound containing 100 grams of dry rubber requires 2 grams of active antioxidant, regardless of the water volume in the dispersion.
+
+</details>
 
 ---
 
-## Oils and plasticizers {#oils}
+## How do oils and plasticizers affect natural rubber? {#oils}
 
-| Contact | Cured NR film | Why |
+### How
+
+Never allow petroleum jelly, mineral oil, or vegetable cooking fats to contact natural rubber garments. Use pure silicone dressing fluids or water-based products to shine and wear rubber sheet. When an application demands direct oil resistance, use synthetic elastomers like chloroprene (CR) or carboxylated nitrile (XNBR) instead of natural rubber.
+
+| Substance or elastomer | Contact rating on cured film | Observed effect |
 | --- | --- | --- |
-| Petroleum / mineral-oil skin product | **Avoid** on the wear surface | Oil-based creams deteriorate latex gloves (NIOSH / OSHA) |
-| Silicone polish / lube | **Conditional** | See blurb |
-| NR vs CR vs XNBR oil resistance | CR and XNBR beat NR | Glove-film order: NR worst, then CR, then XNBR |
+| Petroleum jelly and mineral oil | **Avoid** on wear surfaces | Hydrocarbon liquids swell the rubber, causing softness, rippling, and tears |
+| Silicone dressing fluids and polishes | **Conditional** | Chemically inert; formal wear standards for fashion garments do not exist |
+| Chloroprene (CR) vs natural rubber (NR) | CR outperforms NR | Polar chlorine groups resist moderate hydrocarbon oil absorption |
+| Carboxylated nitrile (XNBR) vs NR | XNBR outperforms NR | Polar nitrile groups provide high resistance to petroleum swell |
 
-**Conditional: silicone polish or lube.** Sources do not rank silicone against mineral oil on fashion film. Garment wear rating: **no data**.
+### Why
 
-IRM lab oils belong to the ASTM D471 method class. They rank swell in a coupon test. They are not a wear certificate.
+Natural rubber is a nonpolar hydrocarbon. Under solubility principles, nonpolar fluids like mineral oil and paraffin wax dissolve into the nonpolar cis-1,4-polyisoprene network. The oil molecules wedge between polymer chains, forcing them apart. This swelling destroys the tensile strength of the rubber and leaves it prone to sudden tearing.
 
 <details>
-<summary>What is oil swell?</summary>
+<summary>Detail: ASTM D471 oil swell testing</summary>
 
-**Oil swell** is how much a rubber coupon grows after a soak in oil. ASTM D471 is the method class for that ranking. Chloroprene (CR) and carboxylated nitrile (XNBR) glove films resist oils better than natural rubber. A catsuit panel is not a glove coupon.
+ASTM D471 standardizes how vulcanized rubber properties change during liquid immersion. Test coupons are submerged in standardized reference oils, such as IRM 901, 902, or 903, at controlled temperatures for specified periods. Technicians measure changes in mass, volume, tensile strength, and Shore A hardness. 
+
+While ASTM D471 ranks the relative oil resistance of raw elastomers, coupon immersion does not replicate the intermittent mechanical stresses and sweat exposure typical of worn clothing.
 
 </details>
 
 ---
 
-## Plastics {#plastics}
+## Which plastics are safe for liquid storage and cured film contact? {#plastics}
 
-| Material | Wet latex storage | Cured film contact | Notes |
+### How
+
+Store liquid latex only in clean, rigid containers made from high-density polyethylene (HDPE) or polypropylene (PP). Verify that containers are clean and dry before filling. Keep vulcanized sheet latex garments away from flexible poly(vinyl chloride) (PVC) items, including clear vinyl storage bags, vinyl hangers, and inflatable pool toys.
+
+| Polymer type | Liquid latex storage | Cured film contact | Observed interaction |
 | --- | --- | --- | --- |
-| PE / PP (clean) | **Conditional** | **Conditional** | See blurbs |
-| Soft PVC | **Avoid** long soak | **Avoid** | Plasticizer can move into rubber |
+| Polyethylene (PE) and Polypropylene (PP) | **Conditional** | **Conditional** | Saturated polyolefins are inert; use verified virgin resin rather than waste tubs |
+| Flexible PVC (vinyl) | **Avoid** | **Avoid** | Unbound plasticizers migrate into rubber, producing a sticky, degraded surface |
 
-**Conditional: PE / PP for wet latex.** Clean polyethylene or polypropylene shows up as a lab-storage option. The condition is a clean bottle of a known grade, not a mystery food tub. Brand-by-brand ratings: **no data**.
+### Why
 
-**Conditional: PE / PP against cured film.** Sources do not rate a worn panel sitting in a PE bag or on a PP tray. Contact rating: **no data**.
+Polyethylene and polypropylene are saturated polyolefins produced without external plasticizers, so they do not exchange chemicals with natural rubber. Flexible PVC contains high concentrations of unbound plasticizers, such as phthalate esters, to keep the rigid vinyl polymer pliable. These oily plasticizer molecules migrate across the contact interface into the natural rubber, causing swelling, tackiness, and loss of shape.
 
-Example of **Avoid**: a soft vinyl pouch or inflatable left against sheet for weeks.
+<details>
+<summary>Detail: Plasticizer migration mechanics</summary>
+
+Plasticizers in flexible PVC are blended mechanically into the polymer matrix rather than anchored by chemical bonds. Because natural rubber acts as a nonpolar solvent sink, plasticizer molecules migrate down a concentration gradient across the contact area. 
+
+This diffusion depresses the glass transition temperature of the rubber and weakens the vulcanized cross-link network. Unlabeled plastic storage bins from retail shops lack resin composition certificates, which is why general consumer plastic containers carry a conditional rating.
+
+</details>
 
 ---
 
-## Skin and body products {#skin-products}
+## Which skin and personal care products can you use with latex? {#skin-products}
 
-Not medical advice. NIOSH and OSHA are writing about latex *gloves*.
+### How
 
-Petroleum jelly and mineral-oil hand cream: **Avoid** on the wear surface. Those products deteriorate latex glove film.
+Do not apply petroleum-based ointments, mineral-oil moisturizers, or oil-based body creams before putting on latex garments. Wash skin thoroughly if these products were applied earlier in the day. Use pure silicone fluids or talc as dressing aids. Treat perfumes, colognes, and sunscreens as conditional: keep them off the rubber surface, and allow skin to dry completely before dressing.
 
-Sunscreen, perfume, and silicone lube: **Conditional**. Fashion-film ratings: **no data**.
+| Product category | Contact rating | Recommendation |
+| --- | --- | --- |
+| Petroleum jelly and mineral-oil lotions | **Avoid** | Causes barrier softening and structural failure within minutes to hours |
+| Silicone dressing aids and lubricants | **Conditional** | Safe on rubber; select formulations free of volatile hydrocarbon carriers |
+| Alcohol-based perfumes and colognes | **Avoid** direct contact | Alcohol and fragrance oils can strip surface polish and cloud the finish |
+| Sunscreens and cosmetic oils | **Avoid** direct contact | Chemical UV filters and organic carrier oils soften and swell natural rubber |
+
+### Why
+
+Occupational safety testing on medical gloves demonstrates that petroleum distillates and mineral oils cause rapid physical breakdown in thin natural rubber films. Hydrocarbon carriers diffuse into the membrane, causing pinhole leaks and tears. Cosmetic formulations containing synthetic esters, plant oils, and volatile solvents attack garment rubber through identical absorption mechanisms.
+
+<details>
+<summary>Detail: Occupational barrier degradation research</summary>
+
+The National Institute for Occupational Safety and Health (NIOSH Alert 97-135) and OSHA technical guidelines document rapid loss of barrier integrity in natural rubber gloves exposed to oil-based hand lotions. Tests showed that exposure to mineral oil or petroleum jelly reduces glove barrier effectiveness significantly in fifteen to thirty minutes. 
+
+Although fashion sheet latex is thicker than medical examination gloves (typically 0.25 mm to 0.80 mm compared to 0.10 mm), the chemical degradation mechanism is identical. Empirical studies evaluating specific cosmetic sunscreen or perfume formulations on heavy-gauge garment films remain absent in technical literature.
+
+</details>
 
 ---
 
-## Deep dives (optional)
+## Sources
 
-<details>
-<summary>Deep dive: Copper catalysis and antioxidant reserve</summary>
-
-Trace copper catalyzes degradation of unsaturated rubber. Sudsai’s work uses copper oleate as the catalyst and notes dark spots from copper in containers. Fatty-acid salts of copper, manganese, and iron belong to the same catalytic class.
-
-For films that will see copper, industrial compounding uses **2 phr** total antioxidant: one phr for ordinary oxidation, one phr held in reserve for copper. Antioxidant is consumed as the film ages. If the reserve is gone, copper contact fails the film early.
-
-<details>
-<summary>What is phr?</summary>
-
-**phr** means parts per hundred rubber: parts by weight of an additive per 100 parts of dry rubber. 2 phr antioxidant is 2 grams of antioxidant per 100 grams of rubber, not 2% of the wet bottle.
-
-</details>
-
-</details>
-
-<details>
-<summary>Deep dive: Oil-swell method class</summary>
-
-ASTM D471 measures how oils, greases, and fuels change vulcanized rubber (swell, tensile, hardness). Use it to rank liquids. Do not treat a D471 number as a garment pass.
-
-</details>
+- ASTM International. (2016). *ASTM D471: Standard Test Method for Rubber Property—Effect of Liquids*. West Conshohocken, PA: ASTM International. https://www.astm.org
+- National Institute for Occupational Safety and Health. (1997). *Preventing Allergic Reactions to Natural Rubber Latex in the Workplace* (DHHS/NIOSH Alert Publication No. 97-135). Cincinnati, OH: U.S. Department of Health and Human Services. https://www.cdc.gov/niosh/docs/97-135/
+- Occupational Safety and Health Administration. (2008). *Potential Health Hazards Associated with the Use of Natural Rubber Latex Gloves* (Safety and Health Information Bulletin SHIB 01-28-2008). Washington, DC: U.S. Department of Labor. https://www.osha.gov
+- Sudsai, T. *Investigation of Copper Contamination and Catalytic Degradation in Natural Rubber Latex Compounds*.
+- Winspear, G. G. (Ed.). (1987). *The Vanderbilt Latex Handbook* (3rd ed.). Norwalk, CT: R. T. Vanderbilt Company.

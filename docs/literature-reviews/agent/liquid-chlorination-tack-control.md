@@ -7,75 +7,65 @@ human_page: /literature-reviews/liquid-chlorination-tack-control
 
 # Chlorination for Tack Control
 
-Human page: https://retifist.com/literature-reviews/liquid-chlorination-tack-control
+Human page: /literature-reviews/liquid-chlorination-tack-control
 
-> **Safety.** Chlorine, hypochlorite, and bromine are oxidizing and corrosive. The process develops acidity. Neutralize before final rinses.[^2] No copper or brass in chlorine contact.[^4] Read product and process SDS. Halogenation reduces tack; it does not remove natural-rubber protein. See [Allergy and Skin Contact](/literature-reviews/allergy-and-skin-contact).
+> **Safety.** The bath turns acidic. Neutralize before the water rinses.[^2] No copper or brass in contact with chlorine water or the goods.[^1] Read the product and process SDS. This page is about tack. Protein and allergy classes are in [Allergy and Skin Contact](/literature-reviews/allergy-and-skin-contact).
 
 ## Executive summary
 
-Cured dipped film is often tacky. Talc is temporary industrial dusting. Permanent de-tack in dipped-goods plants is aqueous halogenation: chlorine water (least discoloring among the three listed), sodium hypochlorite, or bromine water, typically in a tumbler.[^1] Commercial practice mostly uses aqueous chlorine.[^1]
+Cured dipped film is often tacky. Talc is temporary industrial dusting. Permanent de-tack on dipped goods is aqueous halogenation (chlorine water, sodium hypochlorite, or bromine water) in a tumbler, then neutralize, rinse, and dry warm.[^1] Commercial practice mostly uses aqueous chlorine.[^1]
 
-Handbook example: treatment 4.5–7.5 min at room temperature with ~0.15% chlorine (from saturated ~0.56% stock).[^1] Higher-sulfur cured goods need less chlorine time than low-sulfur films.[^1] Face-finish context: [Liquid Film Surface Finish](/literature-reviews/liquid-surface-finish-literacy).
+Liquid pathway only, after the film is cured. Face-finish context: [Liquid Film Surface Finish](/literature-reviews/liquid-surface-finish-literacy).
 
----
+## When to halogenate
 
-## What halogenation does
+Halogenation (chlorination or bromination) modifies the cured rubber surface so tack stays down.[^1] Talc only dusts the article.[^1]
 
-Halogenation (chlorination or bromination) chemically modifies the cured rubber surface to cut tack permanently.[^1] Grip embossing alone is insufficient when wet grip is required; halogenation (Cl/Br) is used on industrial gloves for that job.[^3]
-
----
+Grip embossing on a glove former imparts texture. Wet rubber is slippery, so that texture alone does little for wet grasp. The handbook uses chlorine or bromine water for that wet-grip job.[^3]
 
 ## Solution choice
 
 | Solution | Tack reduction | Discoloration |
 | --- | --- | --- |
-| Chlorine water | ≈ bromine | Least among three |
-| Bromine water | Strong | More than Cl |
-| Hypochlorite (household-bleach type) | Less efficient | Similar to Br |
+| Chlorine water | About the same as bromine water | Least of the three |
+| Bromine water | About the same degree as chlorine water | More than chlorine |
+| Sodium hypochlorite | Less efficient than chlorine or bromine | About the same as bromine |
 
 [^1]
 
-Hypochlorite is easier to source than cylinder chlorine. Revalidate time and concentration on the film’s sulfur level.
+Bromine is a liquid. Sodium hypochlorite is sold as a solution. Both are less difficult to handle than chlorine gas. Commercial halogenation of finished latex articles still mostly uses aqueous chlorine.[^1]
 
----
+The Vanderbilt laboratory used sodium hypochlorite purchased under the Chlorox brand and called that method the simplest for them to run.[^1]
 
-## Sulfur level vs treatment time
+## Sulfur vs time
 
-Goods cured at about 1.5–1.75 phr sulfur need less chlorine time than films at 0.25–0.35 phr sulfur.[^1] Copying a high-sulfur glove-line window onto a low-sulfur cast panel (or the reverse) over- or under-treats.
+Treatment is 4.5–7.5 minutes at room temperature in about 0.15% chlorine, diluted from saturated stock of 0.56% chlorine by weight.[^1] The range exists because time depends on sulfur in the cured goods. Goods at 1.5–1.75 parts sulfur per hundred rubber need less chlorine time than goods at 0.25–0.35 parts. A stronger chlorine concentration can shorten the time on low-sulfur goods.[^1]
 
----
+## Process order
 
-## Process discipline
+```mermaid
+flowchart TD
+  stock["Chlorine water 0.56 percent by weight at saturation"] --> bath["Dilute to about 0.15 percent"]
+  goods["Latex goods loaded in the tumbler"] --> treat
+  bath --> treat["Tumble 4.5 to 7.5 minutes at room temperature"]
+  treat --> discharge["Discharge the chlorine water"]
+  discharge --> neut["Neutralize 5 to 7 minutes in 1 percent sodium thiosulfate or ammonia"]
+  neut --> rinse["Three rinses, 5 to 7 minutes each, with tumbling"]
+  rinse --> dry["Tumble-dry in warm air at 40 to 46 C"]
+```
 
-Liquor-ratio example: ~1.5 ml chlorine water per 2.5 cm² latex surface, enough to wet all surface.[^2] After treatment: neutralize 5–7 min (~1% sodium thiosulfate or ammonia); three water rinses (5–7 min each with tumbling); dry warm-air tumbler 40–46°C.[^2] Fresh chlorine solution per batch.[^2] Skipping neutralize or rinse leaves acidic residues (skin-contact and aging risk). Aging: [Aging, Storage and Care](/literature-reviews/liquid-aging-storage-and-care).
+Liquor-ratio example: approximately 1.5 ml chlorine water per 2.5 cm² of latex surface. Usually that ratio covers the goods.[^2] Discharge the chlorine water when the treatment ends. Use fresh solution for the next batch.[^2]
 
----
+Neutralize 5–7 minutes with 1% aqueous sodium thiosulfate or ammonia, then three water rinses with tumbling, then warm-air tumble dry at 40–46°C.[^2] Acidity develops during halogenation. Neutralize and rinse clear that acidity and extraneous chemicals.[^2]
+
+Tanks for chlorine water: glass-lined or stainless steel. No copper or brass on equipment that stores the liquor or touches the goods.[^1]
 
 ## Skin contact
 
-Chlorination modifies surface chemistry for tack/drag. It does not remove NR protein allergy class concerns. Residual oxidizer and process acidity are why neutralize-and-rinse exists. Complete rinse, then gentle dry.
-
----
-
-<details>
-<summary>Deep dive: Diluting the chlorine stock</summary>
-
-Saturated chlorine water ~0.56% Cl, diluted to ~0.15% for the treatment bath.[^1]
-
-</details>
-
-<details>
-<summary>Deep dive: Wet grip vs embossing</summary>
-
-Industrial dipped goods use halogenation (Cl/Br) for wet grip. Embossed texture without that chemistry is not a handbook substitute.[^3]
-
-</details>
-
----
+The surface change is for tack and drag.[^1] Neutralize and rinse because acidity develops and extraneous chemicals are cleared in that window.[^2] Protein and allergy classes: [Allergy and Skin Contact](/literature-reviews/allergy-and-skin-contact).
 
 ## Endnotes
 
-[^1]: Vanderbilt Latex Handbook — Ch 17 halogenation of dipped goods; Cl vs Br vs hypochlorite; commercial aqueous chlorine; ~0.56% sat → ~0.15% treat; 4.5–7.5 min room-temperature tumble; sulfur 1.5–1.75 phr vs 0.25–0.35 phr vs treatment time.
-[^2]: Vanderbilt Latex Handbook — Ch 17; liquor ratio ~1.5 ml / 2.5 cm²; neutralize 5–7 min (~1% thiosulfate or ammonia); three rinses 5–7 min; dry 40–46°C; fresh solution per batch; acidity developed.
-[^3]: Vanderbilt Latex Handbook — Ch 17 adjacent (grip); embossing alone insufficient when wet; halogenation for wet grip on gloves.
-[^4]: Vanderbilt Latex Handbook — Ch 17; no copper or brass in chlorine contact.
+[^1]: Vanderbilt Latex Handbook, 3rd ed., Mausser, 1987 — halogenation of dipped goods: chlorine water, sodium hypochlorite, bromine water; tack and discoloration comparison; commercial aqueous chlorine; Chlorox-brand hypochlorite in that laboratory; saturated stock 0.56% chlorine by weight diluted to about 0.15%; 4.5–7.5 min room-temperature tumble; sulfur 1.5–1.75 phr vs 0.25–0.35 phr; stronger chlorine to shorten low-sulfur treatment; glass-lined or stainless tanks; no copper or brass.
+[^2]: Vanderbilt Latex Handbook, 3rd ed., Mausser, 1987 — halogenation of dipped goods: liquor ratio approximately 1.5 ml per 2.5 cm², usually enough to cover the surface; discharge chlorine water; fresh solution for the next batch; acidity; 1% sodium thiosulfate or ammonia for 5–7 min; three water rinses with tumbling; warm-air tumble dry at 40–46°C.
+[^3]: Vanderbilt Latex Handbook, 3rd ed., Mausser, 1987 — glove grip: embossed design alone does little on wet rubber; halogenate with chlorine or bromine water.

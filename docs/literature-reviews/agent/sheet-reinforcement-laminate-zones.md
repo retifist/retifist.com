@@ -1,56 +1,66 @@
 ---
 title: Sheet Reinforcement Zones
-description: Local strips and discs on commercial sheet — zone map and diagnostics — with endnotes for verification.
+description: Local discs and strips on commercial sheet, with endnotes for the glove tear-stop analog and solvent-cement hazards.
 series: literature-reviews
 human_page: /literature-reviews/sheet-reinforcement-laminate-zones
 ---
 
 # Sheet Reinforcement Zones
 
-Human page: https://retifist.com/literature-reviews/sheet-reinforcement-laminate-zones
+Human page: /literature-reviews/sheet-reinforcement-laminate-zones
 
 ## Executive summary
 
-On commercial sheet, reinforcement is added material at a stress concentrator: disc at a seam junction, strip at a strap root, doubled gauge at an opening — before close-out traps the junction. Fabric-lined gloves stretch less than unsupported gloves but stop tear propagation — supported-glove analog, not a lining SOP.[^1] Glue: [Sheet adhesives](/literature-reviews/sheet-adhesives-and-seam-integrity).
+On commercial sheet, reinforcement is added sheet at a stress concentrator: a disc at a seam junction, a strip at a strap root, doubled gauge at an opening. Add it before close-out traps the junction. Fabric-lined gloves stretch less than unsupported gloves and stop tear propagation of the film.[^1] Glue family: [Sheet adhesives](/literature-reviews/sheet-adhesives-and-seam-integrity).
 
-## Zone map
+## Where the extra sheet goes
 
-| Zone | Why | Sheet cue |
-| --- | --- | --- |
-| Seam junction (3+ panels) | Peel and tear concentrate | Disc or cross strip before close-out |
-| Opening edge | Cyclic stretch + edge lift | Strip or doubled gauge |
-| Strap / harness root | Line load | Wide strip |
-| Hardware perimeter | Stress + metal | Strip; Cu ageing[^6] — [Sheet hardware](/literature-reviews/sheet-hardware-metal-contact), [Compatibility matrix](/literature-reviews/compatibility-matrix-metals-oils-plastics) |
+Reinforce = disc or strip at a stress concentration. Laminate = bond rubber layers over an area. Overlay = place one adhesive-coated edge on the other ([Sheet adhesives](/literature-reviews/sheet-adhesives-and-seam-integrity)).
 
-## Decision cues
+| Zone | Sheet cue |
+| --- | --- |
+| Seam junction (3+ panels) | Disc or cross strip |
+| Opening edge | Strip or doubled gauge |
+| Strap / harness root | Wide strip |
+| Hardware perimeter | Strip; copper ageing of NR or CR film[^3] — [Sheet hardware](/literature-reviews/sheet-hardware-metal-contact), [Compatibility matrix](/literature-reviews/compatibility-matrix-metals-oils-plastics) |
 
-```text
-1. Tear-stop → extra sheet or fabric liner analog | Stretch management → stiff patch fights a high-bend zone
-2. Junction still reachable → add now | Already closed out → outside patch only
-3. Textile: porous mechanical key[^7] | smooth nylon → [Sheet latex–textile bonding](/literature-reviews/sheet-latex-textile-bonding)
+```mermaid
+flowchart TB
+  junction["Seam junction"] --> disc["Disc or cross strip"]
+  opening["Opening edge"] --> strip["Strip or second gauge"]
+  strap["Strap or harness root"] --> wide["Wide strip"]
+  hardware["Hardware perimeter"] --> edge["Strip, plus metal-contact rules"]
 ```
 
-## Diagnostics
+Fabric-lined (supported) gloves: less stretch than unsupported gloves; liner stops tear propagation; more durable; harder don/doff; some less comfortable than flocked unsupported gloves.[^1] Oil-resistance order of those glove films: NR, then CR, then XNBR (NR least oil-resistant; CR slightly less than XNBR).[^2] Copper degradation of NR or CR latex film: 2 phr total antioxidant, about 1 phr oxidation and 1 phr copper.[^3] Hardware contact and ageing: [Sheet hardware](/literature-reviews/sheet-hardware-metal-contact), [Sheet aging](/literature-reviews/sheet-aging-storage-and-care).
 
-| Observation | Class | Next |
-| --- | --- | --- |
-| Tear at junction | Missing local reinforcement | Zone map |
-| Stiff ring at metal | Metal catalysis | [Sheet aging](/literature-reviews/sheet-aging-storage-and-care) |
-| Lining edge lift | Textile bond | [Sheet latex–textile bonding](/literature-reviews/sheet-latex-textile-bonding), [Sheet delamination](/literature-reviews/sheet-delamination-seam-failure) |
+## When to add it
 
-## Deep dives
+Apply adhesive, air, reinforce, press, while the junction is open. Closed garment: outside layer only; trapped corner unchanged. Cloth layer: [Sheet latex–textile bonding](/literature-reviews/sheet-latex-textile-bonding).
 
-<details>
-<summary>Deep dive: Supported-glove analog</summary>
+```mermaid
+flowchart TB
+  open["Junction still open"] --> now["Reinforce now"]
+  closed["Already closed"] --> outside["Outside layer only"]
+```
 
-Fabric-lined gloves: less stretch, tear-stop of the film.[^1] Oil-resistance order in that handbook neighborhood: NR &lt; CR &lt; XNBR.
+## Failed junction
 
-</details>
+| Observation | Next |
+| --- | --- |
+| Tear at junction | Zone map above |
+| Stiff ring at metal, then crack | [Sheet aging](/literature-reviews/sheet-aging-storage-and-care), [Sheet hardware](/literature-reviews/sheet-hardware-metal-contact) |
+| Lining edge lift | [Sheet latex–textile bonding](/literature-reviews/sheet-latex-textile-bonding), [Sheet delamination](/literature-reviews/sheet-delamination-seam-failure) |
+
+## Safety
+
+Solvent adhesives: fire hazard, explosion hazard, explosion-proof and ventilating equipment, solvent fumes as a health hazard.[^4] See [Sheet ventilation](/literature-reviews/sheet-ventilation-solvent-exposure).
 
 ---
 
 ## Endnotes
 
-[^1]: *The Vanderbilt Latex Handbook* — fabric-lined gloves, stretch and tear-stop.
-[^6]: *The Vanderbilt Latex Handbook* — copper degradation and antioxidant reserve.
-[^7]: *Practical Guide to Latex Technology* — porous mechanical bond.
+[^1]: *The Vanderbilt Latex Handbook*, 3rd ed. (Mausser, 1987) — fabric-lined gloves: less stretch, tear-stop, durability, don/doff.
+[^2]: *The Vanderbilt Latex Handbook*, 3rd ed. (Mausser, 1987) — glove-film oil resistance: NR, then CR, then XNBR.
+[^3]: *The Vanderbilt Latex Handbook*, 3rd ed. (Mausser, 1987) — 2 phr antioxidant reserve against copper degradation of NR or CR film.
+[^4]: *The Vanderbilt Latex Handbook*, 3rd ed. (Mausser, 1987) — solvent adhesives: fire, explosion, ventilation, fumes.

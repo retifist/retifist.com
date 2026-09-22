@@ -1,6 +1,6 @@
 ---
 title: Sheet Surface Finish
-description: Reading gloss, matte, and bloom on bought calendered sheet — vendor faces and storage powder.
+description: Reading storage powder on bought sheet as possible wax bloom, and choosing a face to join.
 series: literature-reviews
 tags: [sheet, finish, bloom]
 ---
@@ -9,75 +9,75 @@ tags: [sheet, finish, bloom]
 
 ## Executive summary
 
-Calendered fashion sheet arrives with a face you did not form. Some catalogs list gloss and matte, or a shinier face and a duller back. Powder after storage is often **wax bloom**: wax that migrated to the surface. It is a temporary ozone shield, not shop dirt.
+Bought sheet latex can develop a light surface powder after storage. Treat that powder as possible wax bloom. This is a thin protective film that shields stationary rubber from ozone attack.
 
-Use this when you are reading a roll before [print](/literature-reviews/sheet-printing-surface-decoration) or glue, or when stored sheet looks dusty. Storage and aging sit in [Aging, Storage and Care](/literature-reviews/sheet-aging-storage-and-care).
+Use this guidance when stored sheet latex looks dusty before you cut, print, or apply adhesive. Cleaning the sheet removes the powder, but it also strips away that ozone barrier.
 
----
+## Questions this article answers
 
-## You buy the face {#bought-face}
+- [How do I choose a face to join?](#faces)
+- [What should I do with powder on stored sheet?](#bloom)
+
+## How do I choose a face to join? {#faces}
+
+### How
+
+Make a small bond coupon on the surface you plan to join. Test both the face side and the underside of your sheet latex before assembling a full garment.
+
+### Why
+
+A roll of sheet latex has two distinct faces. Manufacturing methods like calendering create subtle differences in surface texture, smoothness, and release agents between each side. A quick bond test confirms which face will hold an adhesive join reliably.
 
 <details>
-<summary>What does calendered mean?</summary>
+<summary>Detail: Calendered sheet surface characteristics</summary>
 
-**Calendered** latex sheet is pressed to even thickness between heated rollers at the factory. Both faces come out of that mill process. You buy the finish. How the sheet was made is in [Calendered Sheet](/literature-reviews/sheet-calendered-sheet).
+Calendered sheet latex is manufactured by passing compounded rubber through heated steel rollers to establish a uniform gauge. Rolling mechanics produce slight differences in surface energy and micro-texture between the face side and the underside. Further details on roll geometry and processing appear in [Calendered Sheet](/literature-reviews/sheet-calendered-sheet).
 
 </details>
 
-Some vendor menus describe a polishable upper and a roughened underside. Treat that as catalog language. Ask which face they mean. A dull side is not automatically the glue side. Run a [bond coupon](/literature-reviews/sheet-adhesives-and-seam-integrity) if the join matters.
+## What should I do with powder on stored sheet? {#bloom}
 
----
+### How
 
-## Bloom after storage {#bloom}
+Treat a light powder on stored sheet latex as possible wax bloom. Leave it alone while the material sits on your shelf. Wipe or wash the powder away only when preparing a clean glue pathway or printing surface. Removing this layer eliminates the static ozone barrier that the wax provides.
 
-<details>
-<summary>What is wax bloom?</summary>
+### Why
 
-**Wax bloom** is antidegradant wax moving to the rubber surface. Industrial compounds use microcrystalline wax at 0.5–1.0 **phr** to build a surface film that protects against **static** ozone. Flexing and stretching crack that film. The powder can look like chalk or leftover dust. Peer work on NR bloom treats it as a migrating layer, not leftover talc.
+*The Vanderbilt Latex Handbook* explains that compounders add microcrystalline wax to rubber so it migrates to the exterior. Once on the surface, the wax forms a continuous barrier that blocks atmospheric ozone. Ozone cracks natural rubber by cleaving carbon-carbon double bonds in the polymer chains.
 
-</details>
+The wax barrier works only while the sheet latex remains stationary. When rubber stretches or flexes during wear, the brittle wax layer fractures. Once fractured, ambient ozone enters the fissures and attacks the polymer underneath.
 
-<details>
-<summary>What does phr mean?</summary>
-
-**phr** is parts per hundred rubber. 1.0 phr means one part of that ingredient for every 100 parts rubber in the compound.
-
-</details>
+A study in *Science Diliman* on additive migration confirms that wax bloom consists of internal compounding ingredients that diffuse to the surface over time.
 
 <details>
-<summary>What is ozone?</summary>
+<summary>Detail: Wax loading, bloom time, and ozone resistance</summary>
 
-**Ozone** (O₃) is a reactive form of oxygen that cracks rubber. Wax bloom is a temporary surface barrier for film that sits still. It is a poor plan for a piece that will flex in wear.
+Parts per hundred rubber (phr) expresses ingredient proportions relative to 100 parts of dry rubber hydrocarbon by weight.
 
-</details>
+*The Vanderbilt Latex Handbook* specifies microcrystalline wax emulsion loadings between 0.5 and 1.0 phr. Freshly vulcanized film lacks immediate ozone protection because the wax requires time to migrate through the matrix. In one test protocol, vulcanized films were held for three weeks at 23°C and 50% relative humidity, wrapped in kraft paper, to allow the wax to bloom.
 
-Wiping the powder off can bring tack back if the bloom was the only ozone shield. A different surface class: some dark compounds use PPD antiozonants, which can stain. That is not bloom.
+The handbook compares time to complete ozone cracking failure under static and dynamic conditions:
 
----
+```mermaid
+xychart-beta
+    title "Hours to complete ozone failure"
+    x-axis ["No wax", "VANWAX H", "VANWAX H SPECIAL", "H SPECIAL flexed"]
+    y-axis "Hours" 0 --> 100
+    bar [16, 76, 98, 26]
+```
 
-## Tack on bought sheet {#tack}
-
-**Talc** is temporary de-tack for handling. It does not permanently change the rubber face.
-
-If tack returns after a wipe, the usual reading on stored film is that you removed bloom.
-
----
-
-## Reading cues {#cues}
-
-| What you see | Think first |
+| Compound formulation | Hours to complete failure |
 | --- | --- |
-| One side glossy, one dull | Vendor finish menu. Test a glue coupon before you pick a “glue side.” |
-| Powder after storage | Wax bloom. |
-| Tack after a wipe | Bloom came off. |
+| No wax | 16 |
+| VANWAX H | 76 |
+| VANWAX H SPECIAL | 98 |
+| VANWAX H SPECIAL, film flexed | 26 |
 
----
-
-## Deep dives (optional)
-
-<details>
-<summary>Deep dive: Wax bloom timing</summary>
-
-Industrial guidance allows bloom time before ozone exposure. One handbook example: weeks at 23°C and 50% relative humidity in kraft wrapping. Dynamic wear defeats the wax barrier. Antiozonant PPD routes are a different class, used on flexed dark goods.
+Certain dark rubber compounds incorporate chemical antiozonants like p-phenylenediamine derivatives instead of, or alongside, petroleum waxes. Chemical antiozonants react directly with ozone scavengers and function under dynamic flexing. However, they cause severe contact and migration staining. Staining from chemical antiozonants is an irreversible discoloration, distinct from crystalline physical wax bloom.
 
 </details>
+
+## Sources
+
+- *The Vanderbilt Latex Handbook*. 3rd ed. Edited by Robert Francis Mausser. Norwalk, CT: R.T. Vanderbilt Company, Inc., 1987. <https://lccn.loc.gov/92117844>
+- “Effect of Ingredient Loading on Surface Migration Kinetics of Additives in Vulcanized Natural Rubber Compounds.” *Science Diliman*. <https://distantreader.org/stacks/journals/sciencediliman/sciencediliman-4442.pdf>

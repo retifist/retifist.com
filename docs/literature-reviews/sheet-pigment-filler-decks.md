@@ -7,98 +7,185 @@ tags: [sheet, pigment, fillers]
 
 # Colored Sheet: Pigment and Filler Effects
 
-> **Safety.** Colorants and fillers change what can extract at the skin and how the sheet ages. A food-contact colorant list is not a wear certificate. Copper and manganese in a pigment consume antioxidant. This page is literacy about sheet you already bought, not a mixing card.
+> **Safety.** Colorants and fillers change what can extract at the skin and how the sheet ages. A food-contact colorant list is not a wear certificate. Copper and manganese in a pigment consume antioxidant. This page is about sheet you already bought.
 
 ## Executive summary
 
-When you buy red, black, or opaque [calendered](#what-calendered) roll goods, the mill already put the color and any fillers in. You inherit opacity, [modulus](#what-modulus), and the aging package as sold. Mineral fillers make the sheet stiffer and weaker in tension. Some polymeric fillers raise tear but also raise set. Pigments can bring metal impurities that speed aging.
+When you buy red, black, or opaque calendered sheet latex, the processing mill has already milled the color and mineral fillers into the rubber stock. You inherit opacity, mechanical stiffness, permanent set, and the protective antioxidant package selected at the plant. Adding mineral clay to natural rubber increases stiffness and lowers tensile strength. High-styrene copolymer fillers increase tear resistance, but they also raise permanent set. Some pigments introduce heavy metal impurities that accelerate aging.
 
-Use this when you are choosing a catalog color, comparing a clear roll to an opaque one, or wondering why one vendor’s “same thickness” feels boardier. For graphics printed on sheet you already have, see [Printing and Surface Decoration](/literature-reviews/sheet-printing-surface-decoration). Stiffness as a fit lever sits in [Gauge, Modulus, and Reduction](/literature-reviews/sheet-gauge-modulus-reduction).
+Use this guide when selecting catalog colors, comparing translucent sheet to opaque stock, or diagnosing why rolls of identical gauge feel noticeably stiffer. Surface graphics applied to stock you already own are covered in [Printing and Surface Decoration](/literature-reviews/sheet-printing-surface-decoration). Modulus adjustments for garment patterning are addressed in [Gauge, Modulus, and Reduction](/literature-reviews/sheet-gauge-modulus-reduction).
 
----
+## Questions this article answers
 
-## What you bought with the color {#what-you-bought}
+- [What is already in a colored roll?](#what-is-already-in-a-colored-roll)
+- [Why does one opaque sheet feel stiffer?](#why-does-one-opaque-sheet-feel-stiffer)
+- [Can the pigment age the sheet faster?](#can-the-pigment-age-the-sheet-faster)
+- [How do I choose a colored roll?](#how-do-i-choose-a-colored-roll)
 
-Fashion NR sheet often ships in standard colors. The mill compounded the rubber, formed the film, and sold you a finished face.
+## What is already in a colored roll? {#what-is-already-in-a-colored-roll}
 
-A catalog black roll already has its opacity. A clear roll from the same shop is a different compound. If the black feels boardy next to the clear, [filler load](#filler-effects) is a common reason.
+### How
 
-Repeatability is what this vendor shipped this lot. If you need the recipe, you need a mill TDS, not a swatch.
+Treat every catalog color as an independent rubber compound. A pigmented roll and a translucent roll from the same vendor are distinct materials, even when ordered at the same nominal thickness. Color swatches do not specify pigment chemistry or mineral loading. 
 
-<details id="what-calendered">
-<summary>What does calendered mean?</summary>
+When constructing garments intended for long service life, request technical data sheets showing the base polymer and colorant composition. For critical color and modulus matching across multi-panel projects, buy all required yardage from a single production run.
 
-**Calendered** sheet is rubber pressed to thickness between heavy heated rollers (*calenders*). Fashion roll goods are almost always calendered: they arrive ready to cut and glue.
+```mermaid
+flowchart TD
+  roll[Colored roll you bought] --> color[Color and opacity]
+  roll --> stiff[Stiffness and stretch]
+  roll --> set[How much stretch stays]
+  roll --> age[Aging from metals in the color]
+```
+
+### Why
+
+*The Vanderbilt Latex Handbook* classifies colorants and dyes alongside reinforcing clays and bulk fillers as compound modifiers. These ingredients are incorporated into the raw elastomer prior to milling and calendering. 
+
+You cannot extract or neutralize these additives after purchasing the sheet. Their physical and chemical properties remain locked into the vulcanized matrix.
+
+<details>
+<summary>Detail: Compound classification of colorants</summary>
+
+Class 3 modifiers in the Vanderbilt system comprise clays, particulate fillers, processing softeners, and pigments. These components are optional across different elastomer formulations. 
+
+Sheet latex delivered as colored roll goods has undergone that full compounding stage. Color is not a topical wash. It is an integral compound constituent that influences mechanical modulus and aging behavior alongside conventional inorganic fillers.
 
 </details>
 
 <details>
-<summary>What does phr mean?</summary>
+<summary>Detail: Parts per hundred rubber (phr)</summary>
 
-**phr** means **parts per hundred rubber**. It is how compound tables count ingredients: 10 phr clay means 10 parts clay per 100 parts dry rubber. Retail sheet almost never prints this number on the roll.
+Rubber compounding recipes express ingredient concentrations in parts per hundred rubber (phr). A loading of 10 phr clay indicates 10 parts by weight of dry filler per 100 parts by weight of dry base elastomer. 
 
-</details>
-
----
-
-## Filler effects you will feel {#filler-effects}
-
-Fillers are particles mixed into the rubber to add opacity, cheapen the compound, raise tear, or change stiffness. They are already in the sheet. You feel the result.
-
-**Mineral clay.** A handbook clay series in a CR compound (DIXIE clay, 0 → 50 phr) dropped tensile from **3100 → 1500 psi** while stress at 500% stretch rose **500 → 1100 psi**. Direction for a soft garment sheet: more mineral filler buys opacity and cost at the expense of hand and elongation. Soft fashion sheet usually keeps that load low.
-
-**High-styrene SBR as a polymeric filler.** In an NR film series, raising this filler to 20 phr took 300% modulus from **0.90 → 2.76 MPa**, crescent tear from **1156 → 1769 N/cm**, and permanent set from **6 → 30%**. The same handbook calls the modulus rise a serious disadvantage for some latex uses. A body-hug panel that must snap back cares about that set number. A reinforced zone that must not tear may tolerate the stiffer hand.
-
-<details id="what-modulus">
-<summary>What do modulus and permanent set mean?</summary>
-
-**Modulus** here is how much force the film takes to stretch a given amount (the handbook quotes stress at 300% or 500%). Higher modulus means a boardier, less “givey” sheet at the same thickness. **Permanent set** is how much stretch stays after you let go. High set means the piece looks baggy after wear.
+Commercial sheet latex sold for garment assembly rarely discloses this proportion on product packaging.
 
 </details>
 
-Those numbers are plant-film examples, not a vendor recipe for the roll on your table. They tell you why two black sheets of the same thickness can cut alike and wear differently.
+## Why does one opaque sheet feel stiffer? {#why-does-one-opaque-sheet-feel-stiffer}
 
----
+### How
 
-## Metal in the color {#metal-impurities}
+Cut test strips from both the opaque sheet and a translucent reference roll at identical gauge. Stretch each strip to three or four times its resting length and release it. If the opaque sample resists extension more aggressively and fails to snap back fully to its starting dimension, particulate filler is the standard cause.
 
-Color chemistry is also aging chemistry. Copper and manganese catalyze oxidation. When a compound needs copper protection, the handbook budget is **2 phr total** antioxidant; coarse or settled dispersions leave weak spots. Pigments and fillers can put those metals into the film the mill sold you.
+Never assume two rolls will drape or fit identically based on labeled gauge or shared shade names. Garment-grade sheet latex occupies the low-filler boundary of manufacturing practice, well below the 50 to 100 phr loadings common in heavy industrial rubber.
 
-A cheap bright pigment is an identity risk (metal soap, mineral impurity), not only a color shift. Store the roll like something that will age: [Aging, Storage, and Care](/literature-reviews/sheet-aging-storage-and-care).
+### Why
 
----
+Particulate fillers interfere with the natural elastic network of natural rubber. In natural rubber films, McNAMEE clay increases modulus while reducing ultimate tensile strength as concentrations climb toward 100 phr. The material grows boardy and breaks under lower ultimate tension.
 
-## Decision cues {#decision-cues}
+Data from *High Polymer Latices* demonstrates that kaolinite clay reduces elongation at break across that same loading range. Stress at 500% elongation increases only within the range where the rubber retains enough elasticity to stretch that far. Because baseline recipes and vulcanization cycles vary between handbook trials, separate published tables reflect distinct compound formulations.
 
-**Buy colored sheet** when you need a catalog color now and you accept the mill’s opacity, stiffness, and aging package.
-
-**Compare lots by hand**, not by color name. Stretch a scrap to 300%, let go, and feel set. If two blacks from two shops disagree, treat them as different compounds.
-
-**Ask the vendor** for polymer family and any filler or color TDS if the piece must last or sit in sun. No TDS means you are trusting the lot.
-
----
-
-## Deep dives (optional)
+Organic fillers alter properties along a different trajectory. Adding a high-styrene copolymer increases tear resistance, but it causes a steep rise in permanent set. In comparisons with inorganic whiting and zinc oxide, high-styrene additives maintain baseline tensile strength up to 20 phr before dropping, whereas mineral fillers cause an immediate, progressive decline in tensile strength.
 
 <details>
-<summary>Deep dive: High-styrene SBR filler numbers</summary>
+<summary>Detail: Modulus and permanent set definitions</summary>
 
-NR latex base; high-styrene SBR copolymer added at 0 / 10 / 15 / 20 phr; vulcanize 15 min at 93°C. Plant example.
+Tensile modulus represents the mechanical force needed to stretch rubber to a stated elongation, typically reported as stress at 300% or 500% strain. A higher modulus value indicates a stiffer sheet that requires greater force to deform. 
 
-| phr filler | Modulus 300% (MPa) | Tensile (MPa) | Eb (%) | Tear (N/cm) | Set (%) |
-| --- | --- | --- | --- | --- | --- |
-| 0 | 0.90 | 28.6 | 880 | 1156 | 6 |
-| 10 | 2.07 | 30.0 | 800 | 1489 | 20 |
-| 15 | 2.41 | 30.7 | 760 | 1664 | 22 |
-| 20 | 2.76 | 26.9 | 730 | 1769 | 30 |
-
-Tear-first zones might tolerate the high load. A panel that must stay low-set should treat 20 phr as a stiffness warning.
+Permanent set measures the unrecovered strain remaining after stress is released. High permanent set causes garments to bag out at high-strain points such as knees and elbows.
 
 </details>
 
 <details>
-<summary>Deep dive: Mineral clay direction</summary>
+<summary>Detail: McNAMEE clay in an NR film</summary>
 
-CR 750 compound with DIXIE clay at 0 / 25 / 50 phr (industrial cure 60 min at 127°C): tensile **3100 / 1800 / 1500 psi**; stress at 500% **500 / 600 / 1100 psi**. The teaching point is the direction (stiffer, weaker in tension), not the absolute psi on a hobby-cured fashion sheet.
+Air-dried natural rubber spread films, warm-air vulcanized for 15 minutes at 93°C (*The Vanderbilt Latex Handbook*).
+
+| phr McNAMEE clay | Tensile strength (psi) | Modulus at 500% (psi) |
+| --- | --- | --- |
+| 0 | 5000 | 700 |
+| 25 | 4600 | 1400 |
+| 50 | 4000 | 1850 |
+| 75 | 3200 | 2050 |
+| 100 | 2100 | 2100 |
+
+![McNAMEE clay in an NR latex compound: tensile and modulus at 500 percent versus phr](/literature-reviews/images/sheet-pigment-filler-decks/assets/mcnamee-nr-clay.openai-gpt-image-2.5-sunburst.png)
+
+A comparative chloroprene series (CR 750) compounded with DIXIE clay and vulcanized for 60 minutes at 127°C demonstrates the same directional trend: tensile strength drops from 3100 to 1800 to 1500 psi while stress at 500% climbs from 500 to 600 to 1100 psi across 0, 25, and 50 phr loadings.
 
 </details>
+
+<details>
+<summary>Detail: Kaolinite elongation on NR deposits</summary>
+
+Data from *High Polymer Latices* (1966) for natural rubber latex deposits, citing 1954 Vanderbilt research. Vulcanization: 60 minutes at 93°C. Empty cells reflect data omitted from the original published record.
+
+| phr clay | Elongation at break (%) | Tensile strength (psi) | Modulus at 500% (psi) |
+| --- | --- | --- | --- |
+| 0 | 1200 | 6000 | 400 |
+| 20 | 750 | 3500 | 650 |
+| 40 | 600 | 2500 | 900 |
+| 60 | 500 | 1900 | 1150 |
+| 80 | 450 | 1600 | |
+| 100 | 400 | 1400 | |
+
+![Kaolinite clay versus elongation, tensile strength, and modulus of NR latex deposits](/literature-reviews/images/sheet-pigment-filler-decks/assets/kaolinite-nr.openai-gpt-image-2.5-sunburst.png)
+
+Do not average these values directly with 1987 McNAMEE tables due to differences in compounding recipes and vulcanization cycles.
+
+</details>
+
+<details>
+<summary>Detail: High-styrene copolymer filler and inorganic whites</summary>
+
+Natural rubber latex films modified with a high-styrene styrene-butadiene copolymer, vulcanized for 15 minutes at 93°C (*Polymer Latices*, Vol. 3).
+
+| phr filler | Modulus 300% (MPa) | Modulus 500% (MPa) | Tensile strength (MPa) | Elongation at break (%) | Tear strength (N/cm) | Permanent set (%) |
+| --- | --- | --- | --- | --- | --- | --- |
+| 0 | 0.90 | 1.79 | 28.6 | 880 | 1156 | 6 |
+| 10 | 2.07 | 5.58 | 30.0 | 800 | 1489 | 20 |
+| 15 | 2.41 | 6.89 | 30.7 | 760 | 1664 | 22 |
+| 20 | 2.76 | 8.62 | 26.9 | 730 | 1769 | 30 |
+
+A 1966 chart of an equivalent high-styrene formulation shows an unfilled 500% modulus of 800 psi. The 1997 revision records 1.79 MPa (approximately 260 psi) for that point. Tensile strength and hardness values remain consistent between editions after unit conversion. The values above follow the 1997 publication.
+
+The chart below shows tensile trends for a separate natural rubber vulcanizate cured for 60 minutes at 100°C. Calcium carbonate (whiting) and zinc oxide produce steady declines in tensile strength as loading increases. The high-styrene copolymer maintains unfilled tensile values up to roughly 20 phr before declining. Resorcinol-formaldehyde resin displays an initial peak before falling. A 1966 graph places that resin peak near 10 phr, whereas the 1997 version peaks closer to 20 phr. For commercial sheet latex selection, the stable baseline comparison is the inorganic pigments versus the high-styrene copolymer.
+
+![Tensile strength versus filler level for resorcinol-formaldehyde resin, a high-styrene copolymer, zinc oxide, and whiting on postvulcanized NR films](/literature-reviews/images/sheet-pigment-filler-decks/assets/filler-tensile.openai-gpt-image-2.5-sunburst.png)
+
+</details>
+
+## Can the pigment age the sheet faster? {#can-the-pigment-age-the-sheet-faster}
+
+### How
+
+Store colored sheet latex under the same environmental controls used for natural gum sheet: keep it cool, dark, dry, and isolated from oils. 
+
+When buying budget-tier vibrant colors for garments exposed to sunlight or sweat, confirm the antioxidant package with the manufacturer. A swatch confirms optical shade, not thermal or oxidative durability.
+
+### Why
+
+Color pigments and mineral fillers serve as an entry route for copper and manganese into natural rubber. These transition metals act as powerful pro-oxidants, accelerating chain scission. When formulations require specific protection against copper degradation, *The Vanderbilt Latex Handbook* specifies a baseline allowance of 2 phr total antioxidant.
+
+If color dispersions were improperly milled or allowed to settle before sheet formation, antioxidant reserves deplete unevenly throughout the film. A localized shortage allows patches of the sheet to develop ozone cracking or surface crazing while neighboring zones remain flexible.
+
+<details>
+<summary>Detail: Antioxidant allowances for metal contamination</summary>
+
+The 2 phr antioxidant loading recommended in *The Vanderbilt Latex Handbook* is an internal formulation requirement for rubber exposed to heavy metal contamination. 
+
+This antioxidant is incorporated into the liquid compound prior to sheet manufacture. It cannot be applied topically to finished sheet latex as a surface wash, and a catalog color listing provides no guarantee that this protection exists.
+
+</details>
+
+## How do I choose a colored roll? {#how-do-i-choose-a-colored-roll}
+
+### How
+
+Purchase colored sheet latex when project requirements require a specific optical finish and you accept the mill-processed hand, recovery, and antioxidant limits of that run.
+
+Before cutting into a new roll, perform a shop bench test. Stretch a small sample strip to 300% elongation, hold it briefly, release it, and evaluate both recovery speed and permanent stretch. Treat the same catalog color name sourced from different mills or purchased months apart as separate materials. When structural recovery and longevity are essential, request technical data sheets confirming polymer identity, pigment chemistry, and filler loading.
+
+### Why
+
+Nominal gauge and catalog color descriptions do not dictate modulus or permanent set. Industrial data demonstrates the mechanical shifts caused by compound additives, but published figures cannot substitute for testing an unverified commercial roll. 
+
+A physical elongation test provides direct, immediate assessment of stiffness and elasticity without chemical analysis.
+
+## Sources
+
+- Blackley, D. C. *High Polymer Latices: Their Science and Technology*. 2 vols. London: Maclaren; New York: Palmerton, 1966. <https://lccn.loc.gov/66077950>
+- Blackley, D. C. *Polymer Latices: Science and Technology — Volume 3: Applications of Latices*. 2nd ed. London: Chapman & Hall; New York: Springer, 1997. <https://books.google.com/books?id=Y2VPGj7YbykC>
+- Mausser, Robert Francis, ed. *The Vanderbilt Latex Handbook*. 3rd ed. Norwalk, CT: R.T. Vanderbilt Company, 1987. <https://lccn.loc.gov/92117844>
+- Winspear, George G., ed. *The Vanderbilt Latex Handbook*. New York: R. T. Vanderbilt Co., 1954. <https://lccn.loc.gov/54002697>

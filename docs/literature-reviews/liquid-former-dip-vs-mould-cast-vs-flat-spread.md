@@ -7,144 +7,167 @@ tags: [liquid, dipping, forming]
 
 # Former Dip, Mould Cast, and Flat Spread
 
-> **Safety.** Liquid concentrates carry ammonia and metal-hygiene rules (no copper or brass in dip or leach contact). Coagulant salts and heat sensitizers are plant chemicals. See [Allergy and Skin Contact](/literature-reviews/allergy-and-skin-contact).
+> **Safety.** Ammonia fumes from natural-rubber latex are a health hazard if you breathe them for a long time. Ventilate. Keep copper, brass, and galvanized iron off equipment that holds latex. The leach tank follows the same metals rule. Brass or copper fittings deteriorate the rubber in the latex. Galvanized fittings form coagulum. Coagulant salts and heat sensitizers are plant chemicals. See [Allergy and Skin Contact](/literature-reviews/allergy-and-skin-contact).
 
 ## Executive summary
 
-Liquid latex does not have one casting method. **Former dipping** builds film on a shape you withdraw from a tank. **Mould casting** gels latex inside a cavity (plaster absorption or metal heat-gel; slush or rotational). **Spreading** coats fabric with doctor blades on an industrial proofing line.
+Liquid latex becomes a film in one of three places. Dip builds it on a former you pull out of a tank. Cast gels it on the inside of a mould. Spread lays it on fabric with a doctor blade on a proofing line.
 
-Straight dips are thin per pass. [Coagulant](#q2-thickness) and heat-sensitized branches build thicker walls. Use this after [Forming film from liquid latex](/literature-reviews/liquid-film-pathway). The [five-question tree](#decision-tree-five-questions) routes geometry, thickness, mould type, metal hygiene, and spread equipment.
+A straight dip is thin on each pass. A coagulant dip builds a thicker wall in one pass, and it builds faster. Heat-sensitized dipping is for a thick single dip, such as a teat. Pick the branch from the shape and the thickness you want. Read this after [Forming film from liquid latex](/literature-reviews/liquid-film-pathway).
 
----
+## Questions this article answers
 
-## Forming map {#forming-map}
+- [Which shape uses which process?](#which-shape)
+- [How do you dip a former?](#dip)
+- [How do you cast in a mould?](#cast)
+- [How do you spread on fabric?](#spread)
+- [How do you pick a branch?](#pick)
+- [Which rule stays with its machine?](#rules)
 
-Dipping deposits on a **former**. Moulding replicates a **cavity interior**. Spreading coats **fabric** with doctor blades. Aqueous latex dries slower than solvent doughs, so production lines run fabric slower.
+## Which shape uses which process? {#which-shape}
 
-<details>
-<summary>What is a former vs a mould?</summary>
+Match the hardware to the shape. A glove form or a plug you can withdraw is a former: dip it. A hollow article with an inside surface is a mould: cast it. A continuous width of fabric is a spreading line.
 
-A **former** is the positive shape you dip into latex, like a glove form or a mannequin arm. A **mould** is a cavity you pour or rotate latex inside, like a plaster body cast or a closed metal slush mould. Dipping builds film on the outside of the shape. Casting builds film on the inside wall of the cavity.
+```mermaid
+flowchart LR
+  latex[Liquid latex] --> dip[Dip on a former]
+  latex --> cast[Cast in a mould]
+  latex --> spread[Spread on fabric]
+```
 
-</details>
+### Why
 
-Spreading, dipping, and fabric impregnation were already distinct industrial routes in a 1932 process map.
+Dipping leaves rubber on the outside of the shape you immersed. Casting copies the cavity wall, so the detail sits on the inside of the film. Spreading wets a moving textile. Water-based latex dries more slowly than a solvent rubber dough, so the fabric runs more slowly. Letter Circular LC 321 (1932) already treats spreading and dipping as separate routes, and it describes fabric impregnation as its own bath step.
 
----
+### Detail: What the words mean
 
-## Former dipping {#former-dipping}
+A former is the positive you dip. A mould is the cavity you cast in. Spread, in this article, means a wet latex film on fabric, the industrial proofing operation in *Polymer Latices* Volume 3.
 
-**Straight dip:** about 0.01–0.05 mm dry rubber per pass. Multi-dip builds gauge. **Coagulant dip:** coat the former with a coacervant, dwell, withdraw a gelled shell. Above about 8 mil dry thickness, coagulant is usually the economical branch. Warm leach and staged cure follow. Rotate formers between dips.
+## How do you dip a former? {#dip}
 
-<details>
-<summary>What does coagulant mean in dipping?</summary>
+For a thin film, dip and withdraw, then dip again. Each straight pass is about 0.01–0.05 mm of dry rubber, so thickness comes from repeats.
 
-A **coagulant** is a chemical bath, often a salt solution, applied to the former before latex. It makes the liquid rubber gel on contact so each coat builds thickness instead of running off. Coagulant is a film-building step. It is not the same as **coalescence**, which is how rubber particles in a water-based glue merge into a solid film after you spread the glue.
+For a thicker film, coat the former with a coagulant first. A coagulant is a salt bath, often a calcium salt. Leave the former in the tank for a set dwell so a gel layer can form. At withdrawal the film is usually only partly gelled. More salt on the former gives a thicker deposit for the same dwell. One coagulant dip is typically 0.2–0.8 mm dry. Handbook practice uses coagulant once the dry film is thicker than about 0.2 mm (8 mil), because the wall builds faster. Then leach in warm water and vulcanize in staged warm air.
 
-</details>
+Porcelain formers stand up to coagulant and latex. Mount them so they do not trap air as they go in. Rotate them after the dip so the wet film does not run into drips.
 
-Porcelain formers resist coagulant and latex. Mount them so air is not trapped on immersion. Equipment must exclude copper, brass, and galvanized iron.
+Heat-sensitized dipping is still a former in a tank. One dip can leave up to about 4 mm of dry rubber, which is how teats and soothers are made. The thickness-versus-time curve is different from a coagulant dip. Keep that cycle separate from a closed-mould cast. Further coagulant practice: [Coagulant dipping for wearable thickness](/literature-reviews/liquid-coagulant-dipping-wearable-thickness).
 
-Detail: [Coagulant dipping for wearable thickness](/literature-reviews/liquid-coagulant-dipping-wearable-thickness).
+### Why
 
----
+A straight dip has no coagulant. The wet film is only what clings and then dries, so one pass stays thin. Later dips also cover pinholes that do not line up from layer to layer (*Polymer Latices* Volume 3).
 
-## Mould casting {#mould-casting}
+A coagulant destabilizes a gel layer during the dwell. The outer layer is often still fluid when the former comes out (*Polymer Latices* Volume 3). Warm leach pulls soluble salt out of the wet film. Gloves made from prevulcanized latex may only need warm-air drying (Vanderbilt Latex Handbook).
 
-**Plaster:** water absorption plus calcium ions gel the latex. Dry completely before cure or you get blisters. Moulds erode at sharp edges. Cheap, short life.
+Brass or copper in contact with the latex deteriorates the rubber. Galvanized fittings form coagulum (Vanderbilt Latex Handbook).
 
-**Heat-sensitized (Kaysam class):** closed nonporous mould, biaxial rotation while heating. Handbook example: about 4 minutes at 82 °C to gel. Then cool, leach, supported dry, warm-air cure. Ammonium nitrate sensitizer is added just before use. Avoid entraining air.
+### Detail: Viscosity and one straight dip
 
-**Slush vs rotational.** Slush: fill, dwell, pour out excess. Thickness follows compound stability and cavity geometry. Rotational: meter compound, rotate while heating. Thickness follows compound mass versus cavity area. More uniform walls. Needs rotation equipment. Do not use rotational plaster moulds; they are too heavy and fragile.
+When water dilution changes total solids and viscosity together, dried thickness from one dip tracks the logarithm of viscosity. The handbook plot shows the same points on a linear viscosity scale and again on a log scale (*Polymer Latices* Volume 3).
 
-<details>
-<summary>What is slush vs rotational casting?</summary>
+![Single-dip dried deposit thickness versus latex-compound viscosity, linear and logarithmic scales](/literature-reviews/images/liquid-former-dip-vs-mould-cast-vs-flat-spread/assets/single-dip-thickness.openai-gpt-image-2.5-sunburst.png)
 
-**Slush casting** pours latex into a mould, lets it gel on the walls, then pours out the excess. **Rotational casting** spins a closed mould so latex coats the interior evenly. Rotational wants dedicated equipment and timing.
+### Detail: Calcium salt on the former
 
-</details>
+After a fixed dwell, deposit thickness rises as the amount of calcium salt on the former rises. The handbook series changed that load by changing the concentration of the coagulant solution. On the plot, circles are 0.5 minute, triangles 2 minutes, squares 5 minutes, and inverted triangles 10 minutes.
 
-Detail: [Heat-sensitized gelation](/literature-reviews/liquid-heat-sensitized-gelation).
+![Deposit thickness after fixed dwell times versus amount of calcium salt on the former](/literature-reviews/images/liquid-former-dip-vs-mould-cast-vs-flat-spread/assets/calcium-dwell-thickness.openai-gpt-image-2.5-sunburst.png)
 
----
+The usual order is coagulant, then latex. A first latex layer can instead act as a tie coat for the coagulant and for the gel that forms next. That helps on smooth glass or glazed porcelain. In wet-coagulant dipping, the coagulant’s slip makes the gel more liable to slide off the former. A last dip in coagulant, after the last latex dip, is optional. It is recommended for polychloroprene.
 
-## Flat spread {#flat-spread}
+### Detail: Heat-sensitized dipping
 
-Industrial spreading uses flexible rubbery polymers so the coat stays flexible at room temperature. Advantages versus solvent doughs include the absence of flammable solvents. Disadvantages include fabric shrinkage or staining and slower drying, so the fabric runs slower.
+Dry thickness versus dwell is plotted separately for heat-sensitized dips and for a conventional coagulant dip. Curve A is polyvinyl methyl ether, curve B is a polypropylene glycol, and curve C is the coagulant dip. The heat-sensitized formers in that plot were at 60 °C. The bath has to stay cool. A production note for baby-feeding teats holds bath temperature within ±1 °C. That limit is the hard part of heat-sensitized dipping compared with coagulant dipping.
 
-Doctor blade: a sharp acute angle gives a thin coat with little strike-through. A blunt perpendicular blade gives a thick coat and more penetration.
+![Dry deposit thickness versus dwell time for heat-sensitized dipping and coagulant dipping of ammonia-preserved natural rubber latex](/literature-reviews/images/liquid-former-dip-vs-mould-cast-vs-flat-spread/assets/heat-coagulant-dwell.openai-gpt-image-2.5-sunburst.png)
 
-This is textile proofing equipment.
 
----
+## How do you cast in a mould? {#cast}
 
-## Decision tree (five questions) {#decision-tree-five-questions}
+Plaster. Pour the plaster slurry down onto the master so bubbles move off the face that will be the cavity. Fill the mould with latex, wait, and pour out the excess if you are slush casting. Dry the casting enough in the mould that it keeps its shape when you take it out. Dry it completely before you vulcanize it, or it blisters.
 
-### Q1. Geometry {#q1-geometry}
+A closed skin with no vent is a different dry step. Dry that skin at room temperature. Heat can burst it while the deposit is still fragile. The handbook preference for that closed skin is a prevulcanized latex. Room-temperature drying of a sealed skin does not replace “dry completely before vulcanizing” on an open plaster casting.
 
-Positive withdrawable shape → **former dip**. Enclosed cavity → **mould cast**. Continuous fabric width → **spread line**.
+Metal, heat-sensitized. Use a closed mould. Add the sensitizer just before you cast, and keep air out of the compound. Rotate on two axes while the mould heats, until the latex gels. Cool, leach, dry the casting on a support, then vulcanize in warm air.
 
-### Q2. Thickness {#q2-thickness}
+Slush thickness follows how stable the compound is, and the shape of the cavity. Rotational thickness follows how much compound you metered against the cavity area, and the wall is more even. Rotation needs its own rig. Plaster moulds are seldom used for that rotation. They are heavy and they break. See [Heat-sensitized gelation](/literature-reviews/liquid-heat-sensitized-gelation).
 
-Thin per-pass straight dip (about 0.01–0.05 mm dry) → multi-dip. Target above about 8 mil dry → [coagulant branch](#former-dipping). Hollow thick walls → slush or rotational inside a closed mould.
+### Why
 
-### Q3. Mould material {#q3-mould}
+Plaster is porous. Water soaks into the mould and calcium ions gel the latex from the cavity face inward. Sharp edges wear away, so the mould is cheap and short-lived (*Polymer Latices* Volume 3).
 
-Plaster or porous → dry completely before cure. Heat-sensitive metal closed mould → heat-sensitized gel cycle. Do not run Kaysam-style rotation on an open tray.
+Vanderbilt’s “dry completely before vulcanizing” note is about blistering if you vulcanize a wet casting. *Polymer Latices* Volume 3 tells you to dry an unvented continuous skin at room temperature, because heat can burst it. One failure is a blister. The other is a burst skin.
 
-### Q4. Metal hygiene {#q4-metal}
+A heat-sensitized metal mould gels because the compound and the hot wall meet inside a closed cavity. That closed-mould cycle is the Kaysam class. The heat-sensitized former dip above stays in a tank.
 
-No copper or brass in dip tanks, leach water, or mould hardware contact. Metal catalysis accelerates aging. See [Liquid aging, storage, and care](/literature-reviews/liquid-aging-storage-and-care).
+### Detail: Kaysam timing example
 
-### Q5. Spread equipment {#q5-spread}
+One Vanderbilt natural-rubber example adds ammonium nitrate just before use. Biaxial rotation, about 4 minutes at 82 °C to gel. Cool 2–5 minutes at 15 °C. Leach in running water at 15–27 °C. Dry at 82 °C for at least 3 hours, supported. Vulcanize in warm air at 104 °C for 20–60 minutes, depending on wall thickness. That is a handbook example, not a shop recipe.
 
-Doctor-blade textile line with speed matched to aqueous dry time → spread branch. A tabletop puddle without plant blade geometry is not documented as equivalent to industrial spread.
+### Detail: Plaster deposit and stabilizer
 
----
+For a fixed time in a plaster mould, a lower casein level gave a thicker deposit. Higher whiting also tracked thicker deposits, but total solids rose with the whiting, so the filler change is not separated from the solids change (*Polymer Latices* Volume 3).
 
-## Branch mix-ups {#do-not-mix}
+## How do you spread on fabric? {#spread}
 
-- Kaysam-style rotation on an **open tray**. Heat-sensitized gel wants a closed mould.
-- Spread-blade production cards on **plaster slush**. Plaster must dry completely before cure.
-- Straight-dip pinhole logic on a **thick plaster cast**. Air entrapment and dry-before-cure are different failure modes.
+Use a proofing line: fabric under a doctor blade, with line speed matched to how fast water leaves the coat. A sharp blade at an acute angle lays a thin coat and keeps latex from striking through the cloth. A blunt blade set square to the cloth lays a thick coat and drives more latex into the fabric. If you need thickness without a soaked cloth, seal with the sharp blade first, then build with the blunt blade.
 
-Pair with [Liquid reinforcement and laminate zones](/literature-reviews/liquid-reinforcement-laminate-zones) for multi-dip builds and [Liquid ventilation and ammonia](/literature-reviews/liquid-ventilation-ammonia) during compound and dip work.
+Layouts in the same chapter include a drying chest, a heated drum, a spreading roller, knife-over-roll, knife-over-blanket, and knife-over-diaphragm. The diaphragm layout is the one named for delicate fabric.
 
----
+### Why
 
-## Deep dives (optional)
+The coat is meant to stay flexible at room temperature, so the polymer is a rubber. Compared with solvent doughs, the latex line has no flammable solvent. The costs named in the handbook are fabric shrinkage or staining, and slower drying, which is why the cloth runs slower (*Polymer Latices* Volume 3).
 
-<details>
-<summary>Deep dive: Straight dip thickness vs viscosity</summary>
+## How do you pick a branch? {#pick}
 
-Gorton data: deposit thickness scales approximately with log(viscosity) when total solids and viscosity co-vary by water dilution. Single-dip band about 0.01–0.05 mm dry. Multi-dip offsets pinhole alignment.
+Start with the shape. A withdrawable positive goes to dipping. A closed cavity goes to casting. A fabric width goes to spreading.
 
-</details>
+Then the thickness. One straight dip dries to about 0.01–0.05 mm. Further dips build past that. One coagulant dip is typically 0.2–0.8 mm dry. One heat-sensitized dip on a former can reach about 4 mm dry. A hollow thick wall inside a metal mould uses a heat-sensitized cast, slush or rotational.
 
-<details>
-<summary>Deep dive: Tie-coat sequences</summary>
+Then the mould. An open plaster casting is an absorption gel: dry it enough in the mould to hold shape, and dry it completely before vulcanizing. An unvented continuous skin dries at room temperature, and a prevulcanized latex is the preference. Metal means the heat-sensitized cycle, leach, and a supported dry.
 
-On smooth glass formers, coagulant-first or latex-first tie-coat sequences appear to improve wetting. A final coagulant dip is optional; industrial practice recommends it for chloroprene.
+```mermaid
+flowchart TD
+  q1[What shape?] --> former[Withdrawable former]
+  q1 --> cavity[Closed cavity]
+  q1 --> fabric[Fabric width]
+  former --> thin[One straight dip about 0.01 to 0.05 mm]
+  former --> thick[Coagulant dip about 0.2 to 0.8 mm]
+  thin --> straight[Further dips build past that]
+  thick --> coag[Coagulant dip]
+  cavity --> plaster[Plaster mould]
+  cavity --> metal[Metal mould]
+  plaster --> openCast[Open casting]
+  openCast --> dryRule[Dry completely before vulcanizing]
+  plaster --> sealed[Unvented continuous skin]
+  sealed --> ambient[Ambient dry, prevulcanized latex]
+  metal --> heatCast[Heat-sensitized cast]
+  fabric --> spreadBranch[Doctor-blade spread]
+```
 
-</details>
+### Why
 
-<details>
-<summary>Deep dive: Kaysam cycle</summary>
+Each branch moves thickness with its own control. Straight dipping uses repeats and viscosity. Coagulant dipping uses dwell and how much salt is on the former. Casting uses residence time, compound stability, or the mass you metered into a rotating mould. Spreading uses blade angle and line speed. A dip dwell does not set a plaster wall. A blade angle does not set the film on a former.
 
-Example NR compound with ammonium nitrate sensitizer. Rotation gel at 82 °C. Leach 15–27 °C. Dry 82 °C at least 3 hours, supported. Cure 104 °C for 20–60 minutes, thickness-dependent. Handbook example, not a craft recipe.
+## Which rule stays with its machine? {#rules}
 
-</details>
+Rotate a heat-sensitized compound inside a closed mould so the latex gels on a cavity wall.
 
-<details>
-<summary>Deep dive: Slush vs rotational thickness</summary>
+Keep doctor-blade angles on the fabric line. A plaster slush mould gels by absorbing water, then has to dry before vulcanizing.
 
-Slush thickness depends on colloid stability (recycled compound destabilizes unpredictably) and cavity geometry. Rotational thickness is roughly a function of compound mass and cavity area.
+Treat pinholes from air in a dip tank as a dipping defect. A thick plaster casting fails a different way if you vulcanize it wet.
 
-</details>
+Multi-dip builds: [Liquid reinforcement and laminate zones](/literature-reviews/liquid-reinforcement-laminate-zones). Ammonia while you compound and dip: [Liquid ventilation and ammonia](/literature-reviews/liquid-ventilation-ammonia).
 
-<details>
-<summary>Deep dive: Spreading blade geometry</summary>
+### Why
 
-Knife-over-roll multi-pass heated belt, and knife-over-diaphragm for delicate fabric. Industrial plant cards. Aqueous dry rate sets line speed.
+The gel happens in a different place on each branch. A former gels on its outside. A mould gels on its inside. A blade meters latex onto cloth. Using one branch’s timing card on another branch’s hardware misses the control that actually sets the wall.
 
-</details>
+## Sources
+
+- *The Vanderbilt Latex Handbook*. 3rd ed. Edited by Robert Francis Mausser. Norwalk, CT: R.T. Vanderbilt Company, 1987. [Library of Congress](https://lccn.loc.gov/92117844)### Detail: Tank flow
+
+A production dip tank uses an adjustable baffle, a screen, a circulator, and a false bottom. Surface flow is about 2–4 feet per minute. Circulation should pull compound under the false bottom so a loose fit does not suck in air. Air-tight covers limit skinning while the tank is idle. Air left in the compound shows up as pinholes.
+
+- *Polymer Latices: Science and Technology — Volume 3: Applications of Latices*. 2nd ed. D. C. Blackley. Chapman & Hall / Springer, 1997. [Google Books](https://books.google.com/books?id=Y2VPGj7YbykC)
+- *Letter Circular LC 321: Rubber Latex*. U.S. Department of Commerce, National Bureau of Standards, 25 February 1932. [NIST](https://nvlpubs.nist.gov/nistpubs/Legacy/LC/nbslettercircular321.pdf)

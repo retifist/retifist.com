@@ -37,11 +37,14 @@ const literatureReviewShared = [
   { text: 'Pattern reduction → pressure', link: '/literature-reviews/pattern-reduction-pressure-targets' },
   { text: 'Reduction × pressure sensitivity', link: '/literature-reviews/reduction-and-pressure-sensitivity' },
   { text: 'Simulating natural rubber sheet in Clo3D', link: '/literature-reviews/clo3d-material-simulation' },
+  { text: 'Adhesion and peel tests', link: '/literature-reviews/adhesion-peel-test-methods' },
 ]
 
 const literatureReviewSheet = [
   { text: 'Sheet adhesives', link: '/literature-reviews/sheet-adhesives-and-seam-integrity' },
   { text: 'Sheet delamination', link: '/literature-reviews/sheet-delamination-seam-failure' },
+  { text: 'Sheet latex–latex adhesion', link: '/literature-reviews/sheet-latex-latex-adhesion-testing' },
+  { text: 'Sheet latex–substrate adhesion', link: '/literature-reviews/sheet-latex-substrate-adhesion-testing' },
   { text: 'Sheet aging and care', link: '/literature-reviews/sheet-aging-storage-and-care' },
   { text: 'Buying formed sheet', link: '/literature-reviews/sheet-film-pathway' },
   { text: 'Sheet textile bonding', link: '/literature-reviews/sheet-latex-textile-bonding' },
@@ -59,8 +62,14 @@ const literatureReviewSheet = [
 ]
 
 const literatureReviewLiquid = [
+  { text: 'Tree to liquid latex', link: '/literature-reviews/liquid-tree-to-liquid-latex' },
+  { text: 'Hevea rubber tree', link: '/literature-reviews/liquid-hevea-rubber-tree' },
+  { text: 'Plantation tapping', link: '/literature-reviews/liquid-plantation-tapping-field-latex' },
+  { text: 'Field latex to concentrate', link: '/literature-reviews/liquid-field-latex-to-concentrate' },
   { text: 'Liquid adhesives', link: '/literature-reviews/liquid-adhesives-and-seam-integrity' },
   { text: 'Liquid delamination', link: '/literature-reviews/liquid-delamination-seam-failure' },
+  { text: 'Liquid latex–latex adhesion', link: '/literature-reviews/liquid-latex-latex-adhesion-testing' },
+  { text: 'Liquid latex–substrate adhesion', link: '/literature-reviews/liquid-latex-substrate-adhesion-testing' },
   { text: 'Liquid aging and care', link: '/literature-reviews/liquid-aging-storage-and-care' },
   { text: 'Forming film from liquid', link: '/literature-reviews/liquid-film-pathway' },
   { text: 'Liquid textile bonding', link: '/literature-reviews/liquid-latex-textile-bonding' },

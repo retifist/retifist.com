@@ -1,74 +1,88 @@
 ---
 title: Painting vs Compounding Pigment
-description: Three classes of color on liquid NR — compound pigment, NR surface coat, wrong polymer — with endnotes.
+description: Compound pigment versus synthetic latex-paint binder on the liquid pathway, with endnotes.
 series: literature-reviews
 human_page: /literature-reviews/liquid-painting-vs-compounding-pigment
 ---
 
 # Painting vs Compounding Pigment
 
-Human page: https://retifist.com/literature-reviews/liquid-painting-vs-compounding-pigment
+Human page: /literature-reviews/liquid-painting-vs-compounding-pigment
 
-> **Safety.** Read TDS/SDS for ammonia, solvents, and pigments. Food-contact colorant lists are not wear clearance.
+> **Safety.** Read TDS and SDS for ammonia, solvents, and pigments. A food-contact colorant list is not a wear clearance.
 
 ## Executive summary
 
-Compounding pigment tints NR before film formation (Class 3 modifier, dispersion or emulsion discipline).[^1] Surface “latex paint” is a separate layer on cured rubber and is often a different polymer family.[^5] A bottle labeled “liquid latex” or “latex paint” is not automatically compound-grade NR pigment. Read the TDS polymer line.
+On the liquid pathway, optional dyes and pigments go into the natural-rubber compound before the film forms.[^1] Film from raw latex is not suited to usable or saleable articles until that latex is compounded.[^2] Handbook latex paint is a synthetic binder blended with a pigment dispersion; that polymer binds the pigment into its own coating film.[^5]
 
-Use when choosing tint method or decoding a consumer bottle. Compound prep detail: [Pigment and Filler Compounding](/literature-reviews/liquid-pigment-filler-decks). Bottle fields: [Decoding Consumer Latex Bottle Labels](/literature-reviews/liquid-decoding-bottle-labels).
+Use when choosing a tint method or reading a product sheet. Compound prep: [Pigment and Filler Compounding](/literature-reviews/liquid-pigment-filler-decks). Label fields: [Decoding Consumer Latex Bottle Labels](/literature-reviews/liquid-decoding-bottle-labels).
 
----
+## Which color method
 
-## Three classes
+| Sheet says | Action |
+| --- | --- |
+| NR latex to cast or dip; color in that film | Disperse pigment into the compound before forming[^1] |
+| Prevulcanized NR | Liquid-state vulcanization. A glove from that latex needs only warm-air drying[^4] |
+| Vinyl acetate, acrylic, styrene-acrylate, or polystyrene paint binder | Coating with its own film[^5] |
 
-| Class | Mechanism | Status |
-| --- | --- | --- |
-| Compound pigment | Pigment in the latex before cast or dip | Industrial color path for through-thickness color[^1][^2] |
-| NR-compatible surface coat | Separate aqueous NR or prevulc deposit | Decoration branch, not compounding[^4] |
-| Wrong polymer | Styrene-acrylic, vinyl-acetate, hardware-store “latex paint” | Rejected as NR compound tint[^5] |
+```mermaid
+flowchart TD
+  sheet["Read the polymer on the product sheet"] --> nr["Natural-rubber latex you will compound"]
+  sheet --> pre["Prevulcanized natural rubber"]
+  sheet --> syn["Vinyl acetate, acrylic, styrene-acrylate, or polystyrene binder"]
+  nr --> batch["Disperse pigment into the compound before cast or dip"]
+  pre --> dry["Glove from that latex: warm-air dry"]
+  syn --> coating["Binder dries as its own coating film"]
+```
 
-Raw latex film is not saleable without compounding.[^2] Prevulc NR can dry into a rubbery deposit; dry-only rules for proper prevulc deposits are a different branch from compounding pigment into the batch.[^4] See [Prevulcanized Consumer Latex](/literature-reviews/liquid-prevulcanized-consumer-latex).
+Film from raw latex is not suited to usable or saleable articles until compounded.[^2] A vulcanized film from an elastomeric latex must stretch to at least twice its length and return to about its original length. That rule is the film, not a coating on the film.[^2]
 
----
+<details>
+<summary>Detail: Dyes on the use table</summary>
 
-## Compound tint prep
+Class 3 roster: sulfur, zinc oxide, organic accelerators, antidegradants, clays, other loading materials, softeners, reodorants. Dyes and pigments are optional on the NR use table under that section. They are not a roster row.[^1]
 
-Water-insoluble solids: dispersion **<5 µm** before latex.[^3] Immiscible oils or oil-carried colorants: oil-in-water emulsion first; failure leaves oil spots.[^3] Shaking craft pigment into a bottle is not that prep. Full buckets: [Pigment and Filler Compounding](/literature-reviews/liquid-pigment-filler-decks#identity-buckets).
+</details>
 
----
+## Compound tint
 
-## Surface coats and stretch
+For most latex applications, dispersion particle size should be below 5 microns.[^3] Hegman draw-down on a fresh dispersion; remix before weigh.[^3]
 
-A surface layer must elongate with the NR underneath. Elastomer-ink architecture is the documented decoration path for a stretching face. A rigid acrylic binder is a different network stacked on NR. A prevulc NR deposit is the same polymer family and is still a coat, not through-color compound.
+Water-immiscible liquids and low-melting water-insoluble solids are emulsified before they are added to latex. Examples: antioxidant, tackifying resin, wax. A poor-quality emulsion added to the compound can leave oil spots.[^3] Shaking dry craft pigment into the bottle skips the dispersion step.
 
----
+Buckets: [Pigment and Filler Compounding](/literature-reviews/liquid-pigment-filler-decks#identity-buckets).
 
-## Decision cues
+<details>
+<summary>Detail: Emulsion checks</summary>
 
-- Tint the batch for color through the thickness when dispersion or emulsion prep is available.
-- Use a prevulc or NR-compatible coat to decorate a film that already exists.
-- Read TDS polymer; styrene-acrylic or vinyl-acetate is the wrong-polymer class.
+Drop-on-water test. Casein swollen in warm water, 54–71°C, at least ten minutes, with stirring. Above 74°C the protein can be damaged. Homogenize at or below 38°C.[^3]
 
----
+</details>
+
+## Latex paint in the handbooks
+
+UK name **emulsion paint** records replacement of oil-bound washable distempers (true oil-in-water emulsions). Elsewhere: **dispersion paint**. The binder set is synthetic.[^5]
+
+<details>
+<summary>Detail: Four binders and the coating film</summary>
+
+Vinyl acetate polymers and copolymers; styrene-butadiene copolymers; acrylate ester polymers and copolymers, including styrene-acrylate; polystyrene. Styrene-butadiene and polystyrene are no longer of significant industrial interest in that application. Coatings are almost entirely synthetic latices.[^5]
+
+Internally or externally plasticized polymer dispersion blended with a pigment dispersion. On drying, the polymer binds the pigment into a coherent film by loss of water and particle integration. Worked example is vinyl acetate; the same broad principles apply to the other latex types.[^5]
+
+</details>
+
+<details>
+<summary>Detail: Prevulcanized liquid</summary>
+
+Liquid-state vulcanization: sulfur or SULFADS, zinc oxide, an accelerator, and heat, with moisture loss prevented. Overcure: short, weak deposit. Gloves from prevulcanized latex need only warm-air drying.[^4] See [Prevulcanized Consumer Latex](/literature-reviews/liquid-prevulcanized-consumer-latex).
+
+</details>
 
 ## Endnotes
 
-[^1]: Vanderbilt Latex Handbook — Introduction; dyes and pigments Class 3; raw film needs compounding.
-[^2]: Vanderbilt Latex Handbook — latex definition; compounding required for a saleable film.
-[^3]: Vanderbilt Latex Handbook — Emulsions and Dispersions chapters; o/w first or oil spots; dispersion <5 µm.
-[^4]: Vanderbilt Latex Handbook — prevulcanized latex; dry-only branch for proper prevulc deposits (decoration context, not compound tint).
-[^5]: Polymer Latices Vol 3 — Application of Latices — latex-paint binder history (vinyl-acetate / acrylic water-thinnable coatings) is not Hevea compound pigment.
-
-<details>
-<summary>Deep dive: Dispersion vs emulsion failure</summary>
-
-Hegman grind QC and remix before weigh for dispersions. Drop test, homogenize ≤38°C, casein swell window for emulsions.[^3] Failures are oil spots and grit.
-
-</details>
-
-<details>
-<summary>Deep dive: Name collision</summary>
-
-Prevulc NR vulcanized in the liquid state and can make a rubbery deposit.[^4] Styrene-acrylic construction dispersions are a paint-binder family.[^5] Shared “latex” naming is not chemistry.
-
-</details>
+[^1]: Vanderbilt Latex Handbook, 3rd ed., Mausser, 1987 — elastomer phase modifiers. Class 3 roster is sulfur, zinc oxide, organic accelerators, antidegradants, clays, other loading materials, softeners, reodorants. Use table marks dyes and pigments optional for NR.
+[^2]: Vanderbilt Latex Handbook, 3rd ed., Mausser, 1987 — film from raw latex is not suited to usable or saleable articles until compounded. A vulcanized film from an elastomeric latex must stretch to at least twice its length and return to about its original length.
+[^3]: Vanderbilt Latex Handbook, 3rd ed., Mausser, 1987 — for most latex applications, dispersion particle size below 5 microns; Hegman draw-down; remix before weigh. Water-immiscible liquids and low-melting solids emulsified before addition; examples antioxidant, tackifying resin, wax. Poor emulsion can leave oil spots. Drop-on-water test; casein swell 54–71°C at least ten minutes; damage above 74°C; homogenize at or below 38°C.
+[^4]: Vanderbilt Latex Handbook, 3rd ed., Mausser, 1987 — prevulcanized latex is liquid-state vulcanization. Gloves produced from prevulcanized latex need only warm-air drying. Not a cite for a decorative coat on an existing film.
+[^5]: Polymer Latices: Science and Technology — Volume 3: Applications of Latices, 2nd ed., Blackley, 1997 — latex-based surface coatings almost entirely synthetic; four binder types (vinyl acetate; styrene-butadiene; acrylate / styrene-acrylate; polystyrene), with styrene-butadiene and polystyrene no longer of significant industrial interest; UK “emulsion paints” vs “dispersion paints”; a coating is plasticized polymer blended with pigment dispersion, and the polymer binds the pigment into its own film. Worked example is vinyl acetate; broad principles apply to other latex types.

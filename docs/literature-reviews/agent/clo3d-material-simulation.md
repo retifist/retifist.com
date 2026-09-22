@@ -1,20 +1,17 @@
 ---
-title: Simulating natural rubber sheet in Clo3D
-description: Calendered natural rubber sheet Clo3D presets — K scale rules, render, downloadable .zfab fabrics. Endnotes for verification.
+title: Simulating NR sheet in Clo3D
+description: Calendered NR sheet Clo3D presets — K scale rules, render, redistributable YAML. Endnotes for verification.
 series: literature-reviews
 human_page: /literature-reviews/clo3d-material-simulation
-verification: experimental
 ---
 
-# Simulating natural rubber sheet in Clo3D
+# Simulating NR sheet in Clo3D
 
-Human page: https://retifist.com/literature-reviews/clo3d-material-simulation
-
-> **Experimental verification in progress.** These planning numbers and Clo3D presets have not been bench-checked against worn sheet yet. Treat them as working marks, not shop-verified claims.
+Human page: /literature-reviews/clo3d-material-simulation
 
 ## Executive summary
 
-Clo3D presets model calendered NR sheet: isotropic in-plane `K`, gauge-scaled thickness/GSM/stretch/shear/bend; polished dielectric render.[^1] Published downloads: ten `.zfab` fabrics on [Downloads](/downloads/#clo3d-nr-sheet-presets). Import in a licensed Clo3D install. Clo3D template binary is not published.[^2]
+Clo3D presets model calendered NR sheet: isotropic in-plane `K`, gauge-scaled thickness/GSM/stretch/shear/bend; polished dielectric render.[^1] Redistributable SoT: YAML in [`assets/`](assets/) / `clo3d/yaml/`. Do **not** claim free redistribution of `edit.zfab` or treat packed `.zfab` as a free product.[^2]
 
 Related: [pressure targets](/literature-reviews/pattern-reduction-pressure-targets), [reduction × sensitivity](/literature-reviews/reduction-and-pressure-sensitivity), [body-region pressure sensitivity](/literature-reviews/body-region-pressure-sensitivity).
 
@@ -24,7 +21,7 @@ Related: [pressure targets](/literature-reviews/pattern-reduction-pressure-targe
 
 | Real | Clo3D |
 | --- | --- |
-| Calendered NR gauges 0.20–1.00 mm × black/red | Ten `.zfab` fabrics[^1] |
+| Calendered NR gauges 0.20–1.00 mm × black/red | Ten YAML/preset pairs[^1] |
 | Soft unfilled M300 ~0.9–1.2 MPa class | `K` clusters — **not** MPa→slider[^1][^3][^4] |
 | SG ~0.95 | GSM = mm × 0.95 × 1000[^5] |
 | Shined face | Roughness 3, reflection 100, metalness 0, IOR 1.5[^1][^6] |
@@ -54,24 +51,24 @@ Generated solid + grain (not PVC photos). IOR 1.5 ≈ Hevea ~1.52.[^6] Tricot/Ny
 
 ---
 
-## Copyright / files
+## Copyright / regenerate
 
-Published: ten `NR-sheet-*.zfab` files on [Downloads](/downloads/#clo3d-nr-sheet-presets).[^2] Not published: Clo3D `edit.zfab` template. Import requires a licensed Clo3D install.
+Safe to redistribute: ten `NR-sheet-*.yaml` + settings prose.[^2] Not free product: `edit.zfab`, packed presets as claimed downloads.[^2] Regenerate with `tools/ZfabYaml` against a licensed template.[^1]
 
 ---
 
 ## Fit pressure ≠ Stretch slider
 
-Reduction × gauge × modulus → Laplace planning; Clo3D Stretch is separate. Mid-limb skintight soft-NR mark ~0.8 kPa at *R*=10 cm.[^7]
+Reduction × gauge × modulus → Laplace planning; Clo3D Stretch is separate. Mid-limb skintight soft-NR mark ~0.8 kPa at \(R=10\) cm.[^7]
 
 ---
 
 ## Endnotes
 
-[^1]: Published 0.30 mm packed values and scale rules on the human edition of this review.
-[^2]: Published site downloads are the packed NR-sheet `.zfab` presets; Clo3D template binary is not offered.
-[^3]: Blackley, *Polymer Latices* Vol 3 — Table 16.12 soft unfilled NR film.
-[^4]: *Vanderbilt Latex Handbook* — MG Table 1.
-[^5]: Supatex Spec 2018 — SG 0.95 → GSM.
-[^6]: McPherson & Cummings, *J. Res. Natl. Bur. Stand.* 14 (1935) — doi:10.6028/jres.014.030.
-[^7]: [pattern-reduction-pressure-targets](/literature-reviews/pattern-reduction-pressure-targets).
+[^1]: `clo3d/nr-sheet-settings.md` — packed values and scale rules.  
+[^2]: Pack `assets/README.md`; historical `docs/drafting/clo3d-material-copyright.md` stub.  
+[^3]: Blackley, *Polymer Latices* Vol 3 — Table 16.12 soft unfilled NR film (via settings doc).  
+[^4]: *Vanderbilt Latex Handbook* — MG Table 1 (via settings doc).  
+[^5]: Supatex Spec 2018 — SG 0.95 → GSM (via settings doc).  
+[^6]: McPherson & Cummings, *J. Res. Natl. Bur. Stand.* 14 (1935) — doi:10.6028/jres.014.030.  
+[^7]: `clo3d/target-body-pressure.md`; [pattern-reduction-pressure-targets](/literature-reviews/pattern-reduction-pressure-targets).

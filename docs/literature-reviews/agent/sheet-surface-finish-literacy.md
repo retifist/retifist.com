@@ -1,64 +1,60 @@
 ---
 title: Sheet Surface Finish
-description: Reading gloss, matte, and bloom on bought calendered sheet — vendor faces and storage powder — with endnotes.
+description: Reading storage powder on bought sheet as possible wax bloom, and choosing a face to join — with endnotes.
 series: literature-reviews
 human_page: /literature-reviews/sheet-surface-finish-literacy
 ---
 
 # Sheet Surface Finish
 
-Human page: https://retifist.com/literature-reviews/sheet-surface-finish-literacy
+Human page: /literature-reviews/sheet-surface-finish-literacy
 
 ## Executive summary
 
-Calendered fashion sheet arrives with a mill-set face. Vendor catalogs may list gloss/matte or a shinier face and a duller back. Powder after storage is often wax bloom: a migrating antidegradant layer, not shop dirt.[^1][^2]
+Bought calendered sheet can show a light powder after storage. Treat that powder as possible wax bloom. The industrial mechanism is a migrating wax film that can shield static ozone and cracks when the film flexes.[^1] A Science Diliman study treats wax bloom as additive migration. It does not identify powder on a bought roll.[^2]
 
-Use this when reading a purchased roll before [print](/literature-reviews/sheet-printing-surface-decoration) or glue, or when stored sheet looks dusty. Storage: [Aging, Storage and Care](/literature-reviews/sheet-aging-storage-and-care).
+Use this when stored sheet looks dusty, before [print](/literature-reviews/sheet-printing-surface-decoration) or a join. Storage: [Aging, Storage and Care](/literature-reviews/sheet-aging-storage-and-care).
 
----
+## Questions this article answers
 
-## Purchased face
+- [How do I choose a face to join?](#faces)
+- [What should I do with powder on stored sheet?](#bloom)
 
-Calendered sheet is pressed to gauge between heated mill rollers. Both faces are mill output. Formation context: [Calendered Sheet](/literature-reviews/sheet-calendered-sheet).
+## How do I choose a face to join? {#faces}
 
-Retail catalogs may advertise a polishable upper and a roughened underside. Treat that as vendor menu language. A dull side is not automatically the glue side; confirm with a bond coupon ([Adhesives and Seam Integrity](/literature-reviews/sheet-adhesives-and-seam-integrity)).
+**How.** Make a bond coupon on the face you will join ([Adhesives and Seam Integrity](/literature-reviews/sheet-adhesives-and-seam-integrity)).
 
----
+**Why.** A bought roll has two faces. The coupon shows which face will hold a join. Calendered sheet is pressed to gauge between heated rollers ([Calendered Sheet](/literature-reviews/sheet-calendered-sheet)).
 
-## Bloom after storage
+## What should I do with powder on stored sheet? {#bloom}
 
-Microcrystalline wax at 0.5–1.0 phr forms a surface bloom that protects against **static** ozone. Flex and stretch break the bloom barrier.[^1] Peer work treats NR bloom as a migrating layer, not leftover talc.[^2] Wiping the powder can return tack if bloom was the only ozone shield.
+**How.** Treat a light powder on stored sheet as possible wax bloom. Leave it when the sheet will sit still. Remove it before adhesive or print. If that powder is a wax film, removing it takes off the static ozone shield that film provided.
 
-PPD antiozonants stain dark goods. That is a different finish class from wax bloom.[^1]
-
----
-
-## Tack on bought sheet
-
-Talc is temporary handling de-tack. It does not permanently change the rubber face. Tack returning after a wipe on stored film usually means bloom was removed.
-
----
-
-## Reading cues
-
-| Observation | First reading |
-| --- | --- |
-| One side glossy, one dull | Vendor finish menu. Bond-test before assigning a glue side. |
-| Powder after storage | Wax bloom. |
-| Tack after a wipe | Bloom removed. |
-
----
+**Why.** Microcrystalline wax at 0.5–1.0 phr can migrate to a continuous surface film that protects against static ozone. Flex and stretch crack that film.[^1] Ozone (O₃) cracks diene rubber. Science Diliman treats wax bloom as additive migration out of vulcanized natural rubber.[^2]
 
 <details>
-<summary>Deep dive: Wax bloom timing</summary>
+<summary>Detail: Wax loading, bloom time, and one ozone comparison</summary>
 
-Allow bloom time before ozone exposure. Handbook example: weeks at 23°C / 50% RH in kraft wrapping. Dynamic wear defeats the wax barrier. PPD antiozonant routes apply to flexed dark goods.[^1]
+phr = parts per hundred rubber.
+
+Handbook example: films packaged in kraft and held 3 weeks at 23°C / 50% relative humidity so wax can bloom before ozone exposure.[^1]
+
+Named-wax hours to complete ozone failure in that chapter (one lab comparison, not a universal constant): no wax 16; VANWAX H 76; VANWAX H SPECIAL 98; VANWAX H SPECIAL with the film flexed 26.[^1]
+
+```mermaid
+xychart-beta
+    title "Hours to complete ozone failure"
+    x-axis ["No wax", "VANWAX H", "VANWAX H SPECIAL", "H SPECIAL flexed"]
+    y-axis "Hours" 0 --> 100
+    bar [16, 76, 98, 26]
+```
+
+p-Phenylenediamine antiozonants stain and are the class used for dynamic ozone protection on dark goods. That stain is a different finish class from wax bloom.[^1]
 
 </details>
 
----
-
 ## Endnotes
 
-[^1]: Vanderbilt Latex Handbook — UV/ozone chapter; microcrystalline wax bloom 0.5–1.0 phr; static ozone barrier; flex breaks bloom; PPD stain class.
-[^2]: Science Diliman — NR wax bloom as migrating layer, distinct from talc.
+[^1]: *The Vanderbilt Latex Handbook*, 3rd ed., ed. Robert Francis Mausser, R.T. Vanderbilt Company, 1987. Ultraviolet-light and antiozonant chapter: microcrystalline wax 0.5–1.0 phr; continuous bloom required for static ozone protection; flex and stretch crack the film; bloom-time example of 3 weeks at 23°C / 50% RH in kraft; named-wax ozone-failure hours (no wax 16, VANWAX H 76, VANWAX H SPECIAL 98, VANWAX H SPECIAL flexed 26); p-phenylenediamine antiozonants for dynamic protection on dark goods. This note does not identify powder on a bought roll.
+
+[^2]: “Effect of Ingredient Loading on Surface Migration Kinetics of Additives in Vulcanized Natural Rubber Compounds.” *Science Diliman*. Wax bloom as additive migration to the surface. No talc comparison and no bought-roll identification.
