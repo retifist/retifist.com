@@ -10,6 +10,8 @@ const siteOrigin = process.env.RETIFIST_SITE_ORIGIN || 'https://retifist.com'
 const siteName = 'Retifist'
 const summary =
   'Latex garment-making tutorials, patterns, and technique — SFW educational hub.'
+/** Keep in sync with RETIFIST_REPO_CLONE_URL in docs/.vitepress/theme/utils/llmsStub.ts */
+const repoCloneUrl = 'https://github.com/retifist/retifist.com.git'
 
 function walkMd(dir, acc = []) {
   if (!existsSync(dir)) return acc
@@ -91,7 +93,12 @@ function buildLlmsTxt(entries) {
     const note = e.note?.trim() ? `: ${e.note.trim()}` : ''
     lines.push(`- [${e.title}](${href})${note}`)
   }
-  lines.push('')
+  lines.push(
+    '',
+    '## Repository',
+    `- [Clone source](${repoCloneUrl}): Public VitePress source for retifist.com — full page markdown under \`docs/\` (and site config). \`/llms\` stubs are discovery summaries — clone for complete source content.`,
+    '',
+  )
   return lines.join('\n')
 }
 

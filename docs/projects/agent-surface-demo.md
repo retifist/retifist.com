@@ -8,6 +8,8 @@ transcript: /transcripts/agent-surface-demo.md
 
 Infrastructure check page — not a lesson. Confirms block math, Mermaid fences, a video with a transcript link, and the agent Markdown alternate.
 
+Agents: start at [`/llms.txt`](/llms.txt). For full page markdown (not only `/llms` stubs), clone the public site source [`https://github.com/retifist/retifist.com.git`](https://github.com/retifist/retifist.com.git) — content under `docs/`.
+
 ## Block math
 
 Coverage ratio for a rectangular panel (illustrative):

@@ -21,6 +21,13 @@ const href = computed(() => relativePathToLlmsPath(page.value.relativePath || 'i
       target="_blank"
       rel="noopener"
       >Markdown for agents</a>
+    <span class="rf-llms-footer__sep" aria-hidden="true"> · </span>
+    <a
+      href="https://github.com/retifist/retifist.com"
+      class="rf-llms-footer__link"
+      target="_blank"
+      rel="noopener"
+      >Source on GitHub</a>
   </p>
 </template>
 

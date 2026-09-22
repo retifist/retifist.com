@@ -25,11 +25,16 @@ export function buildStubMarkdown(
   return lines.join('\n')
 }
 
+/** Canonical HTTPS clone URL for the public site source tree. */
+export const RETIFIST_REPO_CLONE_URL =
+  'https://github.com/retifist/retifist.com.git'
+
 export function buildLlmsTxt(
   siteName: string,
   summary: string,
   entries: { title: string; llmsPath: string; note?: string }[],
   siteOrigin = 'https://retifist.com',
+  repoCloneUrl = RETIFIST_REPO_CLONE_URL,
 ): string {
   const origin = siteOrigin.replace(/\/$/, '')
   const lines = [
@@ -43,6 +48,11 @@ export function buildLlmsTxt(
     const note = e.note?.trim() ? `: ${e.note.trim()}` : ''
     lines.push(`- [${e.title}](${href})${note}`)
   }
-  lines.push('')
+  lines.push(
+    '',
+    '## Repository',
+    `- [Clone source](${repoCloneUrl}): Public VitePress source for retifist.com — full page markdown under \`docs/\` (and site config). \`/llms\` stubs are discovery summaries — clone for complete source content.`,
+    '',
+  )
   return lines.join('\n')
 }
