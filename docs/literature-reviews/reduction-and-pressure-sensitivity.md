@@ -31,7 +31,7 @@ When you draft patterns using negative ease, calculating physical pressure alone
 ### How
 
 1. Calculate the raw physical contact pressure ($P_{\mathrm{target}}$) in kilopascals using the Laplace cylinder model based on your pattern reduction percentage, sheet latex gauge, and local limb radius.
-2. Select the Scale C multiplier ($m_C$) for the target body region. Scale C sets the upper arm and forearm as the neutral baseline ($m_C = 1.0$).
+2. Select the draft Scale C multiplier ($m_C$) for the target body region. Scale C sets the upper arm and forearm as the neutral baseline ($m_C = 1.0$). These bands are planning estimates, not latex-wear validated.
 3. Divide raw physical pressure by the regional Scale C multiplier to obtain the arm-equivalent perceived pressure ($P_{\mathrm{feels}}$).
 4. Evaluate the result against two standard sensory benchmarks:
    - **0.8 kPa**: light-grip intensity (comparable to a standard mid-limb fit at 12% reduction).
@@ -62,7 +62,7 @@ $$
 
 Where:
 - $P_{\mathrm{target}}$ is the contact pressure calculated via the law of Laplace ($P = T / R$, where $T$ is membrane hoop tension in N/m and $R$ is cylinder radius in meters).
-- $m_C$ is the dimensionless regional preference multiplier derived from psychophysical clothing comfort evaluations (Scale C), normalized to upper arm = 1.0.
+- $m_C$ is the dimensionless regional preference multiplier from the draft Scale C synthesis (preferred clothing pressure), normalized to upper arm = 1.0 — not latex-wear validated.
 - $P_{\mathrm{feels}}$ is the normalized perceived intensity expressed in arm-equivalent kilopascals.
 
 Do not substitute tactile detection thresholds (Scale A) or pressure pain thresholds (Scale B) into this formula:
@@ -162,17 +162,17 @@ When drafting areas beyond the limbs and waist, use anatomical proxy radii to es
 
 Garment simulation engines and basic pattern drafts frequently proxy non-cylindrical body regions using standardized cylinder radii. However, human tissues beneath those zones differ fundamentally in compliance and sensory innervation. 
 
-Soft tissue over muscular zones (like the thighs or lateral torso) tolerates mechanical displacement easily. Thin cutaneous tissue over bone (like the sternum) or soft tissue overlying the trachea and carotid sinus triggers discomfort or autonomic defense reflexes under low tension. Factoring in regional multipliers ensures you do not inadvertently choke a wearer or restrict respiration while trying to achieve a smooth, wrinkle-free fit.
+Soft tissue over muscular zones (like the thighs or lateral torso) tolerates mechanical displacement easily. Thin tissue over bone (sternum) or over airway and major neck vessels is a lower-comfort, higher-caution zone. Regional multipliers help avoid treating a smooth, wrinkle-free draft as automatically safe for continuous wear.
 
 <details>
-<summary>Detail: Biomechanical divergence between comfort and physiological safety</summary>
+<summary>Detail: Comfort preference is not physiological safety</summary>
 
-Preferred clothing pressure (Scale C) is an assessment of subjective comfort, but it does not guarantee physiological safety. In textile ergonomics and sports compression research, subjective visual analog scale (VAS) comfort ratings can diverge significantly from objective cardiovascular and respiratory metrics.
+Preferred clothing pressure (Scale C) is a subjective comfort construct. It does not certify physiological safety. Clothing-pressure reviews stress that pressure sensation can diverge from autonomic and respiratory responses: keep ventral waist/abdomen low (surface autonomic plexuses), avoid compressing respiratory muscle groups, and treat airway clearance on neck and face as a hard constraint separate from “feels fine.”
 
-Specific danger zones include:
-- **Tracheal and carotid contact (Neck):** The carotid baroreceptors regulate arterial blood pressure. Direct hoop stress against the anterolateral neck can trigger bradycardia or hypotension at pressures far below typical limb pain thresholds. Multipliers for the neck represent a functional safety floor, not a license to apply continuous compression.
-- **Sternal and rib cage excursion (Underbust/Thorax):** Continuous circumferential pressure on the rib cage above 1.5 kPa can reduce vital capacity and force compensatory diaphragmatic breathing. In athletic and shaping garments, prolonged thoracic compression increases breathing fatigue even when the wearer reports acceptable short-term comfort.
-- **Superficial nerve paths (Fibula head, dorsal wrist):** Compression over the radial nerve at the wrist or the common fibular nerve at the lateral knee can produce paresthesia without immediate muscle pain. Always evaluate Scale B thresholds over bony landmarks alongside Scale C comfort models.
+Planning checks (planning literacy only — not medical thresholds):
+- **Neck / collar:** Small radius plus low Scale C tolerance; keep reductions minimal and do not treat \(m_C\) as permission for continuous constriction.
+- **Underbust / thorax:** Prefer the lower end of the draft \(m_C\) band; cross-check Scale B over the sternum; prolonged torso encirclement can fatigue breathing even when short-term comfort ratings look acceptable.
+- **Bony landmarks:** Evaluate Scale B (pain ceiling) alongside Scale C over sites such as the dorsal wrist or lateral knee, where numbness can appear without immediate muscle pain.
 
 </details>
 
@@ -246,9 +246,6 @@ This explains why flat, proportional reductions across an entire body block inva
 
 ## Sources
 
-- Denton, M. J. (1972). *Fit, stretch, and comfort in garments*. Textiles, 1(3), 12–17.
-- Harumi, E., & Makabe, H. (1994). *Preferred clothing pressure on various parts of the human body*. Journal of the Japan Research Association for Textile End-Uses, 35(10), 552–560.
-- Macintyre, L. (2011). *Designing pressure garments for medical applications*. In *Design and Manufacture of Textile Products for Healthcare* (pp. 112–136). Woodhead Publishing.
-- Makabe, H., Momota, H., Mitsuno, T., & Ueda, K. (1991). *Study on clothing pressure: Part 1. Acceptable clothing pressure on the human body*. Journal of the Japan Research Association for Textile End-Uses, 32(9), 424–431.
-- Mitsuno, T., Makabe, H., & Momota, H. (1993). *Preferred clothing pressure on the trunk and limbs*. Journal of Home Economics of Japan, 44(8), 655–662.
+- Mitsuno, T., & Kai, A. (2019). *Distribution of the preferred clothing pressure over the whole body*. Textile Research Journal. https://doi.org/10.1177/0040517518786272 (abstract/ordinal use only).
+- Mitsuno, T. T. (2023). *Gradient of clothing pressure for comfortable support wear*. Journal of Textile Engineering & Fashion Technology, 9(4), 86–89. https://doi.org/10.15406/jteft.2023.09.00339
 - Rolke, R., Baron, R., Maier, C., Tölle, T. R., Treede, D. R., Beyer, A., Binder, A., Birbaumer, N., Birklein, F., Bötefür, I. C., Braune, S., Flor, H., Huge, V., Magerl, W., May, C., Mundstyle, C., Rolko, C., Schattschneider, J., Sommer, C., & Radvilas, V. (2006). *Quantitative sensory testing in the German Research Network on Neuropathic Pain (DFNS): Standardized protocol and reference values*. Pain, 123(3), 231–243. https://doi.org/10.1016/j.pain.2006.01.041

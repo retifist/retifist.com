@@ -49,9 +49,7 @@ Organic accelerators plus zinc oxide enable fast latex-film cure; many are activ
 
 Clinical Type IV lists match those **families**: carbamates, thiuram mix, 2-MBT, 1,3-diphenylguanidine;[^7] thiurams, carbamates, mercaptobenzothiazoles.[^8] Historical thiuram glove ACD; shift toward dithiocarbamates; thiuram↔dithiocarbamate cross-reactivity.[^15]
 
-Blackley §16.3.7: dermatitis from certain vulcanization accelerators and antioxidants; a localized reaction can generalize. Gloves and condoms named for intimate skin contact — industrial/clinical frame, not fashion epidemiology.[^23] Wilson patch tests on 42 clinic patients (neat accelerators): dipentamethylenethiuram disulphide 30, tetramethylthiuram disulphide 20, 2-mercaptobenzthiazole 15, zinc diethyldithiocarbamate 2.[^23] Not garment incidence.
-
-Hansen et al. pooled dermatitis-clinic prevalences (thiuram mix ~2.55%; mercapto mix ~0.86%; MBT ~0.83%; carba mix ~3.96% in an extended series). Clinic population, not garment wearers.[^16]
+Blackley §16.3.7: dermatitis from certain vulcanization accelerators and antioxidants; a localized reaction can generalize. Gloves and condoms named for intimate skin contact — industrial/clinical frame, not fashion epidemiology.[^23] Wilson patch tests on 42 clinic patients (neat accelerators; reported via Blackley, not a standalone BJD fetch): dipentamethylenethiuram disulphide 30, tetramethylthiuram disulphide 20, 2-mercaptobenzthiazole 15, zinc diethyldithiocarbamate 2.[^23] Not garment incidence.
 
 Some low-ammonia (LATZ) concentrate uses 0.2% ammonia + 0.0125% each TMTD and ZnO + 0.05% lauric acid.[^11] HPL Vol. 3 flags low-ammonia NR with a thiuram sulphide or dithiocarbamate secondary preservative as an example to avoid when designing goods for human contact (nitrosamine-reformulation lane).[^23]
 
@@ -175,7 +173,6 @@ ASTM D3578 (exam gloves): protein and antigenic protein among conformance tests.
 [^13]: ASTM D6499-24 — antigenic (not necessarily allergenic) Hevea protein method class; Type I proteins vs Type IV chemical additives in the significance statement.
 [^14]: *The Vanderbilt Latex Handbook* — organic accelerators + ZnO; Table 1 families; 177.2600 food-contact identity reprint.
 [^15]: Buttazzo et al., *Allergo J Int.* (2021) — historical thiuram glove ACD; shift toward dithiocarbamates; thiuram↔dithiocarbamate redox / cross-reactivity.
-[^16]: Hansen et al., *Contact Dermatitis* (2025) — pooled **dermatitis-clinic** prevalences. Clinic population, not garment wearers.
 [^17]: Representative ZDEC SDS, CAS 14324-55-1 — GHS Skin Sens. 1; H317. Neat-chemical hazard class, not diagnosis of a worn garment.
 [^18]: FDA, 62 FR 51021 (30 Sep 1997) — final rule rationale: NRL/dry NR device caution; hypoallergenicity claims removed.
 [^19]: FDA, 81 FR 91722 (19 Dec 2016) / 21 CFR 895.102–.104 — ban on powdered surgeon’s / patient-exam gloves and absorbable lubricating powder; non-powdered NRL gloves still under §801.437.

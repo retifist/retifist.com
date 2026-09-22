@@ -226,4 +226,3 @@ Use the cylindrical Laplace calculation to set baseline pattern reductions, then
 ## Sources
 
 - Blackley, D. C. (1997). *Polymer Latices: Science and Technology* (2nd ed., Vols. 1–3). Chapman & Hall.
-- Roberts, A. D. (Ed.). (1988). *Natural Rubber Science and Technology*. Oxford University Press.

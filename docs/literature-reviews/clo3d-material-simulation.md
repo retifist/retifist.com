@@ -49,7 +49,7 @@ Clo3D was built for woven and knitted textiles rather than continuous rubber mem
 
 Industrial benchmarks establish the physical neighborhood for soft, unfilled natural rubber sheet:
 
-- **Modulus baseline:** Unfilled natural rubber vulcanizates show a 300% modulus ($M_{300}$) around 0.90 MPa and a Shore A hardness of roughly 39 (Blackley, 1997, Table 16.12). Graft copolymer grades such as Vanderbilt MG 0% exhibit an $M_{300}$ near 1.17 MPa (Ohm, 1990). These figures establish that the rubber is soft and highly extensible, but they cannot be entered directly into the Clo3D Stretch slider.
+- **Modulus baseline:** Unfilled natural rubber vulcanizates show a 300% modulus ($M_{300}$) around 0.90 MPa and a Shore A hardness of roughly 39 (Blackley, 1997, Table 16.12). Graft copolymer grades such as Vanderbilt MG 0% exhibit an $M_{300}$ near 1.17 MPa (*Vanderbilt Latex Handbook*, MG tables). These figures establish that the rubber is soft and highly extensible, but they cannot be entered directly into the Clo3D Stretch slider.
 - **Density:** Specific gravity is set to 0.95, matching standard commercial sheet latex (such as Supatex). Clo3D calculates fabric area density (grams per square meter) directly from gauge: $\text{GSM} = t \times 0.95 \times 1000$, where $t$ is thickness in millimeters.
 - **Optical constants:** Purified *Hevea brasiliensis* rubber has an experimental refractive index ($n_D^{25}$) between 1.519 and 1.522 (McPherson & Cummings, 1935). Setting the index of refraction (IOR) to 1.50 matches physical measurements.
 - **Metadata artifacts:** The preset files contain fixed-length strings such as `Classification: Tricot` and `Content: Nylon(100%)`. These are length-locked structural leftovers from the base `.zfab` template and do not affect physical behavior.
@@ -241,4 +241,4 @@ Several physical characteristics of sheet latex construction fall outside Clo3D'
 
 * Blackley, D. C. (1997). *Polymer Latices: Science and Technology* (2nd ed., Vols. 1–3). Chapman & Hall.
 * McPherson, A. T., & Cummings, A. D. (1935). Refractive index of natural rubber. *Journal of Research of the National Bureau of Standards*, 14(3), 241–254. https://doi.org/10.6028/jres.014.030
-* Ohm, R. F. (Ed.). (1990). *The Vanderbilt Rubber Handbook* (13th ed.). R.T. Vanderbilt Company, Inc.
+* Mausser, Robert Francis, ed. *The Vanderbilt Latex Handbook*. 3rd ed. Norwalk, CT: R.T. Vanderbilt Company, 1987.

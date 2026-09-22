@@ -81,7 +81,7 @@ Industrial latex formulations depend on several organic accelerator families:
 - Thiurams: Aggressive accelerators such as tetramethylthiuram disulfide (TMTD) and dipentamethylenethiuram disulfide.
 - Guanidines and thioureas: Auxiliary accelerators used in specialty compounds.
 
-A standard laboratory safety data sheet for neat ZDEC assigns GHS hazard class Skin Sensitization Category 1 with hazard statement H317 ("May cause an allergic skin reaction"). In a classic clinical study by Wilson evaluating 42 patients presenting with rubber dermatitis, neat patch testing produced positive reactions across several accelerator classes:
+A standard laboratory safety data sheet for neat ZDEC assigns GHS hazard class Skin Sensitization Category 1 with hazard statement H317 ("May cause an allergic skin reaction"). Blackley reports a clinic patch series (Wilson; N=42 patients with rubber dermatitis) in which neat accelerators produced positive reactions across several accelerator classes:
 
 | Accelerator chemical tested | Positive patch tests (out of 42) |
 | --- | --- |
@@ -202,13 +202,12 @@ Chlorinating a garment, polishing it with silicone oil, washing it in laundry de
 - American Academy of Allergy, Asthma & Immunology. *Latex Allergy*. Public education resource. Available from: https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/latex-allergy
 - ASTM International. *ASTM D5712: Standard Test Method for Analysis of Aqueous Extractable Protein in Natural Rubber and Its Products Using the Modified Lowry Method*. West Conshohocken, PA: ASTM International.
 - ASTM International. *ASTM D6499: Standard Test Method for The Immunological Measurement of Antigenic Protein in Hevea Natural Rubber and its Products*. West Conshohocken, PA: ASTM International.
-- Blackley, D. C. (1997). *Polymer Latices: Science and Technology*. 2nd ed. London: Chapman & Hall.
-- Hansen, K. S., et al. Patch test clinic data across vulcanization accelerators and antioxidant mixtures. Contact Dermatitis clinical literature.
+- Blackley, D. C. (1997). *Polymer Latices: Science and Technology*. 2nd ed. London: Chapman & Hall. (Includes the Wilson clinic patch series, N=42, as reported in Vol. 3 §16.3.7.)
 - International Organization for Standardization. *ISO 12243: Medical gloves made from natural rubber latex — Determination of water-extractable protein using the modified Lowry method*. Geneva: ISO.
+- Mausser, Robert Francis, ed. *The Vanderbilt Latex Handbook*. 3rd ed. Norwalk, CT: R.T. Vanderbilt Company, 1987.
 - National Institute for Occupational Safety and Health. (1997). *Preventing Allergic Reactions to Natural Rubber Latex in the Workplace*. DHHS (NIOSH) Publication No. 97-135. Available from: https://www.cdc.gov/niosh/docs/97-135/
 - Occupational Safety and Health Administration. *Hospital eTool: Healthcare Wide Hazards - Latex Allergy*. Washington, DC: U.S. Department of Labor. Available from: https://www.osha.gov/etools/hospitals/latex-allergy
-- R. T. Vanderbilt Company. (1990). *The Vanderbilt Rubber Handbook*. 13th ed. Norwalk, CT: R. T. Vanderbilt Company.
+- *Practical Guide to Latex Technology*. Rani Joseph. Shawbury: Smithers Rapra Technology, 2013.
 - U.S. Food and Drug Administration. (1997). 21 CFR Part 801: *Natural Rubber-Containing Medical Devices; User Labeling*. Federal Register, 62(189), 51021–51031.
 - U.S. Food and Drug Administration. 21 CFR 177.2600: *Rubber articles intended for repeated use*. Code of Federal Regulations.
 - U.S. Food and Drug Administration. (2016). 21 CFR Parts 878, 880, and 895: *Banned Devices; Powdered Surgeon's Gloves, Powdered Patient Examination Gloves, and Absorbable Powder for Lubricating a Surgeon's Glove*. Federal Register, 81(244), 91722–91733.
-- Wilson, H. T. H. Rubber accelerator patch test series in clinical contact dermatitis patients. British Journal of Dermatology clinical literature.

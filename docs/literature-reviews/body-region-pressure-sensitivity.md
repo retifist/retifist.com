@@ -89,7 +89,7 @@ Touch receptors are concentrated unevenly across the body. The fingertips, palms
 <details>
 <summary>Detail: Receptor distribution and two-point discrimination</summary>
 
-Tactile spatial resolution correlates directly with the density of low-threshold mechanoreceptors, particularly slowly adapting type I (Merkel cell) and rapidly adapting type I (Meissner corpuscle) units with small, well-defined receptive fields. In psychophysical testing, two-point discrimination thresholds range from 2 to 4 mm on the fingertips and lips to more than 30 to 40 mm on the back and thighs. Monofilament detection thresholds show a similar gradient: facial skin detects forces below 0.1 mN, while the lower limbs require significantly greater deflection forces to trigger an action potential.
+Tactile spatial resolution correlates directly with the density of low-threshold mechanoreceptors, particularly slowly adapting type I (Merkel cell) and rapidly adapting type I (Meissner corpuscle) units with small, well-defined receptive fields. In psychophysical testing, secondary summaries often cite two-point discrimination around 2 to 4 mm on the fingertips and lips versus more than 30 to 40 mm on the back and thighs — ordinal planning ranges, not latex-wear validated. Monofilament detection thresholds show a similar gradient: facial skin is often described as detecting forces below about 0.1 mN in those summaries, while the lower limbs require significantly greater deflection forces to trigger an action potential.
 
 </details>
 
@@ -108,7 +108,7 @@ Pressure-pain thresholds measure the blunt force at which deep tissue pressure t
 <details>
 <summary>Detail: Algometry methodology and anatomical landmarks</summary>
 
-Algometry evaluates deep somatic pain sensitivity by applying a calibrated probe (typically a 1 cm² circular tip) perpendicular to the skin at a constant loading rate (such as 30 to 50 kPa/s). The threshold reflects nociceptor activation in cutaneous, subcutaneous, and muscle tissue, modified by underlying skeletal geometry. Thin soft-tissue padding over rigid bone—such as the sternum, forehead, or cervical vertebrae—leads to rapid stress concentration in periosteal and deep nociceptors, yielding significantly lower pressure-pain thresholds (often below 200 to 300 kPa) compared to bulkier musculature like the quadriceps or gluteal groups.
+Algometry evaluates deep somatic pain sensitivity by applying a calibrated probe (typically a 1 cm² circular tip) perpendicular to the skin at a constant loading rate (protocol notes often use rates on the order of 30 to 50 kPa/s). The threshold reflects nociceptor activation in cutaneous, subcutaneous, and muscle tissue, modified by underlying skeletal geometry. Thin soft-tissue padding over rigid bone—such as the sternum, forehead, or cervical vertebrae—leads to rapid stress concentration in periosteal and deep nociceptors, yielding significantly lower pressure-pain thresholds than bulkier musculature like the quadriceps or gluteal groups. Secondary algometry summaries sometimes place bony-site ceilings in a rough band below about 200 to 300 kPa; treat that band as an illustrative planning ceiling, not a latex-validated wear limit.
 
 </details>
 
@@ -127,7 +127,7 @@ Textile wear studies show that people consistently prefer higher circumferential
 <details>
 <summary>Detail: Respiratory coupling and comfort ranges</summary>
 
-Circumferential pressure around the trunk directly interacts with respiratory mechanics. Quiet tidal breathing expands the abdominal and thoracic circumference by 15 to 30 mm, with deep inhalation expanding the torso by up to 50 to 70 mm. If a garment exerts continuous pressure above approximately 2 to 3 kPa around the ventral abdomen or lower ribcage, it restricts tidal volume and increases the work of breathing, driving subjective comfort ratings down rapidly. In contrast, distal extremities can comfortably tolerate pressures exceeding 4 to 6 kPa without triggering discomfort or restricting vital functions, provided venous return is not occluded.
+Circumferential pressure around the trunk directly interacts with respiratory mechanics. Quiet tidal breathing is often described as expanding abdominal and thoracic circumference by roughly 15 to 30 mm, with deep inhalation sometimes cited up to about 50 to 70 mm — draft circumnavigation notes, not latex-validated. Textile clothing-pressure literacy often treats continuous pressure above approximately 2 to 3 kPa around the ventral abdomen or lower ribcage as a restrictive comfort band that can increase work of breathing; distal extremities are often described as tolerating pressures exceeding 4 to 6 kPa without the same respiratory coupling, provided venous return is not occluded. These kilopascal bands are planning estimates from textile/abstract-local sources, not fashion sheet-latex validated targets.
 
 </details>
 
@@ -160,10 +160,13 @@ Controlled experimental protocols measuring continuous interface pressure in fas
 
 ## Sources
 
-- **Algometry and pressure-pain research:** Published clinical algometry datasets evaluating somatic pressure-pain thresholds across cranial, cervical, and torso landmarks.
-- **Textile clothing-pressure literature:** Comfort threshold and circumferential band pressure studies examining preferred pressure distributions in elastic garments.
-- **Related fit literacy:**
-  - [Reduction × pressure sensitivity](/literature-reviews/reduction-and-pressure-sensitivity)
-  - [Pattern reduction → pressure targets](/literature-reviews/pattern-reduction-pressure-targets)
-  - [Clo3D material simulation](/literature-reviews/clo3d-material-simulation)
-  - [Sheet gauge, modulus, and reduction](/literature-reviews/sheet-gauge-modulus-reduction)
+- Ackerley, R., et al. (2014). *Frontiers in Behavioral Neuroscience*. https://doi.org/10.3389/fnbeh.2014.00054
+- Corniani, G., & Saal, H. P. (2020). *Journal of Neurophysiology*. https://doi.org/10.1152/jn.00313.2020
+- Kosek, E., Ekholm, J., & Nordemar, R. (1993). *Scandinavian Journal of Rehabilitation Medicine*, 25, 117–124.
+- Mancini, F., et al. (2014). *Annals of Neurology*. https://doi.org/10.1002/ana.24179
+- Mitsuno, T., & Kai, A. (2019). *Distribution of the preferred clothing pressure over the whole body*. Textile Research Journal. https://doi.org/10.1177/0040517518786272 (abstract/ordinal use only).
+- Mitsuno, T. T. (2023). *Gradient of clothing pressure for comfortable support wear*. Journal of Textile Engineering & Fashion Technology, 9(4), 86–89. https://doi.org/10.15406/jteft.2023.09.00339
+- Mitsuno, T., & Ueda, K. (2010). *Sen'i Gakkaishi*, 66, 26–33. https://doi.org/10.2115/fiber.66.26
+- Rolke, R., et al. (2006). *Quantitative sensory testing in the German Research Network on Neuropathic Pain (DFNS): Standardized protocol and reference values*. Pain, 123(3), 231–243. https://doi.org/10.1016/j.pain.2006.01.041
+
+**Related fit literacy:** [Reduction × pressure sensitivity](/literature-reviews/reduction-and-pressure-sensitivity) · [Pattern reduction → pressure targets](/literature-reviews/pattern-reduction-pressure-targets) · [Clo3D material simulation](/literature-reviews/clo3d-material-simulation) · [Sheet gauge, modulus, and reduction](/literature-reviews/sheet-gauge-modulus-reduction)
